@@ -1,0 +1,3872 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 48,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Hammer and Chisel (and file and wrench)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "For our next major step (the crucible) we need a hammer and chisel.\nBut for the chisel we need metal plates and rods. With the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil, place 2 ingots (i recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 9 plates for now.\n\nNow make a file.\nNext you want to make a rod (again i recommend bronze) and make a chisel.\nThen you make a wrench and you are done.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:2": 10000
+              },
+              "Damage:2": 32025,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 48,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 18,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Furnace",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s get a furnace.\n§4§rTo make one you need a fire starter.\n\n§cCareful: If you have found a lighter or similar in a dungeon, that also works, but will use up the whole item, so that might be a waste!.\n\n§k§rFor the fire starter we need some dry grass, so make a knife and collect some fresh grass with it. Craft the grass 3x3 to make grass bales and place them in the sun to let them dry (be sure they are somewhere dry and not right next to a lake etc, otherwise they will get moldy)\nWhen the bales are dry you can craft them back to dry grass and make your fire starter. You might want to make multiple since we need more later anyway.\n\nYour furnace can only melt a few ores like copper, tin/casserite, lead and bronze. For higher tier metals you need a crucible."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 34,
+              "OreDict:8": "craftingToolKnife"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.block.bale.grass",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.block.bale.grass",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1005,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Crucible",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You may have noticed that the furnace is not able to melt all the ores you already have collected. To get access to those higher tier materials like iron and steel we need something more hot.\nIt\u0027s time to get a crucible\nThe crucible (if placed above a lit burning box) will heat up continously and melt even the toughest of materials. But be careful, the material the crucible is made of determines the maximum temperature the crucible can take. Anything above and the crucible itself will melt down.\nFor now a ceramic crucible will be enough, it goes up to 2500K which is plenty.\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but they allow you to use more molds at once. \n\n§cCareful: the molds themself also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500K, so we are fine\n\n§f§rWh§r§ri§rle §ryou are at it, craft a burning box, lead or bronze is fine for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 2,
+              "Damage:2": 1855,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 4,
+              "Damage:2": 991,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.books",
+              "Count:3": 1,
+              "tag:10": {
+                "author:8": "GMWI (Gregorius Metal Working Industries)",
+                "book:8": "Manual_Alloys",
+                "title:8": "Book of Alloys, Smeltery Edition (125)"
+              },
+              "Damage:2": 32001,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.books",
+              "Count:3": 1,
+              "tag:10": {
+                "author:8": "GMWI (Gregorius Metal Working Industries)",
+                "book:8": "Manual_Smeltery",
+                "title:8": "Smelting Crucible Manual"
+              },
+              "Damage:2": 32000,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 1,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:coal_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "What to look for",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "In the Stone Age you want to look for:\n\n- small surface ores like copper/chalcopyrite, tin/casserite, lead/galena as well as coal/lignite coal.\nIf you find some easy accessable large ore veins of those ores, you might want to grab some too.\n\n- Wood\n\n- Villages and their fine loot\n\n- Some food source (strawberries or berry bushes are great)\n\n- If you can find a cauldron somewhere, grab it, if you wash your ores before melting them, not only do you not have to deal with the stone scraps every time, you also get some extra side products as a bonus!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.books",
+            "Count:3": 1,
+            "tag:10": {
+              "author:8": "Alex Grylls, Survival Specialist",
+              "book:8": "Manual_Hunting_Creeper",
+              "title:8": "Hunting Guide for Creepers"
+            },
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tips",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Here are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valueable metals for later\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "craftingToolPickaxe"
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tools",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You can make tools (e.g. hammer, chisel, sword, pickaxe, axe etc) out of maaaaaany different materials. If you look in NEI you might see that some ingots/materials have something like Q: 2 S: 6.0 D: 256 (e.g iron) in their tooltip. Whenever a material has those 3 properties in their tooltip it means you can make a tool out of it and the tool will have those stats.\nQ stands for quality, which means the mining/harvesting level.\nS stands for speed, which is just as you already guessed the speed which you can mine/harvest blocks with\nD stands for durability and is the number of uses you can use the item. The real number will be D * 100 because each use costs 100 durability on average (harvesting harder materials costs more durability, softer materials cost less)\n\nYou might have also noticed the \"possible enchantments\" part in the tooltip. That means if you make a tool out of that material the tool will automatically be enchanted with those enchantments, isn\u0027t that great?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.randomtools",
+            "Count:3": 1,
+            "Damage:2": 2000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bucket",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You need something to transport water, a wooden bucket is cheap and not only allows you to get some agriculture going, but also allows you to fill up your cauldron (if you managed to find one) to wash your ores. You also will need it to make treated wood planks for fluid pipes in the steam age."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 2000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32706,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Mixing Bowl (and bronze)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Copper tools are really bad (quality 0 and low durability), time to get something better.\nFirst make a mixing bowl, then right click it with some copper nuggest and tin nuggest (3:1 ratio) and then mix it with an empty hand.\nYou now have bronze compound, you can melt it in the furnace to get bronze ingots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32706,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 36,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "a:2": 8002,
+                "c:2": 8221,
+                "j:2": 4800
+              }
+            },
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Early Tools",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Flint tools are a great early game choice. If you can\u0027t find flint anywhere use rocks but you really want at least a flint knife or sword.\nAll flint tools automatically get the fire aspect enchantment, which means huting for meat yields cooked meat!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "c:2": 8221,
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "c:2": 8221,
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "c:2": 8221,
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Coke Oven",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You want to invest into a coke oven, not only do you get useful creosote oil (which can be used as fuel and to treat wood for better pipes and tanks) you also increase the energy output of your coal.\n\nYou can also make charcoal in the coke oven (which you couldn\u0027t do in the furnace)\n\nTo start the process fill it with some coal and righ click the oven main block with a fire starter (or any other fire making device) It will run as long as it has items and storage for output.\n\n§6Tip: Place a hopper on top of it to auto insert. Place a hopper below to auto remove the output items. A pipe on any of the bottom blocks also outputs the fluid.\n\nTip: If you have an advanced crafting table with a water tank next to it, crafting the fire bricks is much easier."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 25,
+              "Damage:2": 18000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 5009,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "A better crafting table",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Do you think sometimes \u0027it would be great to have a crafting table that holds it\u0027s items and also has some storage for all the tools i need\u0027? Wouldn\u0027t it even better when that crafting table also refills your buckets with fluid when placed next to a tank with that fluid?\nSay no more, here is the advanced crafting table!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 5009,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        11,
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32733,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Some early liquid storage",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you have a nice crafting table, lets get a tank to store some water where it can auto refil your buckets from.\nTo insert fluid into a tank you need a funnel (right clicking the tank itself doesnt work)\nTo get it out again, you use the tap.\n\nThe tank will keep it\u0027s storage when broken, so you can transport water with it!\n\n\n§cCareful: Wooden tanks can catch fire if placed to close to a heat source (~3block radius) or you fill it with a fluid that is too hot\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32733,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32728,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32723,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.block.sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Rubber Trees",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is usefull for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n\n§cCareful: When you break the naturaly grown leave blocks of the tree, the resin will resplendish slower and slower until it completly stops. Let those poor trees breath!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.block.sapling",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32736,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "What to look for",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)\n\n- Tin/Casserite\n\n- some Cobalt (makes good cheap tools)\n\n- Nickel/Pentlandite (you find it together with Cobalt)\n\n- Black Sand (found in rivers), Yellow/Brown Lemonite, Hematite\n\n- some Manganese, some Pyroluse\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it)\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 8009,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Hopper",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "In the Stone Ages you have few options for automation but a hopper is a great idea to help with some of the cumbersome tasks.\nWhen you check NEI, you will notice that there isn\u0027t only the vanilla iron hopper but many different hoppers out of different materials. Those hoppers are more tick friendly, so don\u0027t feel bad about using them.\nThe difference between the materials is how many slots each hopper contains.\nThe default version doesn\u0027t care about the order items are put into it, while the Queque version does care and only outputs them in the same order.\n§5\n§6§5§6Tip: If you use a screwdriver you can set the hopper to only pull/push a certain amount of items. They also react to redstone to enable/disable their pull/push."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8009,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Let\u0027s get steamy",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Mix some limonite/black-sand/hematite with a carbon source (coal and coal coke work great for that), in case of hematite you need to add some calcite (limestone works for that).\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        18,
+        19,
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1302,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Engine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1302,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26023,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We need a way to transport water and steam.\nCheap wooden pipes are great for water but cannot handle hot steam, for that we need something more heat resistant. For now bronze pipes will do"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26003,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26121,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26023,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26121,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1202,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Boiler",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1202,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1102,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.books",
+              "Count:3": 1,
+              "tag:10": {
+                "author:8": "GregTech Thermodynamics",
+                "book:8": "Manual_Steam",
+                "title:8": "Steam Manual"
+              },
+              "Damage:2": 32000,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1020,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Water Collection",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\nCraft a drain, put it on a pipe thats submerged in water and it will start collecting it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1020,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20311,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Distilled Water and more",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "As mentioned before, if you supply your boiler with normal water it will calcify and loose effiencency. It\u0027s time to use all that nice steel you made to solve that issue.\nA dryer, alongside many other purposes, can process water to distilled water, which wont calcify your boilers at all! It\u0027s a worthwhile investment."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20311,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        18,
+        19,
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1512,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Turbine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1512,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "23:10": {
+      "questID:3": 23,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8630,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Steel",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.\n\nHow to pump air in you ask? Oh yeah, you just hook up a kinetic engine to the crucible (dont forget to supply it with steam so it actually runs)"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20021,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Ore Doubling",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20021,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20051,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Automatic Sifting",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you have many sand ores you might want to get an automatic sifter instead of the one that works by hand."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20051,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20291,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Ore Washing II",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The sluice gives you plenty of side products from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more sideproducts!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20291,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20011,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Recycling",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it dusts down all things you throw in it, even full machines, to get their crafting materials back."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20011,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:cauldron",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Ore Washing",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "To get more out of your ores we need to wash it.\nThere are multiple ways of washing, like normal water washing, sluice and chemical washing.\nCurrently all we can do is normal washing in a cauldron.\nFill up a cauldron with water and throw crushed ores into it.\n§6\nTip: If you hook a pipe on the cauldron it can fill up automatically. But that only works if your pipe is big enough (a huge treated pipe works)\n§c\nCareful: Washing ores gives all kind of side products. Some of them can be radioactive (e.g. Cobalt-60). Radioactive materials are not good for your health"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cauldron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.randomtools",
+            "Count:3": 1,
+            "Damage:2": 10000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Measuring",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "It never feels good to just heat up your crucible without knowing how hot it is.\nLet\u0027s make a thermometer, right-click the crucible with it to measure it\u0027s current temperature."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 10000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "31:10": {
+      "questID:3": 31,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 31000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Making some Gadget",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor and a piston.\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier)\n\nDone, you now have an auto shutoff for your crucible :)\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have some leave some buffer for your allowed temperature to accomidate for those extra delays!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 31000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 2,
+              "Damage:2": 27000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32702,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Manual Sifting",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32702,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "customnpcs:npcLightningSpell"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Power explained",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You might have noticed that NEI shows recipes in machines with GU/t as power usage and total GU used for a recipe.\nCatalyst has many different power types, which can be converted between each other (for example you can use EU (electrical units) to power a motor with will produce RU (rotational units). Here are all types that exist in Catalyst\n\nGU - Generic Units (just used in NEI to show recipes, the machine itself will convert any other power types 1:1 into GU to produce the recipe)\n\nEU - Electrical Units\n\nRF - Redstone Flux\n\nRU - Rotational Units (for everything that needs some spin)\n\nKU - Kinetic Units\n\nHU - Heat Units\n\nLU - Light Units (made by lasers to power welders etc)\n\nQU - Quantum Units (used by high tech machines)\n\nConverting between different energy types is not always looseless, it depends on the machines you use (always check the tooltips)\n\n\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20161,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Machines in Gregtech",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s talk about machines.\nMost machines in Gregtech cannot be powered directly with RF or Electricity. Instead depending on the machine you have to hook up other machines that output different power types to your factory, kind of like a semi multiblock.\n§7§9§e§k§l§l§k§m§m§r§1§2§3§4§5§6§7§9\nE.g:\nLets say you have an Oven, instead of hooking up a cable directly to it you power it with Heat (HU). So you place a burning box or electric heater below it. In case of the electric heater you power this one with EU.\n\nNow lets give a more complex example:\nSay you are in the steam age and want to power your crusher for ore doubling.\nThe Crusher needs KU, which you get from an engine, which itself needs to be supplied with steam to work, the steam comes from a boiler, which needs HU to convert water to steam, so you place a burning box below the boiler.\n§f\nAll machines have a range in which they can work. If you supply less, it wont do anything and if you supply more than the max it either stops working or melts down or even explodes. Make sure to supply your machines inside their working range!\n\n\nSome explanation about recipes:\n\nCosts - the total cost the recipe costs in GU (the actual type depends on the specific machine, it will convert all other types into GU 1:1 internally)\nUsage - the minimum GU/t you have to supply, if you supply less, the machine will not be able to process the recipe and get stuck (if that happens, either supply the right amount of energy/t or use a rubber-hammer/harvest-and-replace the machine to reset it, the items for the recipes are lost this way though)\nTier\u0026Power are interesting for overclocking recipes (more of that in later ages)\nTime - the time the recipe takes to finish, given you supply the exact amount needed (if you supply more, the machine will finish faster)\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 52,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Automating Molds",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Who wants to wait all the time until the metal in the mold cooled down long enough to be safely removed. Also doing it all by hand is annoying.\nIf you make a monkey wrench and use it on the sides of a mold it enables/disables the auto input of that side. If you use it on the center of the mold it toggles it\u0027s redstone behaviour of all sides.\nCombine that with a hopper below the mold and you can automatically (or on a lever flip) do your metal casting. (it gets even better when you have a thermonometer)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "Damage:2": 52,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:redstone_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "What to look for",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Tungsten/Scheelite/Wolframite/\n   Ferberite/Huebnerite\n\n- Oil\n\n- Black Sand/Lemonite/Hematite\n\n- Tantalum/Tantalite"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20181,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Mix it up!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.\n\n4 auto mixer should be good enough for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 20181,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8636,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Stainless Steel",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 4 wrough iron, 3 invar, 1 cromium and 1 manganese\n\n"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9824,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Acids!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We need some sulfuric acid. Not only can we refine many things with it, we can make other acids out of it too!\nAnd what laboratory is complete without a full set of acids.\n\nLet\u0027s get to work.\n\n\nFirst step is sulfur dioxide, which we get from roasting things like sulfur or pyrite.\nThen we mix that sulfur dioxide with air (you can get that from an air vent). But for the mix to work we also need a catalyst like platinium or vanadium dust. It doesn\u0027t get used up but needs to be there.\n\nNow we have sulfur trioxide, which we now mix with some water and we get sulfuric acid!\n\n§cCareful: Not all pipes can handle acids, make sure to read the pipe description if it can handle it!\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9826,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "More Acids!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Mix some sulfuric acid with salt and get hydrochloric acid"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        40,
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 740,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tungsten",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We need some really heat resistant materials now, so lets get the best: Tungsten!\n\nOther than most ores tungsten can\u0027t just be thrown raw into a crucible and cast into ingots, we first have to refine the ore.\n\nThats were the acids we made before come in play.\n\nBath your tungsten containing dust (like sheelite, wolframite etc) in hydrochloric acid and get tungstic acid dust.\nThrow that into a dryer to get tungsten trioxide dust.\nNow we mix the tungsten trioxide dust with some hydrogen in a mixer to get the pure tungsten dust, which we can now melt in our upgraded crucible!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "42:10": {
+      "questID:3": 42,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1032,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Upgrade your Crucible (Alternative)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "This is the alternative route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need a bunch of those meteors you found while picking up rocks from the ground.\n\nMake a meteoric steel cruicible and at least 1 mold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1032,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1082,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        42
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1035,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Next step (Alternative)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nMake a niobium crucible and at least 1 mold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1035,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1085,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        43,
+        47
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1036,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "A Great Crucible",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s make a crucible that can withstand 4111K without melting!\nThis will allow us to melt tungsten, which is what we are after.\n\nMake a tantalum crucible and at least 1 mold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1036,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1086,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "45:10": {
+      "questID:3": 45,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "46:10": {
+      "questID:3": 46,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1033,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Upgrade your Crucible",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We start working with ever higher melting point materials, so it\u0027s time to upgrade our crucible.\n\nThere are 2 routes to go, with as many in between steps as you like, this quest line shows the most straight forward one. But be aware that while this route works, it needs some very precise work with your heat control. Sometimes we work within a 6K range!\n\nFor this route, get a cromium crucible and at least 1 mold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1033,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1083,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "47:10": {
+      "questID:3": 47,
+      "preRequisites:11": [
+        46,
+        42
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1039,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Next step",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Regardless which route you choose, now you can make the iridium crucible. If you choose the Chrome path, make sure that your shutoff is precise!\n\nMake an iridium crucible and at least 1 mold"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1039,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1089,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "48:10": {
+      "questID:3": 48,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20241,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Liquid Metal",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "With access to tungsten we can finally make the smelter.\nThe smelter can melt all metals like a crucible but never gets to hot and gives you easy access to the liquid form of the metals.\n\nUsing the smelter is not very energy efficent compared to the crucible but it\u0027s quality of life aspect compared to the access of liquid metals makes it well worth it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20241,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "49:10": {
+      "questID:3": 49,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20171,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Roast it!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Roasting is a great way to get more out of your stuff.\nIn this case we want some sulfurdioxide. Roasting sulfur, pyrite etc will give us plenty of that."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20171,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "50:10": {
+      "questID:3": 50,
+      "preRequisites:11": [
+        49
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregapi:gt.display.fluid",
+            "Count:3": 1,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "sulfurtrioxide",
+              "h:2": 300
+            },
+            "Damage:2": 522,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "51:10": {
+      "questID:3": 51,
+      "preRequisites:11": [
+        56,
+        55
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8218,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Plastic",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now we can combine the efforts of oil refinement and the long path for tungsten to get plastic !\n\nPut your titanium tetrachloride together with ethylene or propylene and use magnesium chloride dust as a catalyst in a mixer.\n\nIf you use the plastic pulp in an extruder you get 1 plastic per pulp, otherwise you get 6 plastic nuggets per pulp from the oven/furnace"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "52:10": {
+      "questID:3": 52,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17101,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Refinement",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "I hope you made that stainless steel automation system, because otherwise this will feel very grindy.\nTo process oil into all types of different fuels and other sideproducts we need a distillation tower.\n\nWhy would we do such an insane expensive project? Glad you asked. Not only do we get much more Energy out of the process than we spent, we also get some important side products to make plastics out of, and plastic means computer chips. Still not interested? ;)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 71,
+              "Damage:2": 18102,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "53:10": {
+      "questID:3": 53,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9850,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Oil",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "I hope you marked those oil spots you may have found while exploring, because now we need it.\nIt probably makes sense to build a small rail transport network to get it in your base."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "liquid_medium_oil",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "liquid_light_oil",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "54:10": {
+      "questID:3": 54,
+      "preRequisites:11": [
+        52,
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9866,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Butane",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Make a drum to make it easier for you to transport fluids/gases.\nThe stainless steel drum can not only handle both, but also acids, so it\u0027s perfect for our needs."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "butane",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32716,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32716,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "55:10": {
+      "questID:3": 55,
+      "preRequisites:11": [
+        54
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20491,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Steam Cracking",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that we have Butane and Propane lets further refine that to make ethylene.\nCraft a steam cracker, hook it up to a heat source and a boiler (you know the drill).\n§c\n\nCareful: The steam cracker can only hold 2000L of steam, so make sure your boiler doesnt blow up.\n\n§fA pressure valve might be a good idea, if you haven\u0027t made one yet. So get one too."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20491,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 2000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cookie",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "56:10": {
+      "questID:3": 56,
+      "preRequisites:11": [
+        62
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 8413,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Titanium Tetrachloride",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Melt some calcite (limestone works great for that), combine that with chloride (you can get that from bathing different ores or from the electrolizer), Rutile or Ilmenite dust and some coal coke dust. You get Titanium Tetrachloride from that which you can process to titanium ingots, but first we want to use it for plastic."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "59:10": {
+      "questID:3": 59,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.randomtools",
+            "Count:3": 1,
+            "Damage:2": 902,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Molds",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2500K)\n\nAs with all molds you can chisel the right pattern into the molds when placed in world (after cooked in the furnace to make them ceramic) but it\u0027s much easier to define the pattern beforehand in the raw clay.\n\nYou want at least 1 plate mold (Yay finally your plates dont cost you 2 ingots anymore), an ingot mold, a rod mold and one pickaxe mold (so you can make metal tools which are just much faster and durable than stone tools).\n\nBe aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 900,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 905,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 902,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 912,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "60:10": {
+      "questID:3": 60,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 62,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "NEI - Tips",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtech has many items and many of them you need again and again. To make it easier to find the recipes here are some tips on NEI usage in Gregtech:\n\n- You can press \u0027a\u0027 while hovering over an item in NEI to add it to your favorite list on the left side, press it again while hovering on the same item, to remove it again.\n\n- A nice way to not loose track of what you are currently progression towards is to favorite the items you work on.\n\n- Write meta.tools in the NEI searchbar to get all main tools listed"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "61:10": {
+      "questID:3": 61,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20001,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Oven",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Feel your furnace is too slow? Need some speed in your life?\nThen the new Gregtech Steel Oven might be for you.\n\nJust supply it with some HU from the burning box of your choice and see it make all your dreams of personal cooking come true. Higher tier variants accept even more heat and thus run even faster!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20001,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "62:10": {
+      "questID:3": 62,
+      "preRequisites:11": [
+        48
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20521,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Burner Mixer",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Our next step towards plastic is Titanium Tetrachloride, but for that we need a burner mixer.\nThe burner mixer needs some RU but also needs to be lit by a firestarter/bic/flint\u0026steel similar to the coke oven."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20521,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -84,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -84,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -48,
+          "id:3": 60,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Info",
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.books",
+            "Count:3": 1,
+            "tag:10": {
+              "author:8": "GCC (Gregorius Chemical Consortium)",
+              "book:8": "Manual_Elements",
+              "title:8": "Book of Periods (97)"
+            },
+            "Damage:2": 32001,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -120,
+          "id:3": 0,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -120,
+          "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -120,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 36,
+          "x:3": -288,
+          "y:3": -168,
+          "id:3": 3,
+          "sizeY:3": 36
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": -84,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -84,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -48,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -48,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -84,
+          "id:3": 30,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -48,
+          "id:3": 31,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -84,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -84,
+          "id:3": 59,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Stone Age",
+          "icon:10": {
+            "id:8": "minecraft:cobblestone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "stoneCobble"
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "The Stone Age doesn\u0027t allow you many automatic systems, most is defined by manual labor, but all empires start from the dust.\n\nGoal: Crucible \u0026 Molds"
+        }
+      },
+      "order:3": 1
+    },
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 84,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 84,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 84,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 120,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 36,
+          "x:3": -300,
+          "y:3": -120,
+          "id:3": 14,
+          "sizeY:3": 36
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -36,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -72,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -36,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 0,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -12,
+          "id:3": 21,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -60,
+          "id:3": 22,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -12,
+          "id:3": 23,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 24,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 60,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -60,
+          "id:3": 26,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -96,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 36,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 120,
+          "id:3": 32,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 36,
+          "x:3": -204,
+          "y:3": -120,
+          "id:3": 33,
+          "sizeY:3": 36
+        },
+        "20:10": {
+          "sizeX:3": 36,
+          "x:3": -252,
+          "y:3": -120,
+          "id:3": 34,
+          "sizeY:3": 36
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 24,
+          "id:3": 61,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Steam Age",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1202,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "The Steam Age is (together with the Progression Age) your home for some time. It starts slow but after you got your basic boiler setup you will have more than ore doubling and much automation.\n\nGoal: "
+        }
+      },
+      "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 36,
+          "x:3": -168,
+          "y:3": -96,
+          "id:3": 36,
+          "sizeY:3": 36
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -12,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -12,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 24,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 60,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 60,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 42,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 24,
+          "id:3": 46,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 24,
+          "id:3": 47,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 24,
+          "id:3": 48,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -48,
+          "id:3": 49,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 60,
+          "id:3": 51,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 96,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 132,
+          "id:3": 53,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 96,
+          "id:3": 54,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 96,
+          "id:3": 55,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 24,
+          "id:3": 56,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 24,
+          "id:3": 62,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Progression Age",
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 3
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesMax:3": 10,
+      "pack_name:8": "",
+      "home_anchor_y:5": 0.0,
+      "livesDef:3": 3,
+      "home_anchor_x:5": 0.5,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "editMode:1": 1,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}

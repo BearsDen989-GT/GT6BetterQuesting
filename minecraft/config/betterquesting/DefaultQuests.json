@@ -4,19 +4,28 @@
     "0:10": {
       "questID:3": 0,
       "preRequisites:11": [
-        1
+        1,
+        8
       ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.metatool.01",
             "Count:3": 1,
-            "Damage:2": 48,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8508,
+                "d:8": "AnyWood",
+                "j:2": 6400
+              }
+            },
+            "Damage:2": 12,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -24,11 +33,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Hammer and Chisel (and file and wrench)",
+          "name:8": "Hammer, anvail, file and wrench",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "For our next major step (the crucible) we need a hammer and chisel.\nBut for the chisel we need metal plates and rods. With the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil, place 2 ingots (i recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 9 plates for now.\n\nNow make a file.\nNext you want to make a rod (again i recommend bronze) and make a chisel.\nThen you make a wrench and you are done.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)"
+          "desc:8": "For our next major step (the crucible) we need a hammer and an anvail.\n\nWith the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil.  The easiest anvil is made from stone but only has 1 use. Making an anvil from black or red granite will last longer.  Later you can make one from your metals.  Place 2 ingots (I recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 8 plates for now.\n\nNow make a file using 2 of your plates.\n\nNext you will want make a wrench and you are almost ready to take on the world.\n\nFinally you will need a rolling pin.  You can make this from wood.  All you need is 1 plank and 2 sticks.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)\n§9\nNote:  You can make either a stone anvil, black granite anvil, or red granite anvil.  You can see these options by clicking the right arrow in the bottom right of the pane to the right.  The stone anvil will complete the quest but will break when you make your first plate.  I recommend to make a level 3 pick (red/black granite rocks) and mine some red/black granite stone to make the better anvils.\n§f\nTo complete this quest make the following:\n1 Hammer from rocks.\n1 Stone or Black Granite or Red Granite anvil\n1 File (recommend bronze or lead)\n1 Wrench (recommend bronze or lead)\n1 Rolling Pin *from wood plank and sticks)\n"
         }
       },
       "tasks:9": {
@@ -58,30 +67,218 @@
             "2:10": {
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
-              "Damage:2": 48,
+              "Damage:2": 18,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
-              "Damage:2": 18,
+              "Damage:2": 16,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
-              "Damage:2": 16,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9300,
+                  "c:2": 8221,
+                  "j:2": 3200,
+                  "k:2": 2800
+                }
+              },
+              "Damage:2": 46,
+              "OreDict:8": "craftingToolRollingPin"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8508,
+                  "d:8": "AnyWood",
+                  "j:2": 6400,
+                  "k:2": 4300
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": "craftingToolHardHammer"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 80000
+              },
+              "Damage:2": 32026,
               "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 9314,
+                  "j:3": 44800,
+                  "k:2": 6800
+                }
+              },
+              "Damage:2": 18,
+              "OreDict:8": "craftingToolFile"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 16,
+              "OreDict:8": "craftingToolWrench"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9300,
+                  "c:2": 8221,
+                  "j:2": 3200,
+                  "k:2": 2800
+                }
+              },
+              "Damage:2": 46,
+              "OreDict:8": "craftingToolRollingPin"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8508,
+                  "d:8": "AnyWood",
+                  "j:2": 6400,
+                  "k:2": 4300
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": "craftingToolHardHammer"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 100000
+              },
+              "Damage:2": 32027,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 9314,
+                  "j:3": 44800,
+                  "k:2": 6800
+                }
+              },
+              "Damage:2": 18,
+              "OreDict:8": "craftingToolFile"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 16,
+              "OreDict:8": "craftingToolWrench"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9300,
+                  "c:2": 8221,
+                  "j:2": 3200,
+                  "k:2": 2800
+                }
+              },
+              "Damage:2": 46,
+              "OreDict:8": "craftingToolRollingPin"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "1:10": {
       "questID:3": 1,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        9
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -104,7 +301,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s get a furnace.\n§4§rTo make one you need a fire starter.\n\n§cCareful: If you have found a lighter or similar in a dungeon, that also works, but will use up the whole item, so that might be a waste!.\n\n§k§rFor the fire starter we need some dry grass, so make a knife and collect some fresh grass with it. Craft the grass 3x3 to make grass bales and place them in the sun to let them dry (be sure they are somewhere dry and not right next to a lake etc, otherwise they will get moldy)\nWhen the bales are dry you can craft them back to dry grass and make your fire starter. You might want to make multiple since we need more later anyway.\n\nYour furnace can only melt a few ores like copper, tin/casserite, lead and bronze. For higher tier metals you need a crucible."
+          "desc:8": "Let\u0027s get a furnace.\n§4§rTo make one you need a fire starter.\n\n§cCareful: If you have found a lighter or similar in a dungeon, that also works, but will use up the whole item, so that might be a waste!.\n\n§k§rFor the fire starter we need some dry grass, so make a knife and right click grass to collect some fresh grass.  Craft the grass 3x3 to make grass bales and place them in the sun to let them dry (be sure they are somewhere dry and not right next to a lake or out in the rain, otherwise they will get moldy)\nWhen the bales are dry you can colelct them and then craft them back into 9 dry grass and make your fire starter.  You use 2 sticks and 1 dry grass to make a fire starter.  You might want to make multiple since we need more later anyway.\n\nYou may have noticed dead logs either laying on the ground or still standing around the landscape.  If you right click these with an axe, you will receive dry bark.  You can combine 2 sticks and the dried bar to create  a fire starter.  Be aware that fire starters do not stack so be careful filling your inventory with these. \n\nYour furnace can only melt a few ores like copper, tin/casserite, lead and bronze. For higher tier metals you need a crucible.  The furnace can still make galss from sand.\n\nMake the following:\n1 Flint Knife\n1 Bale of Grass\n1 Bale of Dried Grass\n1 Fire Starter\n1 Furnace\n"
         }
       },
       "tasks:9": {
@@ -119,6 +316,19 @@
             "0:10": {
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
               "Damage:2": 34,
               "OreDict:8": "craftingToolKnife"
             },
@@ -135,6 +345,12 @@
               "OreDict:8": ""
             },
             "3:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 5015,
+              "OreDict:8": ""
+            },
+            "4:10": {
               "id:8": "minecraft:furnace",
               "Count:3": 1,
               "Damage:2": 0,
@@ -173,7 +389,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
@@ -192,7 +408,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You may have noticed that the furnace is not able to melt all the ores you already have collected. To get access to those higher tier materials like iron and steel we need something more hot.\nIt\u0027s time to get a crucible\nThe crucible (if placed above a lit burning box) will heat up continously and melt even the toughest of materials. But be careful, the material the crucible is made of determines the maximum temperature the crucible can take. Anything above and the crucible itself will melt down.\nFor now a ceramic crucible will be enough, it goes up to 2500K which is plenty.\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but they allow you to use more molds at once. \n\n§cCareful: the molds themself also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500K, so we are fine\n\n§f§rWh§r§ri§rle §ryou are at it, craft a burning box, lead or bronze is fine for now."
+          "desc:8": "You may have noticed that the furnace is not able to melt all the ores you already have collected. To get access to those higher tier materials like iron and steel we need something generate and handle more heat.\n\nIt\u0027s time to get a crucible and a burning box.\n\nThe crucible (if placed above a lit burning box) will heat up continously and melt even the toughest of materials. But be careful, the material the crucible is made of determines the maximum temperature the crucible can take. Anything above and the crucible itself will melt down.\n\nFor now a ceramic crucible will be enough, it goes up to 2500K which is plenty for this technology age.\n\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but the crossings allow you to use more molds at once. \n\n§cCareful: the molds themself also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500K, so we are fine\n\n§f§rFor the burning box you have many different metals you can use to make the burning box.  At this point you really only have 2 options: lead and bronze.  There are major differences between the two.  The materials that you use determines the amout of heat per tick and the effeciency of the burning box.  The lead burning box is very inefficient and you will be burning amount of fuel (wood, coal, etc).  The bronze burning box is much better both in the heat produced per tick and the effeciency.  There are also different fuel type burning boxes.  There are solid fuel which is wood and coal, liquid ones which use liquid fuels such as cresote and gas ones that use gas fuels such as methane and hydrogen.  For now we will stick to solid fuel burning boxes.\n\nWhen using your burning box you will need to use a shovel to remove the dark ash waste.  Do that while it is running is likely to burn you.  You cna also use the shover to remove solid waste from the crucible is there are any leftovers.  1 scrap is 1 nuget of material.\n§c\nWarning:  When using the crucible, keep an eye on the temperature.  Right now make sure you use quick fuels such as wood or lignite coal.  As soon as the material in the crucible turns to liquid, put a block of sand, dirt or gravel infrom of the crucible.  Wait to make sure that the burning box stops burning before your pour your molds.  With little to no material in the crucible with heat very quickly and exceed the 2,500K temperature.  If it does the crucible will melt and if you are nearby, it will boil you to death.\n§f\nFor this quest make the following:\n1 Bronze or Lead Solid Burning Box\n1 Ceramic Crucible\n2 Ceramic Crossings\n4 Clay molds\n\nThere are 2 reqards\n2 Useful Books\nChoose a cookie (Use the right arrow below to get to the cookies and finish the quest)"
         }
       },
       "tasks:9": {
@@ -200,23 +416,64 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
-              "Damage:2": 1005,
+              "Damage:2": 1102,
               "OreDict:8": ""
             },
             "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            },
+            "2:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 2,
               "Damage:2": 1855,
               "OreDict:8": ""
             },
+            "3:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 4,
+              "Damage:2": 991,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1100,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            },
             "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 2,
+              "Damage:2": 1855,
+              "OreDict:8": ""
+            },
+            "3:10": {
               "id:8": "gregtech:gt.multiitem.randomtools",
               "Count:3": 4,
               "Damage:2": 991,
@@ -300,10 +557,15 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Stone Age you want to look for:\n\n- small surface ores like copper/chalcopyrite, tin/casserite, lead/galena as well as coal/lignite coal.\nIf you find some easy accessable large ore veins of those ores, you might want to grab some too.\n\n- Wood\n\n- Villages and their fine loot\n\n- Some food source (strawberries or berry bushes are great)\n\n- If you can find a cauldron somewhere, grab it, if you wash your ores before melting them, not only do you not have to deal with the stone scraps every time, you also get some extra side products as a bonus!"
+          "desc:8": "In the Stone Age you want to look for:\n\n- small surface ores like copper/chalcopyrite, tin/casserite, lead/galena as well as coal/lignite coal.\nIf you find some easy accessable large ore veins of those ores, you might want to grab some too.\n\n- Wood\n\n- Villages and their fine loot\n\n- Some food source (strawberries or berry bushes are great)\n\n- If you can find a cauldron somewhere, grab it, if you wash your ores before melting them, not only do you not have to deal with the stone scraps every time, you also get some extra side products as a bonus!\n\n\u003d Look for some gravel as we will be needing some flint soon.\n\n- Finally look for a nice place to settle down or at least a starting base so you and dump off resources.\n\n- Start gathering rocks in order to look for ore veins and to gathering rocks for tools.\n\n- Some ore veins you could use are Copper/Tetrahydrate, Tin/Cassiterite, and Redstone/Cinnabar."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "4:10": {
@@ -385,18 +647,20 @@
     },
     "6:10": {
       "questID:3": 6,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:gt.meta.ingot",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8620,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -404,15 +668,52 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "My New Brass ingot",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Alloys allow you to make different items and to use are replacement in some machine if you are running short of other metals.\n\nNow we are going to make some Brass.  Barass is 3 ingots of copper and 1 ingot of Zinc,\n\nYou probably got some zinc from small zinc ores on the surface or while mining.  You can also get Zinc from Sphalerite.\n\nTo complete this quest pour 4 ingots of Brass from the crucible."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 8620,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "7:10": {
       "questID:3": 7,
@@ -437,11 +738,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Bucket",
+          "name:8": "The Bucket Challenge",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You need something to transport water, a wooden bucket is cheap and not only allows you to get some agriculture going, but also allows you to fill up your cauldron (if you managed to find one) to wash your ores. You also will need it to make treated wood planks for fluid pipes in the steam age."
+          "desc:8": "You need something to transport water, a wooden bucket is cheap and not only allows you to get some agriculture going, but also allows you to fill up your cauldron (if you managed to find one) to wash your ores. You also will need it to make treated wood planks for fluid pipes in the steam age.\n\nNeed to make:\n1 Wooden Bucket"
         }
       },
       "tasks:9": {
@@ -511,7 +812,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Copper tools are really bad (quality 0 and low durability), time to get something better.\nFirst make a mixing bowl, then right click it with some copper nuggest and tin nuggest (3:1 ratio) and then mix it with an empty hand.\nYou now have bronze compound, you can melt it in the furnace to get bronze ingots."
+          "desc:8": "Copper tools are really bad (quality 0 and low durability), time to get something better.\nFirst make a mixing bowl, then right click it with some copper nuggest and tin nuggest (3:1 ratio) and then mix it with an empty hand.\nYou now have bronze compound, you can melt it in the furnace to get bronze nuggets.\nUse a crafting table to combine the nuggets into ingots.\n\nMake the following:\n1 Mixing Bowl\n36 Bronze Compound\n4 Bronze Ingots"
         }
       },
       "tasks:9": {
@@ -534,6 +835,12 @@
               "Count:3": 36,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 8610,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -547,13 +854,13 @@
             "0:10": {
               "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 2003,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2003,
               "OreDict:8": ""
             }
           }
@@ -562,7 +869,9 @@
     },
     "9:10": {
       "questID:3": 9,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        3
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -592,7 +901,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Flint tools are a great early game choice. If you can\u0027t find flint anywhere use rocks but you really want at least a flint knife or sword.\nAll flint tools automatically get the fire aspect enchantment, which means huting for meat yields cooked meat!"
+          "desc:8": "Flint tools are a great early game choice. If you can\u0027t find flint anywhere use rocks but you really want some flint for a knife,  Gather some sticks from the ground and pick up some stones.  If some of the rocks are ores, mark that location so you can come back later to mine the ore.  Ore bearing rocks indicate that there is an ore block somewhere below that rock location.  This is the primary way to find ore blocks.\n\n§cTip:  You can get flint from gravel.  Using your first piece of flint to make a shovel will make gathering garvel much faster.\n§f\nAll flint tools automatically get the fire aspect enchantment, which means huting for meat yields cooked meat!\n§b\nSome information aboujt rocks:\nAll rocks have a specific level due to the hardness of the rock.  This hardness will determine which rocks a pick axe can mine and the durability and how many uses that tool will have.\nFor example Minecraft stone, diorite, limestone and marble are all level 1 stones so you can mine with a level 1 pick axe or higher.  A level 1 pick axe is made of these same rocks or flint.\nLevel 2 stone such as Basalt, Komatite, or Kimberlite are level 2 rocks so if you want to mine these rocks, you will need a pick made of these rocks.\nLevel 3 stone such as Black Granite and Red Granite are level 3 rocks so if you want to mine these rocks, you will need a pick made of these rocks.  These rocks have the best durability of all stone tools.\n§4\nPro tip:  Make a hammer from 6 red/black granite and you can mine a piece of red/black granite.  This will give you red/black cobblestone.  Place that red/black cobble on the ground and mine wit with you hammer will result in 3-4 red/black granite rocks to make more level 3 tools. \n§f\nGoals:\nGather flint and rocks and make the following tools:\n1 Pickaxe from flint or rocks\n1 Axe from flint or rocks\n1 Shovel from flint or rocks"
         }
       },
       "tasks:9": {
@@ -608,6 +917,7 @@
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
               "tag:10": {
+                "ench:9": {},
                 "GT.ToolStats:10": {
                   "a:2": 8002,
                   "c:2": 8221,
@@ -640,6 +950,7 @@
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
               "tag:10": {
+                "ench:9": {},
                 "GT.ToolStats:10": {
                   "a:2": 8002,
                   "c:2": 8221,
@@ -648,12 +959,6 @@
               },
               "Damage:2": 4,
               "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.metatool.01",
-              "Count:3": 1,
-              "Damage:2": 24,
-              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -661,13 +966,19 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
               "OreDict:8": ""
             }
           }
@@ -676,7 +987,9 @@
     },
     "10:10": {
       "questID:3": 10,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        16
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -695,11 +1008,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Coke Oven",
+          "name:8": "I Prefer Coke Please",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You want to invest into a coke oven, not only do you get useful creosote oil (which can be used as fuel and to treat wood for better pipes and tanks) you also increase the energy output of your coal.\n\nYou can also make charcoal in the coke oven (which you couldn\u0027t do in the furnace)\n\nTo start the process fill it with some coal and righ click the oven main block with a fire starter (or any other fire making device) It will run as long as it has items and storage for output.\n\n§6Tip: Place a hopper on top of it to auto insert. Place a hopper below to auto remove the output items. A pipe on any of the bottom blocks also outputs the fluid.\n\nTip: If you have an advanced crafting table with a water tank next to it, crafting the fire bricks is much easier."
+          "desc:8": "You want to invest into a coke oven, not only do you get useful creosote oil (which can be used as fuel and to treat wood for better pipes and tanks) you also increase the energy output of your coal.\n\nYou can also make charcoal in the coke oven (which you couldn\u0027t do in the furnace)\n\nTo start the process fill it with some coal and righ click the oven main block with a fire starter (or any other fire making device) It will run as long as it has items and storage for output.\n\n§6Tip: Place a hopper on top of it to auto insert. Place a hopper below to auto remove the output items. A pipe on any of the bottom blocks also outputs the fluid.\n\nTip: If you have an advanced crafting table with a water tank next to it, crafting the fire bricks is much easier.\n§f\nTo complete this quest you will ened to craft:\n26 Fire Bricks (Use 25 for the Coke Oven)\n1 Coke Oven (Uses 1 Fire Bricks in recipe)"
         }
       },
       "tasks:9": {
@@ -727,11 +1040,32 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "11:10": {
       "questID:3": 11,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -754,7 +1088,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Do you think sometimes \u0027it would be great to have a crafting table that holds it\u0027s items and also has some storage for all the tools i need\u0027? Wouldn\u0027t it even better when that crafting table also refills your buckets with fluid when placed next to a tank with that fluid?\nSay no more, here is the advanced crafting table!"
+          "desc:8": "Do you think sometimes \u0027it would be great to have a crafting table that holds it\u0027s items and also has some storage for all the tools i need\u0027? Wouldn\u0027t it even better when that crafting table also refills your buckets with fluid when placed next to a tank with that fluid?\nSay no more, here is the advanced crafting table!\n\nTo complete this quest craft:\n1 Advanced Crafting Table from bronze"
         }
       },
       "tasks:9": {
@@ -776,13 +1110,32 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "12:10": {
       "questID:3": 12,
       "preRequisites:11": [
-        11,
-        13
+        13,
+        18
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -802,11 +1155,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Some early liquid storage",
+          "name:8": "Some Early Liquid Storage",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that you have a nice crafting table, lets get a tank to store some water where it can auto refil your buckets from.\nTo insert fluid into a tank you need a funnel (right clicking the tank itself doesnt work)\nTo get it out again, you use the tap.\n\nThe tank will keep it\u0027s storage when broken, so you can transport water with it!\n\n\n§cCareful: Wooden tanks can catch fire if placed to close to a heat source (~3block radius) or you fill it with a fluid that is too hot\n"
+          "desc:8": "The drain and the capacity of the wooden pipes are a bit limited.  Lets get a tank to store some water where it can auto refil your buckets or jsut to buffer some water for you cauldron.\n\nTo insert fluid into a tank you need a funnel (right clicking the tank itself doesnt work)\n\nTo get it out again, you use the tap.\n\nThe tank will keep it\u0027s storage when broken, so you can transport water with it!\n\nOne requirement for the wooden barrel is glue.  Glue can be obtained as dungeon loot or you can put a resin from your rubber trees in a mixing bowl with water (That thing you used to make your first bronze).\n\n\n§cCareful: Wooden tanks can catch fire if placed to close to a heat source (~3block radius) or you fill it with a fluid that is too hot\n§f\nTo complete this quest craft:\n1 Wooden Barrel\n"
         }
       },
       "tasks:9": {
@@ -840,7 +1193,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "13:10": {
       "questID:3": 13,
@@ -867,7 +1239,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is usefull for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n\n§cCareful: When you break the naturaly grown leave blocks of the tree, the resin will resplendish slower and slower until it completly stops. Let those poor trees breath!"
+          "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is usefull for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n\n§cCareful: When you break the naturaly grown leave blocks of the tree, the resin will resplendish slower and slower until it completly stops. Let those poor trees breath!\n\n§fTo complete this quest gather the following items:\n1 Rubber Tree Sapling\n1 Sap Bag\n8 Resin"
         }
       },
       "tasks:9": {
@@ -890,6 +1262,12 @@
               "Count:3": 1,
               "Damage:2": 32736,
               "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "IC2:itemHarz",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "itemResin"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -897,13 +1275,13 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
@@ -918,7 +1296,9 @@
     },
     "14:10": {
       "questID:3": 14,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -941,15 +1321,22 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)\n\n- Tin/Casserite\n\n- some Cobalt (makes good cheap tools)\n\n- Nickel/Pentlandite (you find it together with Cobalt)\n\n- Black Sand (found in rivers), Yellow/Brown Lemonite, Hematite\n\n- some Manganese, some Pyroluse\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it)\n"
+          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)\n\n- Tin/Casserite\n\n- some Cobalt (makes good durable cheap tools)\n\n- Nickel/Pentlandite (you find it together with Cobalt)\n\n- Black Sand (found in rivers), Yellow/Brown Lemonite, Hematite\n\n- Redstone so you can do automation and shufoffs.\n\n- some Manganese, some Pyrolusite\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it)\n"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "15:10": {
       "questID:3": 15,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -968,11 +1355,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Hopper",
+          "name:8": "I Want My Hopper",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Stone Ages you have few options for automation but a hopper is a great idea to help with some of the cumbersome tasks.\nWhen you check NEI, you will notice that there isn\u0027t only the vanilla iron hopper but many different hoppers out of different materials. Those hoppers are more tick friendly, so don\u0027t feel bad about using them.\nThe difference between the materials is how many slots each hopper contains.\nThe default version doesn\u0027t care about the order items are put into it, while the Queque version does care and only outputs them in the same order.\n§5\n§6§5§6Tip: If you use a screwdriver you can set the hopper to only pull/push a certain amount of items. They also react to redstone to enable/disable their pull/push."
+          "desc:8": "In the Stone Ages you have few options for automation but a hopper is a great idea to help with some of the cumbersome tasks.\nWhen you check NEI, you will notice that there isn\u0027t only the vanilla iron hopper but many different hoppers out of different materials. Those hoppers are more tick friendly, so don\u0027t feel bad about using them.\nThe difference between the materials is how many slots each hopper contains.\nThe default version doesn\u0027t care about the order items are put into it, while the Queque version does care and only outputs them in the same order.\n§5\n§6§5§6Tip: If you use a screwdriver you can set the hopper to only pull/push a certain amount of items. They also react to redstone to enable/disable their pull/push.\n\nPro Tip:  Make a Vanilla Minecraft Chest (these don\u0027t burn) and place the hopper below your bruning box with the hopper going into the chest.  This will allow for your dark ash to empty out of the burning box and end up in the chest.  This will prevent the burning box from going out due to being full of ash.  Just make sure to empty your chest once a while to prevent it from filling up and backing ash back to your burning box.\n§f\nCraft the following item:\n1 Bronze Hopper"
         }
       },
       "tasks:9": {
@@ -1000,9 +1387,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
@@ -1017,7 +1404,9 @@
     },
     "16:10": {
       "questID:3": 16,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        14
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1036,11 +1425,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Let\u0027s get steamy",
+          "name:8": "I am Iron Man",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Mix some limonite/black-sand/hematite with a carbon source (coal and coal coke work great for that), in case of hematite you need to add some calcite (limestone works for that).\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke"
+          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Mix some basaltic black sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignit coal as fuel for the burning box.\n§f\nTo complete this quest make 8 iron ingots using the crucible."
         }
       },
       "tasks:9": {
@@ -1062,14 +1451,31 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
-        18,
-        19,
-        20
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1089,11 +1495,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Engine",
+          "name:8": "The Engine That Can",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)"
+          "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n\n§fTo complete this quest craft:\n1 Bronze Engine"
         }
       },
       "tasks:9": {
@@ -1115,17 +1521,34 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "18:10": {
       "questID:3": 18,
-      "preRequisites:11": [
-        16
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -1138,13 +1561,13 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "OR",
+          "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Pipes",
+          "name:8": "Pipe Dream",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need a way to transport water and steam.\nCheap wooden pipes are great for water but cannot handle hot steam, for that we need something more heat resistant. For now bronze pipes will do"
+          "desc:8": "We need a way to transport water and steam.\nCheap wooden pipes are great for water and you can put a drain on the huge wooden pipes but wooden pipes cannot handle hot steam.  Wooden pipes can also burn around burning boxes if they are in contact with an air block.\n\nFor pipes that are exposed to air near burning boxes and that can handle steam something more heat resistant is required.  For now bronze pipes will do.\n§d\nTip:  Use a wrench to connect pipes to another pipe.  You will see an \u0027X\u0027 at the edge of the pip if they are connecting while you are holding a wrench.  The wrench will connect or disconnect the pipes.  To remove wooden pipes you will need a saw.  To remove metal pipes, you will need a wrench.\n§f\nTo compelte this quest you will need to craft:\n8 Huge Wooden Pipes\n4 Small Bronze Pipes"
         }
       },
       "tasks:9": {
@@ -1152,37 +1575,14 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
-              "Damage:2": 26003,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
-              "Damage:2": 26121,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
-              "Damage:2": 26023,
+              "Count:3": 8,
+              "Damage:2": 26004,
               "OreDict:8": ""
             },
             "1:10": {
@@ -1195,12 +1595,31 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "19:10": {
       "questID:3": 19,
       "preRequisites:11": [
-        16
+        20
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1220,11 +1639,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Boiler",
+          "name:8": "Boiling Point",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold"
+          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold\n§f\nTo complete this quest craft:\n1 Bronze Burning Box\n1 Bronze Boiler"
         }
       },
       "tasks:9": {
@@ -1275,6 +1694,7 @@
     "20:10": {
       "questID:3": 20,
       "preRequisites:11": [
+        18,
         16
       ],
       "properties:10": {
@@ -1295,11 +1715,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Water Collection",
+          "name:8": "It Just Went Down the Drain",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\nCraft a drain, put it on a pipe thats submerged in water and it will start collecting it."
+          "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\n\nA drain will collect water from a water source and fill a pipe.  The drain is made from iron.\n\nCraft a drain, put it on one of your huge wooden pipes that is submerged in water and it will start collecting it.\n§d\nPro Tip: Make sure the drain is placed in water that is in the river biome otherwise the water source might go dry.  \n§f\nTo complete this quest craft:\n1 Drain"
         }
       },
       "tasks:9": {
@@ -1321,7 +1741,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "21:10": {
       "questID:3": 21,
@@ -1350,7 +1789,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "As mentioned before, if you supply your boiler with normal water it will calcify and loose effiencency. It\u0027s time to use all that nice steel you made to solve that issue.\nA dryer, alongside many other purposes, can process water to distilled water, which wont calcify your boilers at all! It\u0027s a worthwhile investment."
+          "desc:8": "As mentioned before, if you supply your boiler with normal water it will calcify and loose effiencency. It\u0027s time to use all that nice steel you made to solve that issue.\nA dryer, alongside many other purposes, can process water to distilled water, which wont calcify your boilers at all! It\u0027s a worthwhile investment.\n\nAnother use would be to dry your sluice juice so that you can send it through a magnetic separator to get additional byproduct.\n\nTo complete this quest craft:\n1 Steel Dryer"
         }
       },
       "tasks:9": {
@@ -1372,14 +1811,31 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "22:10": {
       "questID:3": 22,
       "preRequisites:11": [
-        18,
-        19,
-        20
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1403,7 +1859,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)"
+          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n§f\nTo complete the quest craft:\n1 Bronze Turbine"
         }
       },
       "tasks:9": {
@@ -1425,7 +1881,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "23:10": {
       "questID:3": 23,
@@ -1450,15 +1925,52 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Steel",
+          "name:8": "Steel Series",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.\n\nHow to pump air in you ask? Oh yeah, you just hook up a kinetic engine to the crucible (dont forget to supply it with steam so it actually runs)"
+          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n\nTo complete this quest pour 8 ingots of steel."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8630,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "24:10": {
       "questID:3": 24,
@@ -1487,7 +1999,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!"
+          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n\nTo complete the quest craft:\n1 Bronze Crusher"
         }
       },
       "tasks:9": {
@@ -1509,7 +2021,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "25:10": {
       "questID:3": 25,
@@ -1538,7 +2069,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you have many sand ores you might want to get an automatic sifter instead of the one that works by hand."
+          "desc:8": "This machine replaces the manual sifter table when you are tired of right-clicking\n\nTo complete this quest craft:\n1 Bronze Sifter"
         }
       },
       "tasks:9": {
@@ -1560,7 +2091,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "26:10": {
       "questID:3": 26,
@@ -1589,7 +2139,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The sluice gives you plenty of side products from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more sideproducts!"
+          "desc:8": "The sluice gives you plenty of side products from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more sideproducts!\n§d\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f\nTo complete this quest craft:\n1 Bronze Sluice"
         }
       },
       "tasks:9": {
@@ -1611,7 +2161,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "27:10": {
       "questID:3": 27,
@@ -1640,7 +2209,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it dusts down all things you throw in it, even full machines, to get their crafting materials back."
+          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it dusts down all things you throw in it, even full machines, to get their crafting materials back.  In order to make a shredder you will need a Flawless Diamond.  You can craft the flawless Diamond into a crystaline diamond plate.\n\nIn order to complete this quest craft:\n1 Bronze Shredder"
         }
       },
       "tasks:9": {
@@ -1662,12 +2231,32 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
-        22
+        6,
+        18
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1677,9 +2266,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 25002,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -1687,15 +2276,52 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Item Pipes",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Now that we have Brass we can make some item pipes.  Item pipes can move your items from one machine to another or to chests and barrels so you don\u0027t have to manually move them by hand.\n\nTo complete this quest craft:\n4 Brass Item Pipes"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 25002,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "29:10": {
       "questID:3": 29,
@@ -1724,7 +2350,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To get more out of your ores we need to wash it.\nThere are multiple ways of washing, like normal water washing, sluice and chemical washing.\nCurrently all we can do is normal washing in a cauldron.\nFill up a cauldron with water and throw crushed ores into it.\n§6\nTip: If you hook a pipe on the cauldron it can fill up automatically. But that only works if your pipe is big enough (a huge treated pipe works)\n§c\nCareful: Washing ores gives all kind of side products. Some of them can be radioactive (e.g. Cobalt-60). Radioactive materials are not good for your health"
+          "desc:8": "To get more out of your ores we need to wash it.\nThere are multiple ways of washing, like normal water washing, sluice and chemical washing.\nCurrently all we can do is normal washing in a cauldron.\nFill up a cauldron with water and throw crushed ores into it.\n§6\nTip: If you hook a pipe on the cauldron it can fill up automatically. But that only works if your pipe is big enough (a huge treated pipe works)\n§c\nCareful: Washing ores gives all kind of side products. Some of them can be radioactive (e.g. Cobalt-60). Radioactive materials are not good for your health\n§f\nTo complete this quest craft or find:\n1 Cauldron"
         }
       },
       "tasks:9": {
@@ -1746,12 +2372,31 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
-        2
+        66
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1775,7 +2420,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It never feels good to just heat up your crucible without knowing how hot it is.\nLet\u0027s make a thermometer, right-click the crucible with it to measure it\u0027s current temperature."
+          "desc:8": "Now that you ahve a bottle of mercury, it is time to make a thermometer.\n\nYou will need 4 pieces of glass, 1 copper plate, and some red dye to make the thermometer.\n\nLet\u0027s make a thermometer, right-click the crucible with it to measure it\u0027s current temperature.  The temperature will apepar in the chat box.\n\nMake the following:\n1 Thermometer"
         }
       },
       "tasks:9": {
@@ -1803,9 +2448,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
@@ -1821,7 +2466,8 @@
     "31:10": {
       "questID:3": 31,
       "preRequisites:11": [
-        30
+        30,
+        64
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1845,7 +2491,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor and a piston.\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier)\n\nDone, you now have an auto shutoff for your crucible :)\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have some leave some buffer for your allowed temperature to accomidate for those extra delays!"
+          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor, a piston, and a lever.\n\nThe temperature sensor is good for giving you a readout of the crucible temperature.  It can also be configured to trigger a redstone signal if it reaches a specific temperature.  This expample would be to add a automatic cutoff with manual shutoff lever.\n\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier).  you can put a lever on the piston to manually trigger the piston to shutoff the burning box.\n\nDone, you now have an auto shutoff for your crucible :)\n\nThere are multiple ways to build these systems.  One would be to bury the biston 2 blocks below and 1 block in front of the burning box and to use glass on top of the piston.  That way when the piston is actrivated, you can look through the glass to see when the burning box stops burning.\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have some leave some buffer for your allowed temperature to accomidate for those extra delays!\n§f\nTo complete this quest you need to craft:\n1 Thermometer Sensor\n1 Sticky Piston\n4 Restone Alloy Wire\n1 Lever\n\n"
         }
       },
       "tasks:9": {
@@ -1864,15 +2510,21 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:piston",
+              "id:8": "minecraft:sticky_piston",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 2,
+              "Count:3": 4,
               "Damage:2": 27000,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:lever",
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -1885,9 +2537,9 @@
           "index:3": 0,
           "choices:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
@@ -1902,7 +2554,9 @@
     },
     "32:10": {
       "questID:3": 32,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        16
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1925,7 +2579,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Some crused or purified gem dusts will need to be sifted to get gems or actual gem dusts.  One example that needs this process is diamonds.  You will need a diamond gem for some of the ore processing machines.  If you are not luck enough to get one from a small diamond ore block, you will need to do manual sifting.\n§d\nTip:  It is not always beneficial to sift all gem ores.  It depends of the ore and what gems or dusts you need.\n§f\nTo complete this quest you need to craft:\n1 Sifting Table"
         }
       },
       "tasks:9": {
@@ -1947,11 +2601,32 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "33:10": {
       "questID:3": 33,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1981,12 +2656,19 @@
           "desc:8": "You might have noticed that NEI shows recipes in machines with GU/t as power usage and total GU used for a recipe.\nCatalyst has many different power types, which can be converted between each other (for example you can use EU (electrical units) to power a motor with will produce RU (rotational units). Here are all types that exist in Catalyst\n\nGU - Generic Units (just used in NEI to show recipes, the machine itself will convert any other power types 1:1 into GU to produce the recipe)\n\nEU - Electrical Units\n\nRF - Redstone Flux\n\nRU - Rotational Units (for everything that needs some spin)\n\nKU - Kinetic Units\n\nHU - Heat Units\n\nLU - Light Units (made by lasers to power welders etc)\n\nQU - Quantum Units (used by high tech machines)\n\nConverting between different energy types is not always looseless, it depends on the machines you use (always check the tooltips)\n\n\n"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "34:10": {
       "questID:3": 34,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -2012,13 +2694,18 @@
           "desc:8": "Let\u0027s talk about machines.\nMost machines in Gregtech cannot be powered directly with RF or Electricity. Instead depending on the machine you have to hook up other machines that output different power types to your factory, kind of like a semi multiblock.\n§7§9§e§k§l§l§k§m§m§r§1§2§3§4§5§6§7§9\nE.g:\nLets say you have an Oven, instead of hooking up a cable directly to it you power it with Heat (HU). So you place a burning box or electric heater below it. In case of the electric heater you power this one with EU.\n\nNow lets give a more complex example:\nSay you are in the steam age and want to power your crusher for ore doubling.\nThe Crusher needs KU, which you get from an engine, which itself needs to be supplied with steam to work, the steam comes from a boiler, which needs HU to convert water to steam, so you place a burning box below the boiler.\n§f\nAll machines have a range in which they can work. If you supply less, it wont do anything and if you supply more than the max it either stops working or melts down or even explodes. Make sure to supply your machines inside their working range!\n\n\nSome explanation about recipes:\n\nCosts - the total cost the recipe costs in GU (the actual type depends on the specific machine, it will convert all other types into GU 1:1 internally)\nUsage - the minimum GU/t you have to supply, if you supply less, the machine will not be able to process the recipe and get stuck (if that happens, either supply the right amount of energy/t or use a rubber-hammer/harvest-and-replace the machine to reset it, the items for the recipes are lost this way though)\nTier\u0026Power are interesting for overclocking recipes (more of that in later ages)\nTime - the time the recipe takes to finish, given you supply the exact amount needed (if you supply more, the machine will finish faster)\n"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "35:10": {
       "questID:3": 35,
       "preRequisites:11": [
-        2
+        64
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2042,7 +2729,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Who wants to wait all the time until the metal in the mold cooled down long enough to be safely removed. Also doing it all by hand is annoying.\nIf you make a monkey wrench and use it on the sides of a mold it enables/disables the auto input of that side. If you use it on the center of the mold it toggles it\u0027s redstone behaviour of all sides.\nCombine that with a hopper below the mold and you can automatically (or on a lever flip) do your metal casting. (it gets even better when you have a thermonometer)"
+          "desc:8": "Who wants to wait all the time until the metal in the mold cooled down long enough to be safely removed. Also doing it all by hand is annoying.\nIf you make a monkey wrench and use it on the sides of a mold it enables/disables the auto input of that side. If you use it on the center of the mold it toggles it\u0027s redstone behaviour of all sides.\nCombine that with a hopper below the mold and you can automatically (or on a lever flip) do your metal casting. (it gets even better when you have a thermonometer)\n\nCraft the following item:\n1 Monkey Wrench"
         }
       },
       "tasks:9": {
@@ -2057,14 +2744,41 @@
             "0:10": {
               "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800
+                }
+              },
               "Damage:2": 52,
-              "OreDict:8": ""
+              "OreDict:8": "craftingToolMonkeyWrench"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "36:10": {
       "questID:3": 36,
@@ -2456,18 +3170,20 @@
     },
     "45:10": {
       "questID:3": 45,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        16
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:gt.meta.ingot",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8661,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -2475,15 +3191,52 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Invar For All",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Invar is an alloy of 2 Iron and 1 Nickel.  Invar is a very useful material.  It makes the most efficient burning boxes, better fluid pipes, higher capacity tanks and can be used as better rotors insidebor better turbines.\n\nTo complete this quest pour 6 Invar ingots from your crucible."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 6,
+              "Damage:2": 8661,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "46:10": {
       "questID:3": 46,
@@ -3182,7 +3935,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2500K)\n\nAs with all molds you can chisel the right pattern into the molds when placed in world (after cooked in the furnace to make them ceramic) but it\u0027s much easier to define the pattern beforehand in the raw clay.\n\nYou want at least 1 plate mold (Yay finally your plates dont cost you 2 ingots anymore), an ingot mold, a rod mold and one pickaxe mold (so you can make metal tools which are just much faster and durable than stone tools).\n\nBe aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!"
+          "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2500K)\n\nAs with all molds you can chisel the right pattern into the molds when placed in world (after cooked in the furnace to make them ceramic) but it\u0027s much easier to define the pattern beforehand in the raw clay.\n\nYou want at least 1 plate mold (Yay finally your plates dont cost you 2 ingots anymore), an ingot mold, a rod mold and one pickaxe mold (so you can make metal tools which are just much faster and durable than stone tools).\n\nBe aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!\n§c§d\nPro Tip:  You can use a clay brick for an ingot, a stick for a rod, some wood planks for plates, and a wooden pick axe for the pick axe mold.  As these items will be comsumed, you won\u0027t loose your precious metal in making these molds.  Also when making other molds from your metal tools (Axe, File, Hammer, etc) if you use a full tool (one with a handle) instead of just hte tool head, the tool will take some duribility damage instead of being consumed in the crafting process.\n§f\nCraft the follwoing items:\n1 Ingot Clay Mold\n1 Rod Clay Mold\n1 Plate Clay Mold\n1 Pick Axe Clay Mold"
         }
       },
       "tasks:9": {
@@ -3222,7 +3975,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "60:10": {
       "questID:3": 60,
@@ -3287,7 +4059,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Feel your furnace is too slow? Need some speed in your life?\nThen the new Gregtech Steel Oven might be for you.\n\nJust supply it with some HU from the burning box of your choice and see it make all your dreams of personal cooking come true. Higher tier variants accept even more heat and thus run even faster!"
+          "desc:8": "Feel your furnace is too slow? Need some speed in your life?\nThen the new Gregtech Steel Oven might be for you.\n\nJust supply it with some HU from the burning box of your choice and see it make all your dreams of personal cooking come true. Higher tier variants accept even more heat and thus run even faster!\n\nYou can use a Bronze Burning Box but for faster speed you can use a Steel Burning Box\n\nTo complete this quest craft:\n1 Steel Oven"
         }
       },
       "tasks:9": {
@@ -3309,7 +4081,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "62:10": {
       "questID:3": 62,
@@ -3361,6 +4152,571 @@
         }
       },
       "rewards:9": {}
+    },
+    "63:10": {
+      "questID:3": 63,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:fruitsaladItem",
+            "Count:3": 2,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Fast Food",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You will need some food while you are out looking for resources.  While you are out you will see Gregtech berry bushes.  Although the berries can be eaten by themselves, you don\u0027t get much nutriton from them.  If you use your 2x2 self crafting grid and put the berries equally split between 2 of the squares and put your trusty knife in one of the other squares, you will be able to make a fruit salad.  Not only is the fruit salad fill you up and add to you saturation, you will receive a speed and jump bonus.  These fruit salads will do for now until you can make better food.\n\n§cWarning:  Eating too many fruit salads will lead to a premature dath from diabetes.  Eat you fruit salads in moderation to reduce you chances of dying.\n\n§fObjective:  Find some berries and make 4 fruit salads."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:fruitsaladItem",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "foodFruitsalad"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "64:10": {
+      "questID:3": 64,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8610,
+                "c:2": 8610,
+                "j:3": 44800
+              }
+            },
+            "Damage:2": 66,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Additional Tools",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now is the time to make some additional tools that are needed to get you through the stone age and beyond.  You will need to make a saw so you can cut rods and wood.  You will need a screwdriver to assemble anything that contains a screw.  You should have a handy set of pincers to quickly take intems out of your molds without burning yourself to death.  It also allows you to use your liquid metal before is solidifies in your crucible.  A soft hammer will be useful when making items out of wood like your first pipes.  Finally a pair of wire cutters will be useful to make some wire for machines and dealing with redstone alloy wires needed for automation.\n§d\nPro Tip:  You can make a mold of your saw and screwdriver using the tool and a clay mold.  If you use the completed tool, the tool wil ltake some durability damage but will not be consumed.  If you use just hte tool head, it will be comsumed when making a mold.  There are no molds for the pincers, soft hamer, and wire cutters.\n§f\nSo we are going to make:\n1 Saw\n1 Screwdriver\n1 Set of Pincers. \n1 Soft Hammer\n1 Wire Cutters"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8221,
+                  "j:3": 44800,
+                  "k:1": 100
+                }
+              },
+              "Damage:2": 10,
+              "OreDict:8": "craftingToolSaw"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8221,
+                  "j:3": 44800,
+                  "k:2": 400
+                }
+              },
+              "Damage:2": 22,
+              "OreDict:8": "craftingToolScrewdriver"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 66,
+              "OreDict:8": "craftingToolPincers"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9300,
+                  "c:2": 8221,
+                  "j:2": 25600
+                }
+              },
+              "Damage:2": 14,
+              "OreDict:8": "craftingToolSoftHammer"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 26,
+              "OreDict:8": "craftingToolWireCutter"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "65:10": {
+      "questID:3": 65,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 9188,
+                "d:8": "AnyWood",
+                "j:2": 1600
+              }
+            },
+            "Damage:2": 24,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Early Weapons",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You will need to defend yourself from mobs while you are out exploring.  You also may need to get meat from some animals.  With gregtech you have a couple options.\n\nThe first is to use a piece of flint and a stick to make a knife.  The knife has fire aspect which give burning damage to mobs.  It also will cook the meat from animals giving you something you can eat.\n\nThe otehr option is a club.  You can make a club from the stones that you collect.  This will last abit longer than the knife, it does not give ticking burning damage like the knife.\n\nMake the following:\n1 Flint Knife\n1 Stone Club"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 20
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8002,
+                  "d:8": "AnyWood",
+                  "j:2": 4800
+                }
+              },
+              "Damage:2": 34,
+              "OreDict:8": "toolCuttingboard"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9188,
+                  "d:8": "AnyWood",
+                  "j:2": 1600
+                }
+              },
+              "Damage:2": 24,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "66:10": {
+      "questID:3": 66,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.bottles",
+            "Count:3": 1,
+            "Damage:2": 32765,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "O Mercury Where Are Thou?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar is found in the same vein as redstone.  So if you found a redstone vein, there is most likely cinnabar there too.  You will need a level 2 pick to mine the cinnabar ore.  So mine down to the Redstone Cinnabar vein.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  You are looking to gather 3 crushed cinnabar ores.  Each crushed Cinnabar ore makes 3 nuggets of mercury.  White you are there gather some small restone ores as they will be needed soon.\n\nOnce you have gathered the 3 crushed cinnabar ores (maybe gather a few more incase something goes wrong), you will need to get the mercury from the crushed ore.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you 2 options to get the mercury:\n\nFirst you can put 3 cinnabar crushed ores in a crucible.  Use a shovel to remove the scrap stone.  Once you start to get scrap mercury, put the mercury back in the crucible.  Next use 1 stick and light the burning box.  This should give you the mercury.  \n\nSecond you can put the 3 crushed cinnabar ores in a vanilla furnace.  Once you smelt the ore, you should get 9 nuggets of mercury.  Now take the 9 nuggets of mercury and drop them into the crucible.  The nuggests will turn to liquid immediately and you do not need to light the burning box.\n\n\nThe final step is to use a glass bottle and right-click the crucible to capture the mercury.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n\nGet the following items:\n1 Glass Bottle\n3 Crushed Cinnabar Ores\n1 Mercury Bottle"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glass_bottle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.crushed",
+              "Count:3": 3,
+              "Damage:2": 9114,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.bottles",
+              "Count:3": 1,
+              "Damage:2": 32765,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "67:10": {
+      "questID:3": 67,
+      "preRequisites:11": [
+        64
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 6991,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Storage Wars",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "By now you may have chest after chest full of all of the different cobblestones, dark ash, dirt, gravel, and sand.  You need to do something different with your stoarage so you can find what you need.  So lets use a Gregtech Item Barrel.  \n\nThese barrels are made from wood and a couple of long rods.  The best metal to use at this time is lead or bronze.  The long rods can be crafted using 2 regular rods on an anvail or using a long rod mold.\n\nEach item barrel can hold 5,000 of the same item.  This makes these barrels good for holding your cobble, clay, or other mass item.\n\nTo complete this quest craft:\n2 Lead or 2 Bronze item Barrels\n\nRemeber you can see the otehr option to complete the quest by clicking the right arrow in the lower right of the right pane.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 2,
+              "Damage:2": 6991,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 2,
+              "Damage:2": 6998,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "68:10": {
+      "questID:3": 68,
+      "preRequisites:11": [
+        10,
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 17001,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "A Better Tank",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you have your coke over running we need a better tank.  We can get some treated wood and make a wooded tank.  This will come in handy soon to hold our distilled water.\n\nTo complete this quest craft:\n26 Wood Walls *25 needed for the tank structure\n1 Wood Main Valve (Uses 1 Wood Wall to craft)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 25,
+              "Damage:2": 18001,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17001,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -3415,86 +4771,128 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -120,
+          "x:3": -180,
+          "y:3": -144,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -120,
+          "x:3": -252,
+          "y:3": -144,
           "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -120,
+          "x:3": -96,
+          "y:3": -144,
           "id:3": 2,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 36,
-          "x:3": -288,
-          "y:3": -168,
+          "x:3": -312,
+          "y:3": -192,
           "id:3": 3,
           "sizeY:3": 36
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -84,
+          "x:3": -228,
+          "y:3": -60,
           "id:3": 7,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": -228,
-          "y:3": -84,
+          "y:3": -108,
           "id:3": 8,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -48,
+          "x:3": -312,
+          "y:3": -144,
           "id:3": 9,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -48,
-          "id:3": 15,
+          "x:3": -96,
+          "y:3": -192,
+          "id:3": 11,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -84,
-          "id:3": 30,
+          "x:3": -120,
+          "y:3": -96,
+          "id:3": 15,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": -156,
-          "y:3": -48,
-          "id:3": 31,
+          "y:3": -60,
+          "id:3": 30,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -84,
-          "id:3": 35,
+          "x:3": -156,
+          "y:3": -24,
+          "id:3": 31,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -84,
+          "x:3": -72,
+          "y:3": -60,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -144,
           "id:3": 59,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -276,
+          "y:3": -108,
+          "id:3": 63,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -96,
+          "id:3": 64,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -312,
+          "y:3": -84,
+          "id:3": 65,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -96,
+          "id:3": 66,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -96,
+          "id:3": 67,
           "sizeY:3": 24
         }
       },
@@ -3520,29 +4918,29 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 84,
-          "id:3": 10,
+          "x:3": -348,
+          "y:3": 0,
+          "id:3": 6,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": 84,
-          "id:3": 11,
+          "x:3": -204,
+          "y:3": -48,
+          "id:3": 10,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": 84,
+          "x:3": -240,
+          "y:3": 72,
           "id:3": 12,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": 120,
+          "x:3": -288,
+          "y:3": 72,
           "id:3": 13,
           "sizeY:3": 24
         },
@@ -3555,121 +4953,142 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -180,
+          "x:3": -288,
           "y:3": -36,
           "id:3": 16,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -12,
+          "x:3": -132,
+          "y:3": -48,
           "id:3": 17,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -72,
+          "x:3": -288,
+          "y:3": 36,
           "id:3": 18,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -36,
+          "x:3": -180,
+          "y:3": -12,
           "id:3": 19,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": 0,
+          "x:3": -228,
+          "y:3": -12,
           "id:3": 20,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -12,
+          "x:3": -60,
+          "y:3": -84,
           "id:3": 21,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -60,
+          "x:3": -132,
+          "y:3": 12,
           "id:3": 22,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -12,
+          "x:3": -84,
+          "y:3": -48,
           "id:3": 23,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 24,
+          "x:3": -108,
+          "y:3": -84,
           "id:3": 24,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 60,
+          "x:3": -156,
+          "y:3": -84,
           "id:3": 25,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -60,
+          "x:3": -84,
+          "y:3": 12,
           "id:3": 26,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -96,
+          "x:3": -108,
+          "y:3": 48,
           "id:3": 27,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": -348,
           "y:3": 36,
-          "id:3": 29,
+          "id:3": 28,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": 120,
-          "id:3": 32,
+          "x:3": -288,
+          "y:3": 0,
+          "id:3": 29,
           "sizeY:3": 24
         },
         "19:10": {
+          "sizeX:3": 24,
+          "x:3": -324,
+          "y:3": -72,
+          "id:3": 32,
+          "sizeY:3": 24
+        },
+        "20:10": {
           "sizeX:3": 36,
           "x:3": -204,
           "y:3": -120,
           "id:3": 33,
           "sizeY:3": 36
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 36,
           "x:3": -252,
           "y:3": -120,
           "id:3": 34,
           "sizeY:3": 36
         },
-        "21:10": {
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 48,
+          "id:3": 45,
+          "sizeY:3": 24
+        },
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": 24,
+          "y:3": -48,
           "id:3": 61,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 96,
+          "id:3": 68,
           "sizeY:3": 24
         }
       },
@@ -3864,7 +5283,7 @@
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

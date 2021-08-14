@@ -629,7 +629,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "My New Brass ingot",
+          "name:8": "My New Brass Ingot",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -1390,7 +1390,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Mix some basaltic black sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignit coal as fuel for the burning box.\n§f\nTo complete this quest make 8 iron ingots using the crucible."
+          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Greg has changed how black sand works from earlier version of GT6.  Greg added Basaltic, and Granitic Black Sand as blocks.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand.  This is very easy.  Just put it into your black sand blocks in your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic or granitic mineral sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n\n§9Pro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignit coal as fuel for the burning box.\n\nWarning:  Sifting Basaltic or Granitic Mineral Sand no longer give the resulting dusts.  They will give you some nuggets though.\n§f\nTo complete this quest you will need:\n14 Granitic or Basaltic Sand Dusts\n6 Crushed, Purified or gem Coal or a coal coke.\nthen make 6 iron ingots using the crucible."
         }
       },
       "tasks:9": {
@@ -1398,13 +1398,42 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 14,
+              "Damage:2": 9003,
+              "OreDict:8": ""
+            },
+            "1:10": {
               "id:8": "minecraft:iron_ingot",
-              "Count:3": 8,
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 14,
+              "Damage:2": 9004,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 6,
               "Damage:2": 0,
               "OreDict:8": ""
             }

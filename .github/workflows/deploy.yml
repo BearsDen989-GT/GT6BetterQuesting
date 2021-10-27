@@ -1,9 +1,11 @@
 name: Deploy to patreon server
 on:
   push:
-    branches: [main]
+    branches:
+    - main
 jobs:
   upload_files:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 

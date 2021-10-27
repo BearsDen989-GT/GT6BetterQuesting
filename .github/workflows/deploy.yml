@@ -10,11 +10,12 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: LFTP deploy action
-      uses: xarses/lftp-upload-action@v0.0.2
+      uses: xarses/lftp-upload-action@v0.1.0
       with:
         host: ${{ secrets.HOSTNAME }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         local_path: minecraft/config/betterquesting/
         remote_path: custom-minecraft/config/betterquesting/
+        mirror_args: --no-perms
 

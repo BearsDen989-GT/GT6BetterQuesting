@@ -1423,7 +1423,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.meta.dust",

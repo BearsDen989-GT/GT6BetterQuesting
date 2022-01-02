@@ -1373,7 +1373,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
@@ -1472,7 +1472,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.multitileentity",
@@ -1832,7 +1832,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.multitileentity",
@@ -2854,13 +2854,16 @@
     },
     "38:10": {
       "questID:3": 38,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        16,
+        45
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.meta.ingot",
@@ -2877,11 +2880,78 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 4 wrough iron, 3 invar, 1 cromium and 1 manganese\n\n"
+          "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 4 wrough iron, 3 invar, 1 chromium and 1 manganese.  For now lets make our first stainless steel in our crucible.  You should have get your chromium and manganese from byprodusts of your ore processing.\n\nRequires:\n4 Iron or Wrought Iron Ingots\n3 Invar Ingots\n1 Chromium dust\n1 Manganese dust\n\nMake 6 stainless steel plates and 2 stainless steel long rods.\n\nYou can pour the rest as what every you want but I wsould suggest some bolts.\n"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "ingotAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 3,
+              "Damage:2": 8661,
+              "OreDict:8": "ingotInvar"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "dustChrome"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "dustManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": "plateStainlessSteel"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "39:10": {
       "questID:3": 39,
@@ -3168,7 +3238,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.meta.ingot",
@@ -3446,7 +3516,7 @@
     "50:10": {
       "questID:3": 50,
       "preRequisites:11": [
-        49
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3456,14 +3526,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "sulfurtrioxide",
-              "h:2": 300
-            },
-            "Damage:2": 522,
+            "Damage:2": 22000,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -3471,15 +3536,52 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Coagulator for Hire",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n\nRequires\nCoagulator"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 22000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "51:10": {
       "questID:3": 51,
@@ -5407,7 +5509,7 @@
         "0:10": {
           "sizeX:3": 36,
           "x:3": -168,
-          "y:3": -96,
+          "y:3": -108,
           "id:3": 36,
           "sizeY:3": 36
         },
@@ -5420,8 +5522,8 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -12,
+          "x:3": -168,
+          "y:3": -48,
           "id:3": 38,
           "sizeY:3": 24
         },
@@ -5497,47 +5599,54 @@
         },
         "13:10": {
           "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -72,
+          "id:3": 50,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
           "x:3": 168,
           "y:3": 60,
           "id:3": 51,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -144,
           "y:3": 96,
           "id:3": 52,
           "sizeY:3": 24
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -144,
           "y:3": 132,
           "id:3": 53,
           "sizeY:3": 24
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": 96,
           "id:3": 54,
           "sizeY:3": 24
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 96,
           "id:3": 55,
           "sizeY:3": 24
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 24,
           "id:3": 56,
           "sizeY:3": 24
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 24,

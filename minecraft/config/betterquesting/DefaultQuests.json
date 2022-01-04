@@ -1830,7 +1830,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
@@ -1849,7 +1849,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n§f\nTo complete the quest craft:\n1 Bronze Turbine"
+          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.  If you want you can make an Invar Turbine that can make more power.  The only difference is the the 4 Invar rotors.  The hull is still bronze.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n§f\nTo complete the quest by crafting:\n1 Bronze Turbine or Invar Turbine"
         }
       },
       "tasks:9": {
@@ -1865,6 +1865,23 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 1512,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1518,
               "OreDict:8": ""
             }
           },
@@ -3940,18 +3957,21 @@
     },
     "57:10": {
       "questID:3": 57,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        45,
+        68
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 17007,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -3959,30 +3979,75 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Even Better Tank",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "The treated wood tank can only hold 432,000 liters.  That may sound like alot but it fills up quickly.  If you need more storage or if you need to store gasses (gasses don\u0027t work with treated wood), you will need a different tank.  This is where Invar tanks come in handy.  Small Invar tanks hold 1,728,000 liters and need the same 3x3 space as the treated wood tank.  It can also hold gasses.  There are also large versions of the tanks but they require significantly more invar to create but can hold significantly larger amounts of non-acidic fluids.\n\nWarning:  Invar tanks cannot hold gasses.  You will need stainless steel tanks for that.\n\nTo complete the quest craft:\n25 Invar Walls\n1 Small Invar Main Tank Valve"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 25,
+              "Damage:2": 18007,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 17007,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "58:10": {
       "questID:3": 58,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        16
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32703,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -3990,15 +4055,58 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "New Quest",
+          "name:8": "Nose to the Grindstone",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Now that you have some iron, you can make a Grindstone.  A Grindstone is useful in converting raw pickaxe heads into pickaxes heads and to make other useful tools like a magnifying glass.  The grindstone uses sandstone blocks instead of your file duribility.\n\nNote:  You can make sandstone by crafting 4 sand into a sandstone block.\n\nTo complete the quest:\nCraft 1 Grindstone"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32703,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sandstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "sandstone"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "59:10": {
       "questID:3": 59,
@@ -5032,7 +5140,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Trick or Treat the Wood",
+          "name:8": "Trick or Treat your Wood",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -5065,6 +5173,1117 @@
               "Count:3": 10,
               "Damage:2": 10,
               "OreDict:8": "plateAnyTreatedWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "72:10": {
+      "questID:3": 72,
+      "preRequisites:11": [
+        58
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8001,
+                "c:2": 8221,
+                "j:1": 100,
+                "k:1": 2
+              }
+            },
+            "Damage:2": 62,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Its Better to See You my Dear",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that we have a grindstone lets make a magnifying glass.  The magnifying glass is made from glass panes and right-clicking on the sandstone in the grindstine.  Magnifying glasses are great for letting you know how much fluids you have in your tanks, the type and amount of fluids in your pipes.  A Magnifying glass will even tell you the type, and amount of fluid and if any calcification are in your boilers,  This is an extremely useful tool to have.\n\nYou can make more durable magnifying glasses from gems but for now we will make a glass one.  Get a pane of glass and right-click on the grindstone until you get a lens.  The craft a stick and lens to make your magnifying glass.\n\nNote:  You can craft glass panes by using the default Minecraft recipe or you can use your crucible and pour the glass into the plate mold.\n\nTo complete the quest:\nGet 1 pane of glass\nGet 1 stick\nCraft 1 Magnifying Glass"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glass_pane",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "plateGlass"
+            },
+            "1:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "stickWood"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8001,
+                  "c:2": 8221,
+                  "j:1": 100,
+                  "k:1": 2
+                }
+              },
+              "Damage:2": 62,
+              "OreDict:8": "craftingToolMagnifyingGlass"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "73:10": {
+      "questID:3": 73,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1518,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Turbine Machines Continued",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 1,
+          "desc:8": "For more machines that require a turbine"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "74:10": {
+      "questID:3": 74,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1302,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Engine Machiens Continued",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 1,
+          "desc:8": "Machines that require the engine for power"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "75:10": {
+      "questID:3": 75,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20061,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "On the Cutting Edge",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Lets make a Buzzsaw that can be used to make planks for logs, make sticks from samplings, or make plates from some gems and blocks.\n\nNote:  You will need a steel version for the gem and metal plates.  Uou will see the machine type as \"Cutter\" in NEI.\n\nTo complete the quest:\nCraft 1 Bronze or Steel Buzzsaw"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20061,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20062,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "76:10": {
+      "questID:3": 76,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20041,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Lathe me One",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A lathe is used to make sticks from planks, make screws from bolts, lenses from plates along with other useful recipes.\n\nNote:  Almost all lathe recipes only require 16 RU so there is no reason to make higher tiered Lathes unless you really want to.\n\nTo Complete this quest:\nCraft 1 Bronze lathe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20041,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "77:10": {
+      "questID:3": 77,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20121,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "My Friend Bender",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Roll Bender is a very sueful machine that will save you from making anvails.  This machine will make the curved plates from plates, and springs from long rods.  It even has a recipe ro make a bucket from 3 curved iron plates.\n\nTo complete this quest:\nCraft 1 Bronze Roll Bender"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20121,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "78:10": {
+      "questID:3": 78,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20111,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Keep them Rolling",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Rolling Mill is used to make plates from ingots.  You can make double plates from double ingots, and so forth.\n\nTo complete this quest:\nCraft 1 Bronze Rolling Mill\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20111,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "79:10": {
+      "questID:3": 79,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20141,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Is This a Cluster F**k?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Cluster Mill is used to make 4 foils from 1 plate.\n\nTo complete this quest:\nClast 1 Bronze Cluster Mill"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20141,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "80:10": {
+      "questID:3": 80,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20151,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Wire Milling",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Wiremill is used to make 2 wires from an ingot or 4 fine wire from a rod.\n\nTo complete this quest:\nCraft 1 Bronze wiremill"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20151,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "81:10": {
+      "questID:3": 81,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20551,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "The De-Bark is Worse Than the Bite",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Debarker is used to remove bark off of a log tom make beams.  You get more planks from a beam than a log.  Plus you get bark that can be used as a fuel or to make pellets for better solid fuel.\n\nTo complete the quest:\nCraft 1 Bronze Debarker"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20551,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "82:10": {
+      "questID:3": 82,
+      "preRequisites:11": [
+        74
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20101,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Under Compressor",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The compressor is used to create dense plates from 9 regular plates.\n\nTo complete this quest:\nCraft 1 Bronze Compressor"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20101,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "83:10": {
+      "questID:3": 83,
+      "preRequisites:11": [
+        74
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20071,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Squeezing Hugs",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The squeezer is used to create oils and juices from different food and seeds.\n\nTo complete the quest:\nCraft 1 Bronze Squeezer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20071,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "84:10": {
+      "questID:3": 84,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20211,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Looming on the Horizon",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Loom is useful in making wool from string, or industrial hemp fibers.  You can also make rope to climb down shafts or frames for your bees.\n\nTo complete the quest:\nCraft 1 Bronze Loom"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20211,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "85:10": {
+      "questID:3": 85,
+      "preRequisites:11": [
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20131,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Forming on the Rails",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Roll Former is used to make rails so you can make track for your minecarts.\n\nTo Complete this quest:\nCraft 1 Bronze Roll Former"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20131,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "86:10": {
+      "questID:3": 86,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20201,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "The Low Heat Extruder",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Extruder is a very useful machine as you can make almost every shape by melting ingots.  The low heat version can do low temperature metals (Copper, Tine, Bronze, and Brass).  You can also use the low temperature extruder for rubber and plastic shapes.  You will need a Tungston version for iron, steel and others.\n\nYou use a extruder plate shape to make the shape that you want.  You can make plates, curved plates, wires, cells, rods, pipes, and lots more by have the appropiate extruder plate.\n\nTo complete this quest:\nCraft 1 Low Heat Extruder (Steel)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20201,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "87:10": {
+      "questID:3": 87,
+      "preRequisites:11": [
+        86
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 10211,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Low Heat Extruder Shapes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Long Rod Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 3,
+              "Damage:2": 10200,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10202,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10207,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10211,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5438,7 +6657,7 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -324,
+          "x:3": -312,
           "y:3": -72,
           "id:3": 32,
           "sizeY:3": 24
@@ -5466,23 +6685,58 @@
         },
         "23:10": {
           "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 96,
+          "id:3": 57,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -336,
+          "y:3": -36,
+          "id:3": 58,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": -48,
           "id:3": 61,
           "sizeY:3": 24
         },
-        "24:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": 96,
           "id:3": 68,
           "sizeY:3": 24
         },
-        "25:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": 48,
           "id:3": 71,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -360,
+          "y:3": -84,
+          "id:3": 72,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -12,
+          "id:3": 86,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -12,
+          "id:3": 87,
           "sizeY:3": 24
         }
       },
@@ -5668,6 +6922,118 @@
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "No Description"
+        }
+      },
+      "order:3": 4
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -1128,
+          "y:3": -324,
+          "id:3": 73,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -1128,
+          "y:3": -204,
+          "id:3": 74,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -1104,
+          "y:3": -384,
+          "id:3": 75,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -1068,
+          "y:3": -372,
+          "id:3": 76,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -1032,
+          "y:3": -348,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -1008,
+          "y:3": -324,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -1032,
+          "y:3": -300,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -1068,
+          "y:3": -276,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -1104,
+          "y:3": -264,
+          "id:3": 81,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -1068,
+          "y:3": -228,
+          "id:3": 82,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -1068,
+          "y:3": -180,
+          "id:3": 83,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -1008,
+          "y:3": -384,
+          "id:3": 84,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -1008,
+          "y:3": -264,
+          "id:3": 85,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Machine Age",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20141,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Now it is time to let the machines to take over."
         }
       },
       "order:3": 3

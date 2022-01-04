@@ -3591,7 +3591,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n\nRequires\nCoagulator"
+          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n§f\nTo complete the quest:\nCraft 1 Coagulator"
         }
       },
       "tasks:9": {
@@ -6283,7 +6283,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Long Rod Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
+          "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Plate Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
         }
       },
       "tasks:9": {
@@ -6304,7 +6304,7 @@
             "1:10": {
               "id:8": "gregtech:gt.multiitem.technological",
               "Count:3": 1,
-              "Damage:2": 10202,
+              "Damage:2": 10201,
               "OreDict:8": ""
             },
             "2:10": {

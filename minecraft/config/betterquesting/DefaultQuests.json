@@ -1217,7 +1217,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is usefull for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n\n§cCareful: When you break the naturaly grown leave blocks of the tree, the resin will resplendish slower and slower until it completly stops. Let those poor trees breath!\n\n§fTo complete this quest gather the following items:\n1 Rubber Tree Sapling\n1 Sap Bag\n8 Resin"
+          "desc:8": "Search for some rubber tree saplings and plant them near your base. You can find rubber trees in cold biomes.\nWhen they are grown you can right click the yellow\u0027ish spots to extract some sticky resin. If you are lazy make a sap bag and place it on the resin spot, it will auto collect resin until it is full (64 items). Sadly you cannot auto extract from the bag, that has to be done by hand.\n\nSticky resin is usefull for all kinds of things:\n- You can craft torches from it\n- You can mix it together with some water (in the mixer) to make glue\n- and later you can make rubber from it, which will be a huge step for your automation.\n- Use as a replacement for slime balls like sticky pistons or leads.\n\n§cCareful: When you break the naturaly grown leave blocks of the tree, the resin will resplendish slower and slower until it completly stops. Let those poor trees breath!\n\n§fTo complete this quest gather the following items:\n1 Rubber Tree Sapling\n1 Sap Bag\n8 Resin"
         }
       },
       "tasks:9": {
@@ -1506,7 +1506,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n\n§fTo complete this quest craft:\n1 Bronze Engine"
+          "desc:8": "Many machines need KU (Kinetic Units) as powersource, a simple bronze steam engine will suffice for now to supply that need.\n§6\nTip: Steam Engines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss).  You can use multiple bronze boilers or 1 steel boiler.\n\n§fTo complete this quest craft:\n1 Bronze Engine"
         }
       },
       "tasks:9": {
@@ -1726,7 +1726,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\n\nA drain will collect water from a water source and fill a pipe.  The drain is made from iron.\n\nCraft a drain, put it on one of your huge wooden pipes that is submerged in water and it will start collecting it.\n§d\nPro Tip: Make sure the drain is placed in water that is in the river biome otherwise the water source might go dry.  \n§f\nTo complete this quest craft:\n1 Drain"
+          "desc:8": "We need to collect water and doing that by hand isn\u0027t enough anymore.\n\nA drain will collect water from a water source and fill a pipe.  The drain is made from iron.\n\nCraft a drain, put it on one of your huge wooden pipes that is submerged in water and it will start collecting it.\n§d\nPro Tip: Make sure the drain is placed in water that is in the river biome otherwise the water source might go dry.  You can collect sea water from the ocean,\n§f\nTo complete this quest craft:\n1 Drain"
         }
       },
       "tasks:9": {
@@ -1796,7 +1796,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "As mentioned before, if you supply your boiler with normal water it will calcify and loose effiencency. It\u0027s time to use all that nice steel you made to solve that issue.\nA dryer, alongside many other purposes, can process water to distilled water, which wont calcify your boilers at all! It\u0027s a worthwhile investment.\n\nAnother use would be to dry your sluice juice so that you can send it through a magnetic separator to get additional byproduct.\n\nTo complete this quest craft:\n1 Steel Dryer"
+          "desc:8": "As mentioned before, if you supply your boiler with normal water it will calcify and lose effiencency. It\u0027s time to use all that nice steel you made to solve that issue.\nA dryer, alongside many other purposes, can process water to distilled water, which wont calcify your boilers at all! It\u0027s a worthwhile investment.\n\nAnother use would be to dry your sluice juice so that you can send it through a magnetic separator to get additional byproduct.\n\nTo complete this quest craft:\n1 Steel Dryer"
         }
       },
       "tasks:9": {
@@ -1866,7 +1866,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.  If you want you can make an Invar Turbine that can make more power.  The only difference is the the 4 Invar rotors.  The hull is still bronze.\n§6\nTip: Steam Turbines output distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 10% loss)\n§f\nTo complete the quest by crafting:\n1 Bronze Turbine or Invar Turbine"
+          "desc:8": "Many machines need RU (Rotation Units) as powersource, a simple bronze steam turbine will suffice for now to supply that need.  If you want you can make an Invar Turbine that can make more power.  The only difference is the the 4 Invar rotors.  The hull is still bronze.\n§6\nTip: Steam Turbines outputs distilled water from their sides, so if you want to use that to circulate it back to your boilers, just add some pipes (they output less water than was used to make the steam for it, about 20% loss)\n§f\nTo complete the quest by crafting:\n1 Bronze Turbine or Invar Turbine"
         }
       },
       "tasks:9": {
@@ -2048,7 +2048,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -2118,7 +2118,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -2180,7 +2180,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The sluice gives you plenty of side products from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more sideproducts!\n§d\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f\nTo complete this quest craft:\n1 Bronze Sluice"
+          "desc:8": "The sluice gives you plenty of byproducts from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more byproducts!\n§d\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f\nTo complete this quest craft:\n1 Bronze Sluice"
         }
       },
       "tasks:9": {
@@ -2250,7 +2250,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it dusts down all things you throw in it, even full machines, to get their crafting materials back.  In order to make a shredder you will need a Flawless Diamond.  You can craft the flawless Diamond into a crystaline diamond plate.\n\nIn order to complete this quest craft:\n1 Bronze Shredder"
+          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it turn items you throw in it into dusts.  The shredder will take full machines, to get their crafting materials back as dusts.  In order to make a shredder you will need a Flawless Diamond.  You can craft the flawless Diamond into a crystaline diamond plate.\n\nIn order to complete this quest craft:\n1 Bronze Shredder"
         }
       },
       "tasks:9": {
@@ -2532,7 +2532,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor, a piston, and a lever.\n\nThe temperature sensor is good for giving you a readout of the crucible temperature.  It can also be configured to trigger a redstone signal if it reaches a specific temperature.  This expample would be to add a automatic cutoff with manual shutoff lever.\n\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier).  you can put a lever on the piston to manually trigger the piston to shutoff the burning box.\n\nDone, you now have an auto shutoff for your crucible :)\n\nThere are multiple ways to build these systems.  One would be to bury the biston 2 blocks below and 1 block in front of the burning box and to use glass on top of the piston.  That way when the piston is actrivated, you can look through the glass to see when the burning box stops burning.\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have some leave some buffer for your allowed temperature to accomidate for those extra delays!\n§f\nTo complete this quest you need to craft:\n1 Thermometer Sensor\n1 Sticky Piston\n4 Restone Alloy Wire\n1 Lever\n\n"
+          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor, a piston, and a lever.\n\nThe temperature sensor is good for giving you a readout of the crucible temperature.  It can also be configured to trigger a redstone signal if it reaches a specific temperature.  This expample would be to add a automatic cutoff with manual shutoff lever.\n\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier).  you can put a lever on the piston to manually trigger the piston to shutoff the burning box.\n\nDone, you now have an auto shutoff for your crucible :)\n\nThere are multiple ways to build these systems.  One would be to bury the piston 2 blocks below and 1 block in front of the burning box and to use glass on top of the piston.  That way when the piston is actrivated, you can look through the glass to see when the burning box stops burning.\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have a buffer for your allowed temperature to accomidate for those extra delays!\n§f\nTo complete this quest you need to craft:\n1 Thermometer Sensor\n1 Sticky Piston\n4 Restone Alloy Wire\n1 Lever\n\n"
         }
       },
       "tasks:9": {
@@ -3306,7 +3306,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Invar is an alloy of 2 Iron and 1 Nickel.  Invar is a very useful material.  It makes the most efficient burning boxes, better fluid pipes, higher capacity tanks and can be used as better rotors insidebor better turbines.\n\nTo complete this quest pour 6 Invar ingots from your crucible."
+          "desc:8": "Invar is an alloy of 2 Iron and 1 Nickel.  Invar is a very useful material.  It makes the most efficient burning boxes, better fluid pipes, higher capacity tanks and can be used as better rotors with bronze hulls for better turbines.\n\nTo complete this quest pour 6 Invar ingots from your crucible."
         }
       },
       "tasks:9": {
@@ -4017,7 +4017,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The treated wood tank can only hold 432,000 liters.  That may sound like alot but it fills up quickly.  If you need more storage or if you need to store gasses (gasses don\u0027t work with treated wood), you will need a different tank.  This is where Invar tanks come in handy.  Small Invar tanks hold 1,728,000 liters and need the same 3x3 space as the treated wood tank.  It can also hold gasses.  There are also large versions of the tanks but they require significantly more invar to create but can hold significantly larger amounts of non-acidic fluids.\n\nWarning:  Invar tanks cannot hold gasses.  You will need stainless steel tanks for that.\n\nTo complete the quest craft:\n25 Invar Walls\n1 Small Invar Main Tank Valve"
+          "desc:8": "The treated wood tank can only hold 432,000 liters.  That may sound like alot but it fills up quickly.  If you need more storage or if you need to store gasses (gasses don\u0027t work with treated wood), you will need a different tank.  This is where Invar tanks come in handy.  Small Invar tanks hold 1,728,000 liters and need the same 3x3 space as the treated wood tank.  It can also hold gasses.  There are also large versions of the tanks but they require significantly more invar to create but can hold significantly larger amounts of non-acidic fluids.\n\nWarning:  Invar tanks can hold gasses but not acids.  You will need stainless steel tanks for that.\n\nTo complete the quest craft:\n25 Invar Walls\n1 Small Invar Main Tank Valve"
         }
       },
       "tasks:9": {
@@ -5159,7 +5159,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "NORMAL",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -5200,6 +5200,35 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 32720,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.block.planks.fireproof",
+              "Count:3": 10,
+              "Damage:2": 10,
+              "OreDict:8": "plateAnyTreatedWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32728,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32721,
               "OreDict:8": ""
             },
             "2:10": {
@@ -5269,7 +5298,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that we have a grindstone lets make a magnifying glass.  The magnifying glass is made from glass panes and right-clicking on the sandstone in the grindstine.  Magnifying glasses are great for letting you know how much fluids you have in your tanks, the type and amount of fluids in your pipes.  A Magnifying glass will even tell you the type, and amount of fluid and if any calcification are in your boilers,  This is an extremely useful tool to have.\n\nYou can make more durable magnifying glasses from gems but for now we will make a glass one.  Get a pane of glass and right-click on the grindstone until you get a lens.  The craft a stick and lens to make your magnifying glass.\n\nTip:  You can craft glass panes by using the default Minecraft recipe or you can use your crucible and pour the glass into the plate mold.  The default recipe you get 16 glass panes from 6 glass blocks.  By using the crucible you can get 9 glass panes from 1 glass block.\n\nTo complete the quest:\nGet 1 pane of glass\nGet 1 stick\nCraft 1 Magnifying Glass"
+          "desc:8": "Now that we have a grindstone lets make a magnifying glass.  The magnifying glass is made from glass panes and right-clicking on the sandstone in the grindstine.  Magnifying glasses are great for letting you know how much fluids you have in your tanks, the type and amount of fluids in your pipes.  A Magnifying glass will even tell you the type, and amount of fluid and if any calcification are in your boilers,  This is an extremely useful tool to have.\n\nYou can make more durable magnifying glasses from gems but for now we will make a glass one.  Get a pane of glass and right-click on the grindstone until you get a lens.  Then craft a stick and lens to make your magnifying glass.\n\nTip:  You can craft glass panes by using the default Minecraft recipe or you can use your crucible and pour the glass into the plate mold.  The default recipe you get 16 glass panes from 6 glass blocks.  By using the crucible you can get 9 glass panes from 1 glass block.\n\nTo complete the quest:\nGet 1 pane of glass\nGet 1 stick\nCraft 1 Magnifying Glass"
         }
       },
       "tasks:9": {

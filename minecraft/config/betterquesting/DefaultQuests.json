@@ -4,7 +4,6 @@
     "0:10": {
       "questID:3": 0,
       "preRequisites:11": [
-        1,
         8
       ],
       "properties:10": {
@@ -34,11 +33,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Hammer, anvail, file and wrench",
+          "name:8": "Hammer, anvail, file and wrench [Old Method]",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "For our next major step (the crucible) we need a hammer and an anvail.\n\nWith the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil.  The easiest anvil is made from stone but only has 1 use. Making an anvil from black or red granite will last longer.  Later you can make one from your metals.  Place 2 ingots (I recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 8 plates for now.\n\nNow make a file using 2 of your plates.\n\nNext you will want make a wrench and you are almost ready to take on the world.\n\nFinally you will need a rolling pin.  You can make this from wood.  All you need is 1 plank and 2 sticks.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)\n§9\nNote:  You can make either a stone anvil, black granite anvil, or red granite anvil.  You can see these options by clicking the right arrow in the bottom right of the pane to the right.  The stone anvil will complete the quest but will break when you make your first plate.  I recommend to make a level 3 pick (red/black granite rocks) and mine some red/black granite stone to make the better anvils.\n§f\nTo complete this quest make the following:\n1 Hammer from rocks.\n1 Stone or Black Granite or Red Granite anvil\n1 File (recommend bronze or lead)\n1 Wrench (recommend bronze or lead)\n1 Rolling Pin *from wood plank and sticks)\n"
+          "desc:8": "§eWarning:  This quest is from the old way to get to the crucible.  The Brick burning Box is a much faster way and you don\u0027t have to waste your metal making a plates, a file or a wrench before you can use a crucible to pour your plates.\n§f\nFor our next major step (the crucible) we need a hammer and an anvail.\n\nWith the crucible we can easily cast those but for now we need another way.\nFirst make a hammer and anvil.  The easiest anvil is made from stone but only has 1 use. Making an anvil from black or red granite will last longer.  Later you can make one from your metals.  Place 2 ingots (I recommend bronze) on the anvil (one left, one right) hammer it and you get double ingot, use the anvil again and you get a plate and some scraps. You will need 8 plates for now.\n\nNow make a file using 2 of your plates.\n\nNext you will want make a wrench and you are almost ready to take on the world.\n\nFinally you will need a rolling pin.  You can make this from wood.  All you need is 1 plank and 2 sticks.\n\nNow you finally have the tools you need to make a crucible, which will be your first way to indirectly increase your ore output (when you cast plates they only cost 1 ingot worth of material, and rods only cost 0.5 ingots)\n§9\nNote:  You can make either a stone anvil, black granite anvil, or red granite anvil.  You can see these options by clicking the right arrow in the bottom right of the pane to the right.  The stone anvil will complete the quest but will break when you make your first plate.  I recommend to make a level 3 pick (red/black granite rocks) and mine some red/black granite stone to make the better anvils.\n§f\nTo complete this quest make the following:\n1 Hammer from rocks.\n1 Stone or Black Granite or Red Granite anvil\n1 File (recommend bronze or lead)\n1 Wrench (recommend bronze or lead)\n1 Rolling Pin (from wood plank and sticks)\n"
         }
       },
       "tasks:9": {
@@ -786,11 +785,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Mixing Bowl (and bronze)",
+          "name:8": "Mixing Bowl and bronze [Old Method]",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Copper tools are really bad (quality 0 and low durability), time to get something better.\nFirst make a mixing bowl, then right click it with some copper nuggest and tin nuggest (3:1 ratio) and then mix it with an empty hand.\nYou now have bronze compound, you can melt it in the furnace to get bronze nuggets.\nUse a crafting table to combine the nuggets into ingots.\n\nMake the following:\n1 Mixing Bowl\n36 Bronze Compound\n4 Bronze Ingots"
+          "desc:8": "§eWarning:  This quest is the old way to get to the crucible.  You can still do this path if you want but the brick burning box is the best way to get there.\n§f\nCopper tools are really bad (quality 0 and low durability), time to get something better.\nFirst make a mixing bowl, then right click it with some copper nuggest and tin nuggest (3:1 ratio) and then mix it with an empty hand.\nYou now have bronze compound, you can melt it in the furnace to get bronze nuggets.\nUse a crafting table to combine the nuggets into ingots.\n\nMake the following:\n1 Mixing Bowl\n36 Bronze Compound\n4 Bronze Ingots"
         }
       },
       "tasks:9": {
@@ -1042,7 +1041,7 @@
     "11:10": {
       "questID:3": 11,
       "preRequisites:11": [
-        2
+        91
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1400,7 +1399,7 @@
     "15:10": {
       "questID:3": 15,
       "preRequisites:11": [
-        2
+        91
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2994,12 +2993,12 @@
       "questID:3": 38,
       "preRequisites:11": [
         16,
-        45
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
@@ -3018,7 +3017,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 4 wrough iron, 3 invar, 1 chromium and 1 manganese.  For now lets make our first stainless steel in our crucible.  You should have get your chromium and manganese from byprodusts of your ore processing.\n\nRequires:\n4 Iron or Wrought Iron Ingots\n3 Invar Ingots\n1 Chromium dust\n1 Manganese dust\n\nMake 6 stainless steel plates and 2 stainless steel long rods.\n\nYou can pour the rest as what every you want but I wsould suggest some bolts.\n"
+          "desc:8": "We are starting to work with acids, so we need some material that is acid proof.\nLets make stainless steel.\nI recommend you make an automated system from some hoppers, a bit of redstone and a dedicated crucible. It will be worth it, because we will need A LOT OF IT.\n\n\nStainless steel is an alloy of 6 iron, 1 nickel, 1 chromium and 1 manganese.  Current versions of GT6 no longer need invar so you can use the iron and nickel directly.  For now lets make our first stainless steel in our crucible.  You should have get your chromium and manganese from byprodusts of your ore processing.  By now you should have plenty of iron.  The nickel you can get from Garnierite or pendlandite.  You can centrifuge sluice juice for nickel and chromium.  Finally you will need some pyrolusite to get the manganese.\n\nRequires:\n6 Iron or Wrought Iron Ingots, or plates\n1 Nickel dust, ingot, or plate\n1 Chromium dust, ingot or plate\n1 Manganese ingot, or plate\n\nMake 6 stainless steel plates and 2 stainless steel long rods.\n\nYou can pour the rest as what every you want but I wsould suggest some bolts.\n"
         }
       },
       "tasks:9": {
@@ -3026,7 +3025,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -3038,21 +3037,21 @@
             },
             "1:10": {
               "id:8": "gregtech:gt.meta.ingot",
-              "Count:3": 3,
-              "Damage:2": 8661,
-              "OreDict:8": "ingotInvar"
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "ingotNickel"
             },
             "2:10": {
-              "id:8": "gregtech:gt.meta.dust",
+              "id:8": "gregtech:gt.meta.ingot",
               "Count:3": 1,
               "Damage:2": 240,
-              "OreDict:8": "dustChrome"
+              "OreDict:8": "ingotChromium"
             },
             "3:10": {
-              "id:8": "gregtech:gt.meta.dust",
+              "id:8": "gregtech:gt.meta.ingot",
               "Count:3": 1,
               "Damage:2": 250,
-              "OreDict:8": "dustManganese"
+              "OreDict:8": "ingotManganese"
             },
             "4:10": {
               "id:8": "gregtech:gt.meta.plate",
@@ -3065,6 +3064,241 @@
               "Count:3": 2,
               "Damage:2": 8636,
               "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "ingotAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "ingotNickel"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "dustChromium"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "ingotManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": "plateStainlessSteel"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "ingotAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "dustNickel"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "dustChrome"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "ingotManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": "plateStainlessSteel"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Railcraft:part.plate",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "plateAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "plateNickel"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "plateChromium"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "plateManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": "plateStainlessSteel"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Railcraft:part.plate",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "plateAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "plateNickel"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "dustChrome"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "plateManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": "plateStainlessSteel"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": "stickLongStainlessSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Railcraft:part.plate",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "plateAnyIron"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 280,
+              "OreDict:8": "dustNickel"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 240,
+              "OreDict:8": "dustChrome"
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 250,
+              "OreDict:8": "plateManganese"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 6,
+              "Damage:2": 8636,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 2,
+              "Damage:2": 8636,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3198,7 +3432,9 @@
     },
     "42:10": {
       "questID:3": 42,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -3455,7 +3691,9 @@
     },
     "46:10": {
       "questID:3": 46,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -3774,7 +4012,9 @@
     },
     "52:10": {
       "questID:3": 52,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        38
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -4273,7 +4513,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2500K)\n\nAs with all molds you can chisel the right pattern into the molds when placed in world (after cooked in the furnace to make them ceramic) but it\u0027s much easier to define the pattern beforehand in the raw clay.\n\nYou want at least 1 plate mold (Yay finally your plates dont cost you 2 ingots anymore), an ingot mold, a rod mold and one pickaxe mold (so you can make metal tools which are just much faster and durable than stone tools).\n\nBe aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!\n§c§d\nPro Tip:  You can use a clay brick for an ingot, a stick for a rod, some wood planks for plates, and a wooden pick axe for the pick axe mold.  As these items will be comsumed, you won\u0027t loose your precious metal in making these molds.  Also when making other molds from your metal tools (Axe, File, Hammer, etc) if you use a full tool (one with a handle) instead of just hte tool head, the tool will take some duribility damage instead of being consumed in the crafting process.\n§f\nCraft the follwoing items:\n1 Ingot Clay Mold\n1 Rod Clay Mold\n1 Plate Clay Mold\n1 Pick Axe Clay Mold"
+          "desc:8": "Clay molds should be the first molds for you to make. You can reuse them and they can take quite some temperature (up to 2500K).  You will need your knife and a rooling pin asnd some clay to make the blank molds.\n\nNote: The old way you would cook the raw clay molds in a furnace and then use a chisel to chip out the right pattern into the baked blank molds.  you can still do this if you want but there is a much better way.  You can now define the pattern beforehand in the raw clay mold then cook that mold in a furnace.  No chisel needed.\n\nYou want at least 1 plate mold (Yay finally your plates dont cost you 2 ingots anymore), an ingot mold, a rod mold and one pickaxe mold (so you can make metal tools which are just much faster and more durable than stone tools).\n\nBe aware that metal molds dont come with a predefined pattern and you have to chisel those in world (but you dont have to worry about that for now)!\n§c§d\nPro Tip:  You can use a clay brick for an ingot, a stick for a rod, some wood planks for plates, and a wooden pick axe for the pick axe mold.  As these items will be comsumed, you won\u0027t loose your precious metal in making these molds.  Also when making other molds from your metal tools (Axe, File, Hammer, etc) if you use a full tool (the tool head with a handle) instead of just the tool head.  You would lose the tool head if use just a tool head but a full tool will only use some duribility instead of being consumed in the crafting process.\n§f\nCraft the follwoing items:\n1 Rolling pin\n1 Ingot Clay Mold\n1 Rod Clay Mold\n1 Plate Clay Mold\n1 Pick Axe Clay Mold"
         }
       },
       "tasks:9": {
@@ -4308,6 +4548,21 @@
               "Count:3": 1,
               "Damage:2": 912,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 9300,
+                  "c:2": 8221,
+                  "j:2": 3200,
+                  "k:2": 2800
+                }
+              },
+              "Damage:2": 46,
+              "OreDict:8": "craftingToolRollingPin"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4564,7 +4819,7 @@
     "64:10": {
       "questID:3": 64,
       "preRequisites:11": [
-        2
+        92
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5169,7 +5424,7 @@
     "70:10": {
       "questID:3": 70,
       "preRequisites:11": [
-        8
+        0
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5189,11 +5444,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Bronze or Lead Burning Box",
+          "name:8": "Bronze or Lead Burning Box [Old Method]",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units and 75% effeciency or the brick or lead burning boxes.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n\nYou will also need a wrench to make the burning box."
+          "desc:8": "§eWarning:  This quest is for the old method to get to a crucible.  There is now a brick burning box that can get you to a crucible much quicker without wasting any of you metals.\n§f\nYou need a good burning box.  In earlier GT6 versions you would need to make a lead burning box but not any longer.  Even if you created a Brick Burning Box, you will need a better burning box.  Bronze is the best as it provides more heat units and 75% effeciency or the brick or lead burning boxes.  At this point the lead is not really worth it any longer.  So your task is to make a Bronze Burning Box.\n\nYou will need:\n12 Bricks\n1 Double copper plate\n4 Bronze plates.\n\nYou will also need a wrench to make the burning box."
         }
       },
       "tasks:9": {
@@ -5698,7 +5953,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The Roll Bender is a very useful machine that will save you from making an anval.  This machine will make the curved plates from plates, and springs from long rods.  It even has a recipe to make a bucket from 3 curved iron plates.\n\nTo complete this quest:\nCraft 1 Bronze Roll Bender"
+          "desc:8": "The Roll Bender is a very useful machine that will save you from making an anvail.  This machine will make the curved plates from plates, and springs from long rods.  It even has a recipe to make a bucket from 3 curved iron plates.\n\nTo complete this quest:\nCraft 1 Bronze Roll Bender"
         }
       },
       "tasks:9": {
@@ -6545,7 +6800,7 @@
     "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
-        2
+        91
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6722,6 +6977,243 @@
           }
         }
       }
+    },
+    "91:10": {
+      "questID:3": 91,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 4,
+            "Damage:2": 8610,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bronze or Bust",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you used to new way tom get to a crucible by building a brick burning box, you now need to make your first bronze.  If you used the old way by making bronze in the ceramic mixing bowl, then you can gust pick up your already made bronze and get an extra cooking for do it the hard way.\n\nTo make bronze you need to put 1 ingot (can be plate or any 1 ingot equivalent) of tin to 3 ingots of cooper.  That is a ratio of 3 Copper to 1 Tin.  The best way is to make a bunch of ingots of copper from your crushed cooper or tetrahedrite and make some tin ingots from your crushed tin or Cassiterite first then through in your copper and tin ingots after cleaning out any leftover scrap from your crucible.  \n\n§eNote:  You can clean out you crucible by right clicking the crucible with your hand or a shovel.  §cWarning:  Only use your hand if the crucible is cold otherwise you may get injured or find an untimely death.\n\n§fYou will see the tin melt\n§f\n\nTo complete this quest Get the following items:\n3 Copper Ingots\n1 Tin Ingot\nMake 4 Bronze ingots or 4 Bronze plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 3,
+              "Damage:2": 290,
+              "OreDict:8": "ingotCopper"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 1,
+              "Damage:2": 500,
+              "OreDict:8": "ingotTin"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 4,
+              "Damage:2": 8610,
+              "OreDict:8": "ingotBronze"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 3,
+              "Damage:2": 290,
+              "OreDict:8": "ingotCopper"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 1,
+              "Damage:2": 500,
+              "OreDict:8": "ingotTin"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 4,
+              "Damage:2": 8610,
+              "OreDict:8": "plateBronze"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "92:10": {
+      "questID:3": 92,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8610,
+                "c:2": 8610,
+                "j:3": 44800,
+                "k:2": 5300
+              }
+            },
+            "Damage:2": 16,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tool Time for Metal Heads",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you made to the crucible using the new method of the brick burning box, then you are going to need some tools so that you can make some machine and progress.  If you used the old harder way to get to the crucible, then you can just submit the tools that you already made and get another cookie for your hard work.\n\nSo what tools are you going to need.?  Well you are going to need a hammer, file, and wrench.  Yoiu can make your tools out of almost any metal or alloy.  At this point in GT6, your best materials are lead and bronze.  You can use NEI to look at the durability of each metal and alloy.  There are better materials than others.  Fox example, copper is very poor material for tools since the tools won\u0027t last beyond a use or two.\n\nTo make a metal hammer, you will need a stone hammer.  A stone hammer is just 6 rocks and a stick.  For the metal hammer, you take 6 ingots and your stone hammer to make a hammer head.  Use then combine your hammer head and a stick in a crafting grid to make the hammer.  It is similar with a file, combine a file head and a stick.  The wrench is 4 plates and a hammer.\n§b\nPro Tip:  You can make some tool molds for some tools like the hammer, file, pick, axe, etc.  More complex tools like a wrench, monkey wrench, wire cutters, or pinchers cannot be made through a mold.  The key is to make a full tool with a stick before you combine the tool with the mold in a crafting grid.  If you combine a mold and a tool head, you will lose the tool head but if you combine a full tool and a mold, you will only use a little bit of the tool durability and now you can pour you tool heads right from the crucible.  The tool molds will produce raw tool heads.  You will need to use a file to make a tool head from the raw tool heads oryou can use a grindstone once you make some iron.\n§f\nTo complete this quest make the followign tools:\n1 Hammer\n1 File\n1 Wrench"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 1,
+                    "id:2": 16
+                  },
+                  "1:10": {
+                    "lvl:2": 2,
+                    "id:2": 13
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8221,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": "craftingToolHardHammer"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 9314,
+                  "j:3": 44800,
+                  "k:2": 8800
+                }
+              },
+              "Damage:2": 18,
+              "OreDict:8": "craftingToolFile"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8610,
+                  "j:3": 44800,
+                  "k:2": 5300
+                }
+              },
+              "Damage:2": 16,
+              "OreDict:8": "craftingToolWrench"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -6776,8 +7268,8 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -144,
+          "x:3": -156,
+          "y:3": -108,
           "id:3": 0,
           "sizeY:3": 24
         },
@@ -6811,7 +7303,7 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -192,
+          "x:3": -204,
           "y:3": -108,
           "id:3": 8,
           "sizeY:3": 24
@@ -6825,15 +7317,15 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -192,
+          "x:3": 60,
+          "y:3": -204,
           "id:3": 11,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -96,
+          "x:3": 60,
+          "y:3": -156,
           "id:3": 15,
           "sizeY:3": 24
         },
@@ -6854,14 +7346,14 @@
         "11:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -60,
+          "y:3": -36,
           "id:3": 35,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -144,
+          "x:3": -36,
+          "y:3": -192,
           "id:3": 59,
           "sizeY:3": 24
         },
@@ -6875,7 +7367,7 @@
         "14:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -96,
+          "y:3": -72,
           "id:3": 64,
           "sizeY:3": 24
         },
@@ -6896,22 +7388,36 @@
         "17:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": -96,
+          "y:3": -72,
           "id:3": 67,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -180,
+          "x:3": -156,
+          "y:3": -168,
           "id:3": 69,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -108,
           "y:3": -108,
           "id:3": 70,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -168,
+          "id:3": 91,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -120,
+          "id:3": 92,
           "sizeY:3": 24
         }
       },
@@ -7301,7 +7807,7 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": -168,
           "y:3": 96,
           "id:3": 52,
           "sizeY:3": 24
@@ -7484,7 +7990,7 @@
       "home_image:8": "gt6bde:textures/gui/default_title.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

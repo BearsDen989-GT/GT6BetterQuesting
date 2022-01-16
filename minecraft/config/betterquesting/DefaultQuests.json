@@ -1065,7 +1065,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Do you think sometimes \u0027it would be great to have a crafting table that holds it\u0027s items and also has some storage for all the tools i need\u0027? Wouldn\u0027t it even better when that crafting table also refills your buckets with fluid when placed next to a tank with that fluid?\nSay no more, here is the advanced crafting table!\n\nTo complete this quest craft:\n1 Advanced Crafting Table from bronze"
+          "desc:8": "Do you think sometimes \u0027it would be great to have a crafting table that holds it\u0027s items and also has some storage for all the tools i need\u0027? Wouldn\u0027t it even better when that crafting table also refills your buckets with fluid when placed next to a tank with that fluid?\nSay no more, here is the advanced crafting table!\n§b\nPro Tip:  To have water or any fluid work with the Advanced Crafting Table, you will need a tank like a barrel or drum or a pipe with at least 1,000 L bandwidth.\n§f\nTo complete this quest craft:\n1 Advanced Crafting Table from bronze"
         }
       },
       "tasks:9": {
@@ -1132,11 +1132,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Yolu Got Me Over a Barrel Liquid Storage",
+          "name:8": "You Got Me Over a Barrel Liquid Storage",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The drain and the capacity of the wooden pipes are a bit limited.  Lets get a tank to store some water where it can auto refil your buckets or jsut to buffer some water for you cauldron.\n\nTo insert fluid into a tank you need a funnel (right clicking the tank itself doesnt work)\n\nTo get it out again, you use the tap.\n\nThe tank will keep it\u0027s storage when broken, so you can transport water with it!\n\nThese wooden cheap barrels can hold 8,000 L (8 buckets) of low heat non acidic liguids (no gasses).  You can use lead, bronze, brass, or bismith long rods.  You will need 2 rods of the same metal to make a barrel.\n\n\n§cCareful: Wooden tanks can catch fire if placed to close to a heat source (~3block radius) or you fill it with a fluid that is too hot\n§f\nTo complete this quest craft:\n1 Wooden Barrel (Lead, Bronze, Brass, or Bismuth)\n1 Ceramic Tap\n1 Ceramic Funnel"
+          "desc:8": "The drain and the capacity of the wooden pipes are a bit limited.  Lets get a tank to store some water where it can auto refil your buckets or just to buffer some water for you cauldron.\n\nTo insert fluid into a tank you need a funnel (right clicking the tank itself doesnt work)\n\nTo get it out again, you use the tap.  A Barrel can also be set to auto empty from the bottom by using a monkey wrench.\n\nThe tank will keep it\u0027s storage when broken, so you can transport water with it!\n\nThese wooden cheap barrels can hold 8,000 L (8 buckets) of low heat non acidic liguids (no gasses).  You can use lead, bronze, brass, or bismith long rods.  You will need 2 rods of the same metal to make a barrel.\n\n\n§cCareful: Wooden tanks can catch fire if placed to close to a heat source (~3block radius) or you fill it with a fluid that is too hot\n§f\nTo complete this quest craft:\n1 Wooden Barrel (Lead, Bronze, Brass, or Bismuth)\n1 Ceramic Tap\n1 Ceramic Funnel"
         }
       },
       "tasks:9": {
@@ -2473,7 +2473,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Ore Washing",
+          "name:8": "Ore Washing by Hand",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -2864,7 +2864,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -2935,7 +2935,12 @@
           "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Tungsten/Scheelite/Wolframite/\n   Ferberite/Huebnerite\n\n- Oil\n\n- Black Sand/Lemonite/Hematite\n\n- Tantalum/Tantalite"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     },
     "37:10": {
@@ -3933,7 +3938,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n§f\nTo complete the quest:\nCraft 1 Coagulator"
+          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  The next quest will allow for you to add the item barrel and make rubber bars.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n§f\nTo complete the quest:\nCraft 1 Coagulator"
         }
       },
       "tasks:9": {
@@ -4336,8 +4341,7 @@
     "57:10": {
       "questID:3": 57,
       "preRequisites:11": [
-        45,
-        68
+        45
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6742,7 +6746,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that you have a bath, you can make a better wooden barrel than the basic cheap ones using your treated wood and iron to make a regular wooden barrel.  The wooden barrel holds double (16,000 L or 16 buckets) of not hot or acidic liquids.\n\nJust like the ceap wooden barrels, you will need a funnel to put liquids in, and a tap to take liquids out.\n\nTo complete this quest craft:\n1 Wooden Barrel (iron)\n1 Ceramic tap\n1 Ceramic funnel"
+          "desc:8": "Now that you have a bath, you can make a better wooden barrel than the basic cheap ones using your treated wood and iron to make a regular wooden barrel.  The wooden barrel holds double (16,000 L or 16 buckets) of not hot or acidic liquids.\n\nJust like the ceap wooden barrels, you will need a funnel to put liquids in, and a tap to take liquids out.  You can also use a monkey wrench to set the barrel to auto empty from the bottom.\n\nTo complete this quest craft:\n1 Wooden Barrel (iron)\n1 Ceramic tap\n1 Ceramic funnel"
         }
       },
       "tasks:9": {
@@ -7189,6 +7193,993 @@
               },
               "Damage:2": 16,
               "OreDict:8": "craftingToolWrench"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "93:10": {
+      "questID:3": 93,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.plate",
+            "Count:3": 4,
+            "Damage:2": 8651,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Galvanize My Steel",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "To start with some basic electrical machines, you will need to make Galvanized Steel.  This is steel parts that are bathed in molton zinc.  So how do we bathe our Steel?  Very simple, set up a crucible.  Put you wooden bathing pot at the same level as the burning box.  Next put a tap on the side of the crucible just above the bath.  Now put some zinc in the crucible and run te burning box until the zinc melts.  Now right click the tab and the molton zinc should pour into the bath.  Finally put your steel parts into the bath and right click until you get them back.  \n§b\nNote:  This is one time where touching molton metal will not burn you so you will not need any special tools to make your galvanized steel.\n§f\nTo complete this quest get the needed parts to set up a galvanized steel bath and make some galvanized steel:\n1 Ceramic Crucible\n1 Ceramic Tap\n1 Wooden Bathing Pot (1/2 size or full sized)\n4 Galvanized Steel plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32728,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32721,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 4,
+              "Damage:2": 8651,
+              "OreDict:8": "plateSteelGalvanized"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32728,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32720,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 4,
+              "Damage:2": 8651,
+              "OreDict:8": "plateSteelGalvanized"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "94:10": {
+      "questID:3": 94,
+      "preRequisites:11": [
+        93
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 10111,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "DINE - A - MOE?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now it is time to build something that will acttually generate some electricity.  You will need to make some galvanized steel screws, galvanized steel gear, and a robust galvanized steel hull.  Make your galvanized steel double plates, then put them in the bath to galvanize them to save you a little bit of zinc.\n\nThe dynamo will convert the rotational energy (RU) that you get from your turbine into electrical energy (EU).  Yjr LV Dynamo will convert 32 RU/t (Ranges from 16 to 64) into 22 EU/t (Ranges from 11 to 44).  The rotational energy needs to be on the back and the electrical energy will be on the front.  Don\u0027t forget you can use your wrench to rotates machines to they match up correctly.  You are responsible to determine how many and what kind of boiler setup you need to generate the correct amount of electrical energy you will need for your machines.  So yes you will need to do some math.\n§e\nNote:  You will need to make a LV Dynamo.  To make the LV Dynamo you will need to make a magnetic iron long rod.  There is a manual way to make magnetic iron long rod without needing an electromagnet.  You cart it by using an iron long rod and some redstone dust/gems in a crafting grid.\n§b\nPro Tip:  You might cvonsider making a wiremill to be more effecient on your copper as we will be needing a significant number of copper wires.\n§f\nTo complete this quest you need to make:\n1 Magnetic Iron Long Rod\n1 LV Dynamo"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.stickLong",
+              "Count:3": 1,
+              "Damage:2": 8645,
+              "OreDict:8": "stickLongIronMagnetic"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10111,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "95:10": {
+      "questID:3": 95,
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20091,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Electrolyzer",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So you now need to get oxygen for your roasters and the quickest way to get it is by electrolyzing water.  So lets make an electrolyzer.  This is very simple, a robust galvanized steel hull and tin cables and platinium wires.  So yes you will need to have some platinum to make the electroylzer.  You can get platinum from putting Sperryline or Sheldonite in your crucible.\n\nTip:  Make sure you have a couple of tanks to store the oxygen and hydrogen.  You can also use quadruple pipes to carry both gasses from the electrolyzer to the tanks.\n\nTo complete this quest craft:\n1 LV Dynamo\n1 LV Electrolyzer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10111,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20091,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "96:10": {
+      "questID:3": 96,
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 10031,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Lets Get Magnetic",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Some machines in GT6 require MU Units.  That is Magnetic Energy Unites.  To generate MU\u0027s you need an elctromagnet.  Electromagnects convert electrical energy into magnetic energy.  The LV Electromagnet will convert 32 EU/t into 16 MU/t.  The electromagnet only needs a galvanized steel hull and some copper wires.  So lets make an electromagnet.\n\nIn setting up the electromagnet, you can place the dynamo on any side except the front or back.  You will then put your machine that requires magnetic energy on either the front or back.\n\nTo complete this quest:\n1 LV Electromagnet"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10111,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10031,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "97:10": {
+      "questID:3": 97,
+      "preRequisites:11": [
+        96
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20301,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Magnetic Separator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Magnetic Separator is a great machine to give you byproducts from your sluice juice that you don\u0027t get from centrifuging it.  You can also get other byproducts from sand and refined ores from purified ores.  You can see the different recipies in NEI by clicking on the area between the input and output slots in the machine UI.  For the sluice juice you will need to dry the juice using a dryer before putting it into the magnetic separator.  So lets make a magnetic separator and the dynamo and electromagnet you need to get it working.\n\nTo complete this quest you will need to make:\n1 LV Dynamo\n1 LV Electromagnet\n1 LV Magnetic Separator"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10111,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10031,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20301,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "98:10": {
+      "questID:3": 98,
+      "preRequisites:11": [
+        96
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20221,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Polarized Nation",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The polarizer will make you magnetic rods and other items so you don\u0027t have to use your precious redstone.  The polizer also requires magnetic eenergy so you will need a dynamo and electromagnet for it to work.  So lets make a LV Polizer.\n\nTo Complete this quest make:\n1 LV Dynamo\n1 LV Electromagnet\n1 LV Polizer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10111,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10031,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20221,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "99:10": {
+      "questID:3": 99,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20391,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Laminator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Laminator is a very useful machine to turn your wires into cables.  You only need a burning box to generate the heat that the laminator needs.  You will need rubber foil and you can get that from the low heat extruder.  So lets make a Steel laminator.\n\nTo Complete the quest make:\n1 Laminator (Steel)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20391,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "100:10": {
+      "questID:3": 100,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8217,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Make Sure You Have Your Rubbers",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you have your Coagulator, lets make some rubber bars.  The best way is to use an Item Barrel.  You also need to get some rubber nuggets from the coagulator and craft 1 rubber bar (ingot).  Place the item barrel below the coagulator and then put the rubber bar in the item barrel.  Now the item barrel will make rubber bars for you.\n\nTo complete this quest craft:\n1 Item Barrel (Lead, Bismuth, Bronze, Brass, or Iron)\n8 Rubber Bars (ingots)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6998,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8217,
+              "OreDict:8": "ingotRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6991,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8217,
+              "OreDict:8": "ingotRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6992,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8217,
+              "OreDict:8": "ingotRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6990,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8217,
+              "OreDict:8": "ingotRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6999,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8217,
+              "OreDict:8": "ingotRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "101:10": {
+      "questID:3": 101,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 4,
+            "Damage:2": 26522,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Rubber Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that we have rubber, lets make some rubber pipes which will not burn.  These pipes can pass non acidic fluids and gasses.  It has a limitaion on how hot the liquids can be so no lava.\n\nTo complete this quest make:\n1 Low Heat Extruder Mold (Normal Pipe)\n4 Rubber Pipes"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10211,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26522,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "102:10": {
+      "questID:3": 102,
+      "preRequisites:11": [
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26525,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Quadruple Rubber Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A Single pipe is useful but what do you do if you have multiple gasses or fluids that you need to send out of a machine at the same time?  You use Quadruple pipes.  So lets make some Quadruple rubber pipes using the rubber pipes that you made in the previous quest.  You can craft the Quadripp;e pipes in a crafting grid.\n\nTo complete the quest craft:\n4 Normal Rubber Pipes\n1 Quadruple Rubber Pipe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26522,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 26525,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "103:10": {
+      "questID:3": 103,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26526,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Nonuple Rubber Fluid Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So what do you do if you got more that 4 fluids or gasses that you need to move at once?  Use Nonuple pipes.  That is 9 small pipes in one.\n\nTo complete this quest:\n1 Low Heat Extruder (Small Pipe)\n9 Small Rubber Pipes\n1 Nonuple Rubber Pipe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10210,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 9,
+              "Damage:2": 26521,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 26526,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7794,7 +8785,7 @@
         "13:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": -72,
+          "y:3": -84,
           "id:3": 50,
           "sizeY:3": 24
         },
@@ -7845,6 +8836,34 @@
           "x:3": 72,
           "y:3": 24,
           "id:3": 62,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -84,
+          "id:3": 100,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -108,
+          "id:3": 101,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -108,
+          "id:3": 102,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -72,
+          "id:3": 103,
           "sizeY:3": 24
         }
       },
@@ -7977,6 +8996,76 @@
         }
       },
       "order:3": 3
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -924,
+          "y:3": -456,
+          "id:3": 93,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -888,
+          "y:3": -384,
+          "id:3": 94,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -816,
+          "y:3": -360,
+          "id:3": 95,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -816,
+          "y:3": -420,
+          "id:3": 96,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -744,
+          "y:3": -456,
+          "id:3": 97,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -744,
+          "y:3": -408,
+          "id:3": 98,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -852,
+          "y:3": -468,
+          "id:3": 99,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Electric Age",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 28369,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer.  We will then expand to the point where you can store some of your electricity."
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {

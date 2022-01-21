@@ -3462,7 +3462,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We start working with ever higher melting point materials, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to find ? of those meteors you found while picking up rocks from the ground.\n\nMake a meteoric steel cruicible and at least 1 blank mold."
+          "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to find ? of those meteors you found while picking up rocks from the ground.\n\nMake a meteoric steel cruicible and at least 1 blank mold."
         }
       },
       "tasks:9": {
@@ -3490,7 +3490,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "43:10": {
       "questID:3": 43,
@@ -3515,11 +3534,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Next step (Alternative)",
+          "name:8": "Next step Crucible (Niobium)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nMake a niobium crucible and at least 1 mold"
+          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nNiobium can be smelted in a crucible by using columbite or colten ores which are byproducts of tantalite processing.\n\nMake a niobium crucible and at least 1 mold"
         }
       },
       "tasks:9": {
@@ -3547,7 +3566,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "44:10": {
       "questID:3": 44,
@@ -3573,7 +3611,7 @@
           "globalShare:1": 0,
           "questLogic:8": "OR",
           "repeat_relative:1": 1,
-          "name:8": "A Great Crucible",
+          "name:8": "A Great Crucible (Tantalium)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -3605,7 +3643,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "45:10": {
       "questID:3": 45,
@@ -3721,7 +3778,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We start working with ever higher melting point materials, so it\u0027s time to upgrade our crucible.\n\nThis is an alternte way to upgrade your crucible, but be aware that while this route works, it needs some very precise work with your heat control. Sometimes we work within a 6K range!\n\nFor this route, get a chromium crucible and at least 1 chromium blank mold"
+          "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is an alternte way to upgrade your crucible, but be aware that while this route works, it needs some very precise work with your heat control. Sometimes we work within a 6K range!\n\nFor this route, get a chromium crucible and at least 1 chromium blank mold"
         }
       },
       "tasks:9": {
@@ -3794,7 +3851,7 @@
           "globalShare:1": 0,
           "questLogic:8": "OR",
           "repeat_relative:1": 1,
-          "name:8": "Next step",
+          "name:8": "Next step Crucible (Alternative - Iridium)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -3826,7 +3883,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "48:10": {
       "questID:3": 48,

@@ -10755,9 +10755,14 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregapi:gt.display.fluid",
             "Count:3": 1,
-            "Damage:2": 70,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "nitrogen",
+              "h:2": 295
+            },
+            "Damage:2": 47,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11007,9 +11012,14 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregapi:gt.display.fluid",
             "Count:3": 1,
-            "Damage:2": 80,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "oxygen",
+              "h:2": 295
+            },
+            "Damage:2": 46,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11253,9 +11263,14 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregapi:gt.display.fluid",
             "Count:3": 1,
-            "Damage:2": 90,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "fluorine",
+              "h:2": 300
+            },
+            "Damage:2": 478,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11499,9 +11514,14 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregapi:gt.display.fluid",
             "Count:3": 1,
-            "Damage:2": 100,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "neon",
+              "h:2": 300
+            },
+            "Damage:2": 479,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11581,9 +11601,14 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregapi:gt.display.fluid",
             "Count:3": 1,
-            "Damage:2": 20,
+            "tag:10": {
+              "s:1": 1,
+              "f:8": "helium",
+              "h:2": 295
+            },
+            "Damage:2": 52,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",

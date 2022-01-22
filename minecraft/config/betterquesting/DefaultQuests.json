@@ -3036,7 +3036,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_ingot",
-              "Count:3": 4,
+              "Count:3": 6,
               "Damage:2": 0,
               "OreDict:8": "ingotAnyIron"
             },
@@ -10755,14 +10755,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.meta.chemtube",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "nitrogen",
-              "h:2": 295
-            },
-            "Damage:2": 47,
+            "Damage:2": 70,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11012,14 +11007,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.meta.chemtube",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "oxygen",
-              "h:2": 295
-            },
-            "Damage:2": 46,
+            "Damage:2": 80,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11263,14 +11253,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.meta.chemtube",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "fluorine",
-              "h:2": 300
-            },
-            "Damage:2": 478,
+            "Damage:2": 90,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11514,14 +11499,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.meta.chemtube",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "neon",
-              "h:2": 300
-            },
-            "Damage:2": 479,
+            "Damage:2": 100,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -11601,14 +11581,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregapi:gt.display.fluid",
+            "id:8": "gregtech:gt.meta.chemtube",
             "Count:3": 1,
-            "tag:10": {
-              "s:1": 1,
-              "f:8": "helium",
-              "h:2": 295
-            },
-            "Damage:2": 52,
+            "Damage:2": 20,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",

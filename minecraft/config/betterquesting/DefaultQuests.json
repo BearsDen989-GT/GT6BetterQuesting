@@ -9534,7 +9534,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the early game you can get iron by putting Balastic Sand dust or Granitic Sand dust in a crucible with some form of carbon (coal or coal coke).  Later you can get iron as a byproduct of the ore processing of specific ores.  You can also get iron from magnetic separation of dried sluice juice."
+          "desc:8": "In the early game you can get iron by putting Balastic Sand dust or Granitic Sand dust in a crucible with some form of carbon (coal or coal coke).  Later you can get iron as a byproduct of the ore processing of specific ores.  You can also get iron from magnetic separation of dried sluice juice.\n\nYou can complete the quest by either getting 1 dust, 1 ingot, or 1 plate of Iron in your inventory."
         }
       },
       "tasks:9": {
@@ -9840,7 +9840,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Copper has its own ore and can also be found in many other ores like tetrahedrite and calcopyrite.  Te copper ores can be put directly in the crucible for some copper or put through processing to get more copper and byproducts."
+          "desc:8": "Copper has its own ore and can also be found in many other ores like tetrahedrite and calcopyrite.  Te copper ores can be put directly in the crucible for some copper or put through processing to get more copper and byproducts.\n\nYou can complete the quest by either getting 1 dust, 1 ingot, or 1 plate of Copper in your inventory."
         }
       },
       "tasks:9": {
@@ -10146,7 +10146,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Aluminum is availalbe though a processing line."
+          "desc:8": "Aluminum is availalbe though a processing line.\n\nYou can complete the quest by either getting 1 dust, 1 ingot, or 1 plate of Aluminum in your inventory."
         }
       },
       "tasks:9": {
@@ -10741,7 +10741,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Phosphorus"
+          "desc:8": "Phosphorus\n\nYou can complete the quest by either getting 1 dust, or 1 Gem of Phosphorus in your inventory."
         }
       },
       "tasks:9": {
@@ -10826,7 +10826,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Nitrogen\n\nYou can complete by either getting a tube of Hydrogen or picking up a drum with at least 1000mB of Nitrogen Gas."
+          "desc:8": "Nitrogen\n\nYou can complete by either getting a tube of Nitrogen or picking up a drum with at least 1000mB of Nitrogen Gas."
         }
       },
       "tasks:9": {
@@ -10993,7 +10993,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Sulfur is really easy to get as it found in many sulfide ores.  Sulfur is the main componet in Sulfuric acid which is used in the processing of different ores.  Pure sulfur can be used to make torches or used a solid fuel."
+          "desc:8": "Sulfur is really easy to get as it found in many sulfide ores.  Sulfur is the main componet in Sulfuric acid which is used in the processing of different ores and to make other acids.  Pure sulfur can be used to make torches or used a solid fuel.\n\nYou can complete the quest by either getting 1 dust, or 1 Gem of Sulfur in your inventory."
         }
       },
       "tasks:9": {
@@ -11078,7 +11078,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The main way to get Oxygen is by eletrolyzing water.\n\nYou can complete by either getting a tube of Hydrogen or picking up a drum with at least 1000mB of Oxygen Gas."
+          "desc:8": "The main way to get Oxygen is by eletrolyzing water.\n\nYou can complete the quest by either getting a tube of Oxygen or picking up a drum with at least 1000mB of Oxygen Gas."
         }
       },
       "tasks:9": {
@@ -11242,7 +11242,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Chlorine is a halogen gas that is a byproduct from electrolyzing salt [NaCl].  It isd also a byproduct from some ore processing.\n\nYou can complete by either getting a tube of Hydrogen or picking up a drum with at least 1000mB of Chlorine Gas."
+          "desc:8": "Chlorine is a halogen gas that is a byproduct from electrolyzing salt [NaCl].  It isd also a byproduct from some ore processing.\n\nYou can complete by either getting a tube of Chlorine or picking up a drum with at least 1000mB of Chlorine Gas."
         }
       },
       "tasks:9": {
@@ -11324,7 +11324,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Fluorine\n\nYou can complete by either getting a tube of Hydrogen or picking up a drum with at least 1000mB of Fluorine Gas."
+          "desc:8": "Fluorine\n\nYou can complete by either getting a tube of Fluorine or picking up a drum with at least 1000mB of Fluorine Gas."
         }
       },
       "tasks:9": {
@@ -13060,7 +13060,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Tin can be found in Tin ore or in Cassiterite ore.  You can smelt directly in the crucible or processed for additional byproducts."
+          "desc:8": "Tin can be found in Tin ore or in Cassiterite ore.  You can smelt directly in the crucible or processed for additional byproducts.\n\nYou can complete the quest by either getting 1 dust, 1 ingot, or 1 plate of Tin in your inventory."
         }
       },
       "tasks:9": {
@@ -14527,7 +14527,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Mercury is found in cinnabar ore.  Mercury is a liquid at room temperature so it does not take much heat to get Mercury.  Mercury is used in you thermometer and in some processing lines."
+          "desc:8": "Mercury is found in cinnabar ore.  Mercury is a liquid at room temperature so it does not take much heat to get Mercury.  Mercury is used in you thermometer and in some processing lines.\n\nYou can complete the quest by either getting a tube or bottle of Mercury or picking up a drum with at least 1000mB of Mercury."
         }
       },
       "tasks:9": {
@@ -14564,6 +14564,20 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "mercury",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
         }
       },
       "rewards:9": {

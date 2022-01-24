@@ -409,7 +409,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You may have noticed that the furnace is not able to melt all the ores you already have collected. To get access to those higher tier materials like iron and steel we need something generate and handle more heat.\n\nIt\u0027s time to get a crucible to go with the burning box that you just made.\n\nThe crucible (if placed above a lit burning box) will heat up continously and melt even the toughest of materials. But be careful, the material the crucible is made of determines the maximum temperature the crucible can take. Anything above and the crucible itself will melt down.\n\nFor now a ceramic crucible will be enough, it goes up to 2500K which is plenty for this technology age.\n\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but the crossings allow you to use more molds at once. \n\n§cCareful: the molds themself also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500K, so we are fine\n\n§f§rFor now you can use the Brick or Bronze Burning Box.  You can upgrade the burning box to higher heat output and/or more effecient materials and different fuel types later.  There are also different fuel type burning boxes.  There are solid fuel which is wood and coal, liquid ones which use liquid fuels such as cresote and gas ones that use gas fuels such as methane and hydrogen.  For now we will stick to solid fuel burning boxes.\n\nWhen using your burning box you will need to use a shovel to remove the dark ash waste.  Do that while it is running is likely to burn you.  You cna also use the shover to remove solid waste from the crucible is there are any leftovers.  1 scrap is 1 nuget of material.\n§c\nWarning:  When using the crucible, keep an eye on the temperature.  Right now make sure you use quick fuels such as wood or lignite coal.  As soon as the material in the crucible turns to liquid, put a block of sand, dirt or gravel infrom of the crucible.  Wait to make sure that the burning box stops burning before your pour your molds.  With little to no material in the crucible with heat very quickly and exceed the 2,500K temperature.  If it does the crucible will melt and if you are nearby, it will boil you to death.\n§f\nFor this quest make the following:\n1 Bronze or Lead Solid Burning Box\n1 Ceramic Crucible\n2 Ceramic Crossings\n4 Clay molds\n\nThere are 2 reqards\n2 Useful Books\nChoose a cookie (Use the right arrow below to get to the cookies and finish the quest)"
+          "desc:8": "You may have noticed that the furnace is not able to melt all the ores you already have collected. To get access to those higher tier materials like iron and steel we need something generate and handle more heat.\n\nIt\u0027s time to get a crucible to go with the burning box that you just made.\n\nThe crucible (if placed above a lit burning box) will heat up continously and melt even the toughest of materials. But be careful, the material the crucible is made of determines the maximum temperature the crucible can take. Anything above and the crucible itself will melt down.\n\nFor now a ceramic crucible will be enough, it goes up to 2500K which is plenty for this technology age.\n\nAlso make some molds and a few crossings. You can place the molds directly next to the crucible without the crossings but the crossings allow you to use more molds at once. \n\n§cCareful: the molds themself also have a max temperature they can take, since our molds are also ceramic, they can take the same 2500K, so we are fine\n\n§f§rFor now you can use the Brick or Bronze Burning Box.  You can upgrade the burning box to higher heat output and/or more effecient materials and different fuel types later.  There are also different fuel type burning boxes.  There are solid fuel which is wood and coal, liquid ones which use liquid fuels such as cresote and gas ones that use gas fuels such as methane and hydrogen.  For now we will stick to solid fuel burning boxes.\n\nWhen using your burning box you will need to use a shovel to remove the dark ash waste.  Do that while it is running is likely to burn you.  You cna also use the shover to remove solid waste from the crucible is there are any leftovers.  1 scrap is 1 nuget of material.\n§c\nWarning:  When using the crucible, keep an eye on the temperature.  Right now make sure you use quick fuels such as wood or lignite coal.  As soon as the material in the crucible turns to liquid, put a block of sand, dirt or gravel infrom of the crucible.  Wait to make sure that the burning box stops burning before your pour your molds.  With little to no material in the crucible with heat very quickly and exceed the 2,500K temperature.  If it does the crucible will melt and if you are nearby, it will boil you to death.\n§f\nFor this quest make the following:\n1 Bronze or Lead Solid Burning Box\n1 Ceramic Crucible\n2 Ceramic Crossings\n4 Clay molds\n\nThere are 2 reqards - Choose a cookie below.  You will also receive 2 very useful books free of charge."
         }
       },
       "tasks:9": {
@@ -445,34 +445,6 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multiitem.books",
-              "Count:3": 1,
-              "tag:10": {
-                "author:8": "GMWI (Gregorius Metal Working Industries)",
-                "book:8": "Manual_Alloys",
-                "title:8": "Book of Alloys, Smeltery Edition (125)"
-              },
-              "Damage:2": 32001,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multiitem.books",
-              "Count:3": 1,
-              "tag:10": {
-                "author:8": "GMWI (Gregorius Metal Working Industries)",
-                "book:8": "Manual_Smeltery",
-                "title:8": "Smelting Crucible Manual"
-              },
-              "Damage:2": 32000,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
           "rewardID:8": "bq_standard:choice",
           "index:3": 1,
           "choices:9": {
@@ -486,6 +458,34 @@
               "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
               "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 2,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.books",
+              "Count:3": 1,
+              "tag:10": {
+                "author:8": "GMWI (Gregorius Metal Working Industries)",
+                "book:8": "Manual_Alloys",
+                "title:8": "Book of Alloys, Smeltery Edition (54)"
+              },
+              "Damage:2": 32001,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.books",
+              "Count:3": 1,
+              "tag:10": {
+                "author:8": "GMWI (Gregorius Metal Working Industries)",
+                "book:8": "Manual_Smeltery",
+                "title:8": "Smelting Crucible Manual"
+              },
+              "Damage:2": 32000,
               "OreDict:8": ""
             }
           }
@@ -1736,7 +1736,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold\n§f\nTo complete this quest craft:\n1 Bronze Burning Box\n1 Bronze Boiler"
+          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold\n§f\nTo complete this quest craft:\n1 Bronze Burning Box\n1 Bronze Boiler\n\n\nChoose a cookie below.  You will also receive the GT6 Steam Manual free of charge."
         }
       },
       "tasks:9": {
@@ -1766,8 +1766,26 @@
       },
       "rewards:9": {
         "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 2,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
           "rewardID:8": "bq_standard:item",
-          "index:3": 0,
+          "index:3": 3,
           "rewards:9": {
             "0:10": {
               "id:8": "gregtech:gt.multiitem.books",
@@ -7542,7 +7560,8 @@
     "93:10": {
       "questID:3": 93,
       "preRequisites:11": [
-        23
+        23,
+        38
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7566,7 +7585,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To start with some basic electrical machines, you will need to make Galvanized Steel.  This is steel parts that are bathed in molton zinc.  So how do we bathe our Steel?  Very simple, set up a crucible.  Put you wooden bathing pot at the same level as the burning box.  Next put a tap on the side of the crucible just above the bath.  Now put some zinc in the crucible and run te burning box until the zinc melts.  Now right click the tab and the molton zinc should pour into the bath.  Finally put your steel parts into the bath and right click until you get them back.  \n§b\nNote:  This is one time where touching molton metal will not burn you so you will not need any special tools to make your galvanized steel.\n§f\nTo complete this quest get the needed parts to set up a galvanized steel bath and make some galvanized steel:\n1 Ceramic Crucible\n1 Ceramic Tap\n1 Wooden Bathing Pot (1/2 size or full sized)\n4 Galvanized Steel plates"
+          "desc:8": "To start with some basic electrical machines, you will need to make Galvanized Steel.  This is steel parts that are bathed in molton zinc.  So how do we bathe our Steel?  Very simple, set up a crucible.  Put you stainless steel bathing pot at the same level as the burning box.  You should not put a wooden bathing pot next to a burning box.  It could catch fire at any moment.  Next put a tap on the side of the crucible just above the bath.  Now put some zinc in the crucible and run te burning box until the zinc melts.  Now right click the tab and the molton zinc should pour into the bath.  Finally put your steel parts into the bath and right click until you get them back.  \n§b\nNote:  This is one time where touching molton metal in the bathing pot will not burn you so you will not need any special tools to make your galvanized steel.  You can use a ceramic jug to pull out any molten zinc from the bathing pot and store for later use.\n§f\nTo complete this quest get the needed parts to set up a galvanized steel bath and make some galvanized steel:\n1 Ceramic Crucible\n1 Ceramic Tap\n1 Stainless Steel Bathing Pot (1/2 size or full sized)\n4 Galvanized Steel plates"
         }
       },
       "tasks:9": {
@@ -7593,7 +7612,7 @@
             "2:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
-              "Damage:2": 32721,
+              "Damage:2": 32708,
               "OreDict:8": ""
             },
             "3:10": {
@@ -7628,7 +7647,7 @@
             "2:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
-              "Damage:2": 32720,
+              "Damage:2": 32707,
               "OreDict:8": ""
             },
             "3:10": {
@@ -19431,6 +19450,76 @@
           }
         }
       }
+    },
+    "219:10": {
+      "questID:3": 219,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 22002,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "It is Time for a Bath",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We are going to need a bath to process our tungsten bearing ores so that we can get the tungsten dusts.  So lets make a bath that can handle acids.\n\nTo Complete the quest craft:\n1 Bath"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 22002,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -19954,7 +20043,7 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 0,
           "y:3": 24,
           "id:3": 40,
           "sizeY:3": 24
@@ -20073,7 +20162,7 @@
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": -48,
           "y:3": 24,
           "id:3": 217,
           "sizeY:3": 24
@@ -20083,6 +20172,13 @@
           "x:3": 12,
           "y:3": -48,
           "id:3": 218,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -12,
+          "id:3": 219,
           "sizeY:3": 24
         }
       },

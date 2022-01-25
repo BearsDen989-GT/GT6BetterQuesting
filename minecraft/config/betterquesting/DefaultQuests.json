@@ -2214,7 +2214,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This machine replaces the manual sifter table when you are tired of right-clicking\n\nTo complete this quest craft:\n1 Bronze Sifter"
+          "desc:8": "This machine replaces the manual sifter table when you are tired of right-clicking.  It uses an engine to do the work instead of the player.\n§b\nPro Tip:  You can put gravel in the sifter for the chance of getting:  sand, deepslate powder, flint, clay, clay dust, milky Quartz, or a small milky quarts dust.\n§f\nTo complete this quest craft:\n1 Bronze Sifter"
         }
       },
       "tasks:9": {
@@ -3575,8 +3575,8 @@
     "41:10": {
       "questID:3": 41,
       "preRequisites:11": [
-        40,
-        44
+        44,
+        221
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3586,7 +3586,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.ingot",
+            "id:8": "gregtech:gt.meta.plate",
             "Count:3": 1,
             "Damage:2": 740,
             "OreDict:8": ""
@@ -3600,11 +3600,48 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need some really heat resistant materials now, so lets get the best: Tungsten!\n\nOther than most ores tungsten can\u0027t just be thrown raw into a crucible and cast into ingots, we first have to refine the ore.\n\nThats were the acids we made before come in play.\n\nBath your tungsten containing dust (like sheelite, wolframite etc) in hydrochloric acid and get tungstic acid dust.\nThrow that into a dryer to get tungsten trioxide dust.\nNow we mix the tungsten trioxide dust with some hydrogen in a mixer to get the pure tungsten dust, which we can now melt in our upgraded crucible!"
+          "desc:8": "Now we have the Tungsten Dust, all you have to do is smelt it to get the Tungsten Plates.  The problem is Tungsten melts at 3695K which is much above the 2500K that the ceramic crucible can handle.  So this is where the crucible upgrades come in handy.  Use that fancy shiny new Tantalum crucible.\n\nTo complete the quest use you Tantalum Crucible and make:\n7 Tungsten plates"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 7,
+              "Damage:2": 740,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "42:10": {
       "questID:3": 42,
@@ -3633,7 +3670,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to find ? of those meteors you found while picking up rocks from the ground.\n\nMake a meteoric steel cruicible and at least 1 blank mold."
+          "desc:8": "As we start working with ever higher melting point materials, we need a crucible that can handle higher temperatures than 2,500K, so it\u0027s time to upgrade our crucible.\n\nThis is the easiest route of upgrading your crucible, this route needs less precise shutoff mechanisms, but you need to use those meteors you found while picking up rocks from the ground.  A single meteorite smelts to 6 meteoric iron chunks (2.25 ingots).  There are Big meteorites in some of those rocks and those give significant random amount.\n\nUse your engine to supply air and you will have meteoric steel at 2246K.  You will need 12 Meteoric steel plates.  7 for the crucible and 5 for the mold.  You will need a plate mold to make the next level crucible.  You are welcome to make additional molds but we will not be staying with this crucible for very long.\n§b\nNote:  You cna use your ceramic molds if you are the molten metal does not exceed the temperature of the molds.  So you can use this crucible temporary to make more iron, copper or other metal.  Just be aware it will take more energy to heat the crucible to the same temperature as it did for the ceramic crucible.\n§f\nTo complete this quest make:\n1 Meteoric Steel Cruicible\n1 Meteoric Steel Mold"
         }
       },
       "tasks:9": {
@@ -3709,7 +3746,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nNiobium can be smelted in a crucible by using columbite or colten ores which are byproducts of tantalite processing.\n\nMake a niobium crucible and at least 1 mold"
+          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nNiobium can be smelted in a crucible by using columbite or colten ores which are byproducts of tantalite processing.\n\nTo complete this quest make:\n1 Niobium Crucible\n1 Niobium Mold"
         }
       },
       "tasks:9": {
@@ -3782,11 +3819,11 @@
           "globalShare:1": 0,
           "questLogic:8": "OR",
           "repeat_relative:1": 1,
-          "name:8": "A Great Crucible (Tantalium)",
+          "name:8": "A Great Crucible (Tantalum)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s make a crucible that can withstand 4111K without melting!\nThis will allow us to melt tungsten, which is what we are after.\n\nMake a tantalum crucible and at least 1 mold"
+          "desc:8": "Let\u0027s make a crucible that can withstand 4111K without melting!\nThis will allow us to melt tungsten, which is what we are after.\n\nTo complete the quest make:\n1 Tantalum Crucible\n1 Tantalum Mold"
         }
       },
       "tasks:9": {
@@ -4102,7 +4139,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "With access to tungsten we can finally make the smelter.\nThe smelter can melt all metals like a crucible but never gets to hot and gives you easy access to the liquid form of the metals.\n\nUsing the smelter is not very energy efficent compared to the crucible but it\u0027s quality of life aspect compared to the access of liquid metals makes it well worth it."
+          "desc:8": "With access to tungsten we can finally make the smelter.\nThe smelter can melt all metals like a crucible but never gets to hot and gives you easy access to the liquid form of the metals.\n\nUsing the smelter is not very energy efficent compared to the crucible but it\u0027s quality of life aspect compared to the access of liquid metals makes it well worth it.\n\nTo complete the quest craft:\n1 Tungsten Crucible\n1 Smelter (Steel)"
         }
       },
       "tasks:9": {
@@ -4110,11 +4147,17 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": ""
+            },
+            "1:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 20241,
@@ -4124,7 +4167,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "49:10": {
       "questID:3": 49,
@@ -7784,7 +7846,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "So you now need to get oxygen for your roasters and the quickest way to get it is by electrolyzing water.  So lets make an electrolyzer.  This is very simple, a robust galvanized steel hull and tin cables and platinium wires.  So yes you will need to have some platinum to make the electroylzer.  You can get platinum from putting Sperrylite or Sheldonite in your crucible.\n§b\nTip:  Make sure you have a couple of tanks to store the oxygen and hydrogen.  You can also use quadruple pipes to carry both gasses from the electrolyzer to the tanks.\n§f\nTo complete this quest craft:\n1 LV Dynamo\n1 LV Electrolyzer"
+          "desc:8": "So you now need to get oxygen for your roasters and the quickest way to get it is by electrolyzing water.  So lets make an electrolyzer.  This is very simple, a robust galvanized steel hull and tin cables and platinium wires.  So yes you will need to have some platinum to make the electroylzer.  You can get platinum from cooking Sperrylite or Sheldonite in your crucible.  Sperrylite is a byproduct from sluicing garnierite.\n§b\nTip:  Make sure you have a couple of tanks to store the oxygen and hydrogen.  You can also use quadruple pipes to carry both gasses from the electrolyzer to the tanks.\n§f\nTo complete this quest craft:\n1 LV Dynamo\n1 LV Electrolyzer"
         }
       },
       "tasks:9": {
@@ -14510,7 +14572,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Platinum"
+          "desc:8": "Platinum is the early game can be made by cooking Sperryrite or Sheldonite in your crucible.  Sperrylite is a byproduct from sluicing garnierite.\n\nYou can complete the quest by either getting 1 dust, 1 ingot, or 1 plate of Aluminum in your inventory."
         }
       },
       "tasks:9": {
@@ -18786,7 +18848,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Wrap It Up..I\u0027ll Take It",
+          "name:8": "Wrap It Up, I\u0027ll Take It!",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -19520,6 +19582,315 @@
           }
         }
       }
+    },
+    "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 4009,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Storage Drawer",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Would you want more room to store your needed plates, rods, screws, or any other part and have it connect to your Advanced Crafting Table.  I have a deal for you.  With the cost of a few plates I offer you the Compartment Drawer.  Just craft one and place it next to your Advanced Crafting table and now you have more stoarge for your stuff with the ease of the Advanced Crafting Table crafting.\n\nTo complete the quest craft:\n1 Bronze, Lead, Invar or Steel Compartment Drawer."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 4009,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 4006,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 4010,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 4000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "221:10": {
+      "questID:3": 221,
+      "preRequisites:11": [
+        219,
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.dust",
+            "Count:3": 1,
+            "Damage:2": 740,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tungsten Ore Processsing",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now it is time to set up the machines that you need to process your Tungsten bearing ores like Scheelite and wolfranite.\n\nFirst you need to set up a bath that will use your Hydrocloric Acid.  This will give you the much need Tungstic Acid Dusts that you need for further processing.  You will also get Magnesium Cloride or Calcium Cloride depending on the ore you choose to process.  We will deal with these at a later time.  Just stick them in a item barrel for now. \n\nNext you will need to set up a steel dryer to dry the Tungstic Acid Dusts.  You will get Tungsten Trioxide which you will send to the mixer for further processing and distilled water that you can recycle for your boilers.  You can choose the type of steel burning box depending on what fuels you ahve available.\n\nThe final step is to set up a mixer to mix Tungsten Trioxide with Hydrogen to give you your tungsten dusts and water.  You can recycle the water or send it to an Ender Garbage Bin.  The mixer only needs a single bronze burning box, bronze boiler and bronze turbine.\n\nTo complete this quest assemble a processimg line for tungsten with:\n1 Bath\n1 Dryer\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n7 Tungsten Dusts"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 22002,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20311,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1202,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1512,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20181,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 7,
+              "Damage:2": 740,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "222:10": {
+      "questID:3": 222,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20081,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Just Left of the Centrifuge",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The centrifuge is a very useful machine.  It can be used to separate some coplex dusts into individual element dusts.  It can also centrifuge all of that sluice juice that the sluice has been making washing your ores.  The centrifuge will give you a chance of a tinyl copper, chrome, antimony, zinc, and tin for a small amount of sluice juice.  You will end up with quite a bit of tiny stone dust.  In the newer versions of GT6 9 stone dusts actually creates gravel in stead of stone dust blocks.  The gravel can be sifted to get some useful items like flint, clay, sand, and mmilky quartz.\n§b\nNote:  You can use a brinze centrifuge to process the sluice juice but you will need an invar turbine and 3 steel burning boxes and boilers to do so.  Since the recipe to process sluice juice is on the edge of both the bronze and steel centrifuges, you can use a steel centrifuge and increase the speed of the steel turbine without an energy penality.\n§f\nTo complete this quest craft:\n1 Bronze or Steel Centrifuge"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20081,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20082,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -19724,6 +20095,13 @@
           "x:3": 12,
           "y:3": -120,
           "id:3": 92,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -204,
+          "id:3": 220,
           "sizeY:3": 24
         }
       },
@@ -19991,6 +20369,13 @@
           "y:3": 24,
           "id:3": 213,
           "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 48,
+          "id:3": 222,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -20022,7 +20407,7 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -120,
           "y:3": -12,
           "id:3": 37,
           "sizeY:3": 24
@@ -20036,22 +20421,22 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -96,
+          "x:3": -120,
           "y:3": 24,
           "id:3": 39,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": -24,
           "y:3": 24,
           "id:3": 40,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 60,
+          "x:3": 48,
+          "y:3": 72,
           "id:3": 41,
           "sizeY:3": 24
         },
@@ -20064,15 +20449,15 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -96,
           "y:3": 72,
           "id:3": 43,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 96,
+          "x:3": -24,
+          "y:3": 72,
           "id:3": 44,
           "sizeY:3": 24
         },
@@ -20085,15 +20470,15 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -96,
           "y:3": 120,
           "id:3": 47,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": 60,
+          "x:3": 96,
+          "y:3": 72,
           "id:3": 48,
           "sizeY:3": 24
         },
@@ -20113,72 +20498,72 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 60,
-          "id:3": 62,
-          "sizeY:3": 24
-        },
-        "15:10": {
-          "sizeX:3": 24,
           "x:3": -60,
           "y:3": -84,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -120,
           "id:3": 101,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": -120,
           "id:3": 102,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -84,
           "id:3": 103,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -48,
           "id:3": 212,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -48,
           "id:3": 216,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": -72,
           "y:3": 24,
           "id:3": 217,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 218,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": -24,
           "y:3": -12,
           "id:3": 219,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 24,
+          "id:3": 221,
           "sizeY:3": 24
         }
       },
@@ -21238,9 +21623,16 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -36,
+          "x:3": -192,
+          "y:3": -84,
           "id:3": 56,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -312,
+          "y:3": -84,
+          "id:3": 62,
           "sizeY:3": 24
         }
       },

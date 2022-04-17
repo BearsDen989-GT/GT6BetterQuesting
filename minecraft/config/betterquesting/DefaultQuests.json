@@ -558,7 +558,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Here are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valueable metals for later\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s comsetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
+          "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.14.24.  This includes the updated processing for Aluminum, Niobium, and Tantalite.  Currently the oil and plastic lines have not been updated to GT6 6.14 changes and thus no reqards are currently available for those quests.  The quests in this book are still a work in progress.\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valueable metals for later\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s comsetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
         }
       },
       "tasks:9": {
@@ -1493,7 +1493,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Greg has changed how black sand works from earlier version of GT6.  Greg added Basaltic, and Granitic Black Sand as blocks.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand.  This is very easy.  Just put it into your black sand blocks in your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic or granitic mineral sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n\n§9Pro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignit coal as fuel for the burning box.\n\nWarning:  Sifting Basaltic or Granitic Mineral Sand no longer give the resulting dusts.  They will give you some nuggets though.\n§f\nTo complete this quest you will need:\n14 Granitic or Basaltic Sand Dusts\n3 Carbon - You get the 3 carbon from 6 Crushed, Purified or gem Coal or 3 coal coke ingots.\nthen make 6 iron ingots using the crucible."
+          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Greg has changed how black sand works from earlier version of GT6.  Greg added Basaltic, and Granitic Black Sand as blocks.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand.  This is very easy.  Just put it into your black sand blocks in your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic or granitic mineral sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n\n§9Pro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignit coal as fuel for the burning box.  Hint: 1 Coal Coke Bar (ingot) is the same as 1 carbon dust.\n\nWarning:  Sifting Basaltic or Granitic Mineral Sand no longer give the resulting dusts.  They will give you some nuggets though.\n§f\nTo complete this quest you will need:\n14 Granitic or Basaltic Sand Dusts\n3 Carbon - You get the 3 carbon from 6 Crushed, Purified or gem Coal or 3 coal coke ingots.\nthen make 6 iron ingots using the crucible."
         }
       },
       "tasks:9": {
@@ -2057,7 +2057,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n\nTo complete this quest:\nPour 8 steel ingots or 8 steel plates from your crucible."
+          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.  Just pour the steel out into your molds.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n\nTo complete this quest:\nPour 8 steel ingots or 8 steel plates from your crucible."
         }
       },
       "tasks:9": {
@@ -2950,7 +2950,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Tungsten/Scheelite/Wolframite/\n   Ferberite/Huebnerite\n\n- Black Sand/Limonite/Hematite\n\n- Tantalum/Tantalite"
+          "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Black Sand/Limonite/Hematit"
         }
       },
       "tasks:9": {
@@ -3407,79 +3407,23 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need some sulfuric acid. Not only can we refine many things with it, we can make other acids out of it too!\nAnd what laboratory is complete without a full set of acids.\n\nLet\u0027s get to work.\n\n\nFirst step is to pipe the sulfur dioxide that we got from the roaster to your mixer.  Next we mix that sulfur dioxide with air so we can add pipe the air from the tank behind the roaster.  The final step we will need a catalyst like platinium or vanadium pentroxide dust in order to make the chemical reaction to work. It doesn\u0027t get used up but needs to be there.\n§b\nNote:  You can get vanadium pentoxide dust from centrifuging basaltic or granitic sand.  You can get platinum from Sperrylite or Sheldonite but then you need to shred it down to dust.  This recipe only need 16RU so a single bronze turbine, boiler and burning box will work.\n§f\nTo complete this quest assemble a setup with:\n6 Small Bronze Pipes or 6 Small Invar Pipes\n1 Bronze Mixer\n1 Bronze Turbine\n1 Bronze Boiler\n\n\n"
+          "desc:8": "We need some sulfuric acid. Not only can we refine many things with it, we can make other acids out of it too!\nAnd what laboratory is complete without a full set of acids.\n\nTo set up the mixer system for Sulphur Trioxide you will need the following:\n1 Bronze Burning Box (any type)\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n\n\nFirst step is to pipe the sulfur dioxide that we got from the roaster to your mixer.  Next we mix that sulfur dioxide with air so we can add pipe the air from the tank behind the roaster.  The final step we will need a catalyst like platinium or vanadium pentroxide dust in order to make the chemical reaction to work. It doesn\u0027t get used up but needs to be there.\n§b\nNote:  You can get vanadium pentoxide dust from centrifuging basaltic or granitic sand.  You can get platinum from Sperrylite or Sheldonite but then you need to shred it down to dust.  This recipe only need 16RU so a single bronze turbine, boiler and burning box will work.\n§a\nThe recipe for the mixer:\n{Platinum Dust or Vanadium Pentoxide Dust} + 750L Sulphur Dioxide + 1000L Air \u003d\u003e [Mixer 16RU/t] \u003d\u003e 1000L Sulphur Trioxide\n§f§1§2§3§4§5§6\nTo complete this quest collect:\n1000L of Sulphur Trioxide in a drum\n\n\n"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "sulfurtrioxide",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 6,
-              "Damage:2": 26121,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 20181,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1512,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1202,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 6,
-              "Damage:2": 26401,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 20181,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1512,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1202,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       },
       "rewards:9": {}
@@ -3494,7 +3438,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.meta.chemtube",
@@ -3511,44 +3455,23 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now we need to make the acid we need to process tungsten.  That would be Hydrocloric Acid.  You combine your sulfuric acid from the previous mixer and add some salt.  You will get Hydrocloric acid and sodium\n\nMake sure you use the stainless steel pipes to connect the output of the Sulfuric acid mixer to the hydroloric acid mixer you are setting up.  Put some salt in the input of the mixer and you should be set.\n\nJust like the previous mixers, you only need a single bronze burning box, boiler, and turbine.\n\nTo complete the quest assemble:\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n6 Small Stainless Steel Fluid Pipes"
+          "desc:8": "Now we need to make the acid we need to process tungsten.  That would be Hydrocloric Acid.  You combine your sulfuric acid from the previous mixer and add some salt.  You will get Hydrocloric acid and sodium\n\nMake sure you use the stainless steel pipes to connect the output of the Sulfuric acid mixer to the hydroloric acid mixer you are setting up.  Put some salt in the input of the mixer and you should be set.\n\nJust like the previous mixers, you only need a single bronze burning box, boiler, and turbine.\n\nYou will need the following machines:\n1 Bronze Burnign box [any type]\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\nsome Small Stainless Steel Fluid Pipes\n§e\nWarning:  Just like with Sulfuric Acid you need to use stainless steel drums and pipes.\n\n§a\nMixer Recipe:\n2 salt or rock salt dust + 7000L Sulfuric Acid \u003d\u003e [Mixer 16 RU/t] \u003d\u003e 7 Sodium Bisulfate Dust + 2000L Hydrochloric Acid\n\n§6\nTo complete the quest collect:\n1000L of Hydrocloric Acid in a drum"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1202,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1512,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 20181,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 6,
-              "Damage:2": 26161,
-              "OreDict:8": ""
+              "FluidName:8": "hydrochloricacid",
+              "Amount:3": 1000
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
         }
       },
       "rewards:9": {
@@ -3746,7 +3669,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nNiobium can be smelted in a crucible by using columbite or colten ores which are byproducts of tantalite processing.\n\nTo complete this quest make:\n1 Niobium Crucible\n1 Niobium Mold"
+          "desc:8": "If you chose the meteoric steel path you can either go with the iridium crucible or make a niobium one.\n\nNiobium requires aluminum processing in order to get niobium from columbite or colten purified ores which are byproducts of tantalite processing.  Columbite and colten cannot be directed smelted in a crucible.\n\nTo complete this quest make:\n1 Niobium Crucible\n1 Niobium Mold"
         }
       },
       "tasks:9": {
@@ -3823,7 +3746,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s make a crucible that can withstand 4111K without melting!\nThis will allow us to melt tungsten, which is what we are after.\n\nTo complete the quest make:\n1 Tantalum Crucible\n1 Tantalum Mold"
+          "desc:8": "Let\u0027s make a crucible that can withstand 4111K without melting!\nThis will allow us to melt tungsten, which is what we are after.\n\nYou will need aluminum processing in order to get crystaline (gem) tantalite from the final steps of tantalite processing.  Tantalite ores can no longer be smelted directly in the crucible.\n\nTo complete the quest make:\n1 Tantalum Crucible\n1 Tantalum Mold"
         }
       },
       "tasks:9": {
@@ -4470,7 +4393,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "53:10": {
       "questID:3": 53,
@@ -4512,7 +4454,7 @@
           },
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "taskID:8": "bq_standard:fluid"
         },
         "1:10": {
@@ -4526,7 +4468,7 @@
           },
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "consume:1": 1,
+          "consume:1": 0,
           "taskID:8": "bq_standard:fluid"
         }
       },
@@ -4594,36 +4536,25 @@
           },
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 32716,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 32716,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
               "OreDict:8": ""
             }
           }
@@ -4687,13 +4618,19 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
               "OreDict:8": ""
             }
           }
@@ -5148,7 +5085,26 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "63:10": {
       "questID:3": 63,
@@ -19341,79 +19297,23 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now we have sulfur trioxide, which we can now mix with some water and we get sulfuric acid!\n\nAll you need to do is pipe over the sulfer trioxide and water and then pipe out the sulfuric acid.  You can use a bronze turbine as the mixer only need 16RU to make the sulfuric acid.  The pipes that you use to pipe over the water and sulfur trioxide are up to you.  Bronze or rubber will work.\n§6§e\nWarning:  Be careful with the fluid output from your mixer.  make sure the pipe and drum can handle acids before using them.  Hint:  wonder why stainless steel is in this tab?\n§f\nTo complete the quest assemble a setup to make Sulfuric Acid:\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\n6 Small Bronze Pipes or 6 Small Invar Pipes\n\n"
+          "desc:8": "Now we have sulfur trioxide, which we can now mix it with some water and we get sulfuric acid!\n\nAll you need to do is pipe over the sulfer trioxide and water and then pipe out the sulfuric acid.  You can use a bronze turbine as the mixer only need 16RU to make the sulfuric acid.  The pipes that you use to pipe over the water and sulfur trioxide are up to you.  Bronze or rubber will work.\n\nYou will need the following machines:\n1 Bronze burnign Box [any type]\n1 Bronze Boiler\n1 Bronze Turbine\n1 Bronze Mixer\nsome small bornze/invar pipes for gas input\nsome small stainless steel pipes for output\n§6§e\nWarning:  Be careful with the fluid output from your mixer.  make sure the pipes and drum can handle acids before using them.  Hint:  wonder why stainless steel is in this tab?\n§f§6§7§8§9§a§b§c§d§e§d§e§f§k§f§6§b§a\nMixer Recipe:\n1000L Sulfur Trioxide + 750L Water \u003d\u003e [Mixer 16RU/t] \u003d\u003e  1750L Sulfuric Acid\n§6\nTo complete the quest collect the following:\n1000L Sulfuric Acid in a drum (USE STAINLESS STEEL!!)\n\n"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "sulfuricacid",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1202,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1512,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 20181,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 6,
-              "Damage:2": 26121,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1202,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 1512,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
-              "Damage:2": 20181,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 6,
-              "Damage:2": 26401,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       },
       "rewards:9": {
@@ -19523,7 +19423,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "visibility:8": "ALWAYS",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt.multitileentity",
@@ -20010,6 +19910,899 @@
           }
         }
       }
+    },
+    "224:10": {
+      "questID:3": 224,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32738,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Does it measure up",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Ever wondered how you can move some partial liquids (less than a bottle or bucket)?  You can.  You can scoop up liquids from your baths by using a measuring pot.  You can also store the liquids in a ceramic jug.  The easiest measuring pot and jug is made from clay.  Just make a clay measuring pot and clay jug and then cook them in a furnace.  The only issue is you cannot store acids or hot liquids above 2,400 K in a ceramic jug or measuring pot.\n§b\nNote:  For acids there are stainless steel measuring pot.  You can also use stainless steel drum for acids and high tier metal drums for hotter liquids.\n§f\nTo complete this quest craft:\n1 clay measuring pot\n1 ceramic measuring pot (cook the clay pot in a furnace)\n1 clay jug\n1 ceramic jug (cook the clay jug in a furnace)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 997,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32738,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 996,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32740,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "225:10": {
+      "questID:3": 225,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.block.rockores",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "What to look for",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauzite in a sluice.  You can also get alumina from centrifuging saphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Saphire ores.  An alternate way to get alumina dusts.\n\n-  Milky Quartz or Nether Quartz.  You will need some quartz.\n\n\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminium Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ Electrolyzer ] -\u003e Aluminium"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        217
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9829,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Hydrogen Fluoride",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You will need some hydrogen fluoride for use in making hexafluorosilicic acid in order to process alumina into aluminium.\n\nTo make the Hydrogen Fluoride craft\n1 Bronze Mixer\n1 Bronze turbine\nappropiate power for the turbine\n\nOnce you craft these machines set up the mixer with appropiate power to power the turbine.\n\nYou will need to pipe in your Sulfuric acid and put in 3 fluuorite dists (any color dust will work).\n\nOnce running you will get 6 Calcium Sulfate Dust and 4 Hydrogen Fluoride fluid.  You will need to pipe the Hydrogen Fluoride to the next quest to continue the process.\n§a\nThe recipe:\n3 Fluorite Dusts (any color) + 7000L Sulfuric Acid \u003d\u003e [Mixer 16/RU/t] \u003d\u003e 6 Calcium Sulfacte Dusts + 4000L Hydrogen Sulfide.\n§a§f§6\nTo complete the quest colelect in a drum:\n1000L of Hydrogen Fluoride\n§9§b\nNote:  You cannot collect Hydrogen Fluoride with a bucket use a drum.  You can empty the fluid from the drum into the mixer for the next quest."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "hydrogenfluoride",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "227:10": {
+      "questID:3": 227,
+      "preRequisites:11": [
+        226
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 8011,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Hexafluorosilicic Acid",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Next you will create Hexafluorosilicic Acid which will be used in the next quest to finally get you Aluminium.\n\nTo create your Hexafluorosilicic Acid you will need to craft the following:\n1 Bronze Mixer\n1 Bronze Turbine\nPower to run bronze turbine\n§a\nThe recipe:\nAny quartz Dust + 4000L Hydrogen Fluoride \u003d\u003e [Mixer 16RU/t] \u003d\u003e 3000L Hexafluorosilicic Acid + 2000L water\n§e§b\nNote:  You can use any quartz dust which includes Certus Quartz, Milky Quarts, glass dust, flint dust, etc\n§f§6\nTo complete the quest collect in a drum:\n1000L of Hexafluorosilicic Acid\n§e\nWarning:  Use a stainless steel drum to collect tne fluids as you cannot control which fluid leaves the machine first."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "hexafluorosilicicacid",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "228:10": {
+      "questID:3": 228,
+      "preRequisites:11": [
+        227
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.dust",
+            "Count:3": 1,
+            "Damage:2": 8010,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Molten Aluminium Fluoride",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The next step is we need to mix the Alumina with the Hexafluorosilicic Acid to get Molten Aluminium Fluoride.\n\nWe will need the following machiens\n1 bronze turbine\n1 bronze mixer\npower to run the bronze turbine\n§3§4§2§a§9§a\nThe recipe:\n5 Alumina Dusts + 9000L Hexafluorosilicic Acid \u003d\u003e [Mixer 16 RU/t] \u003d\u003e 3 Silicon Dioxide + 3000L water + 1000L Molten Aluminium Fluoride\n§b\nNote:  Previous versions would give Aluminium Fluorite dust.  Gregtech 6 version 6.16.24 changed to give molton Aluminium Floride vso having a smelter is no longer needed.\n§e\nWarning:  You will want to use stainless steel pipes and drums as Molton Aluminium Fluoride can end up melting or corroding simple water pipes (rubber).\n§f§6\nTo complete the quest collect in a drum\n1000L of Molten Aluminium Fluoride"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "molten.aluminiumfluoride",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "229:10": {
+      "questID:3": 229,
+      "preRequisites:11": [
+        226,
+        234
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.dust",
+            "Count:3": 1,
+            "Damage:2": 8009,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Molten Cryolite",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now we need to make some Molten Cryolite to assist with the chemical reaction to get us aluminium.\n\nWe will need to craft:\n1 Bronze Turbine\n1 Bronze Turbine\nPower for the turbine\n§9§a\nThe Recipe:\n18 Sodium Hydrozide Dusts + 5 Alumina Dusts + 24 units of Hydrogen Fluoride \u003d\u003e [Mixer 16 RU/t] \u003d\u003e 27 units of Water + 2 units of Molten Cryolite\n§f§6\nTo complete the wust collect in a drum:\n1000L of Molten Cryolite"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "molten.cryolite",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "230:10": {
+      "questID:3": 230,
+      "preRequisites:11": [
+        228,
+        229
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.dust",
+            "Count:3": 1,
+            "Damage:2": 130,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Aluminium Finally",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now we are finally at the final step to get our Aluminium Dust.\n\nWe will need to craft:\n1 LV Dynamo\n1 LV Electrolyzer\nturbines and power to power dynamo\n§a\nThe Recipe:\n3 Carbon Source Dusts + 10 Alumina Dusts + 0.027 units of Molten Aluminium Fluoride + 0.013 units of Molten Cryolite \u003d? [LV Electrolyzer 16EU/t] \u003d\u003e 4 Aluminium Dusts + 9 units of Carbon Dioxide Gas + 0.029 units of Fluorine Gas\n§f§6\nTo complete the quest collect:\n4 Aluminium Dusts\n§b\nPro Tip:  You can set up another LV Electrolyzer and run the carbon dioxide gas through it to get carbon dusts and 2 units of Oxygen Gas."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 4,
+              "Damage:2": 130,
+              "OreDict:8": "dustAluminum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "231:10": {
+      "questID:3": 231,
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Cover It \u003cBlank\u003e",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that we have aluminium, we can make some covers.  First make some blank covers.  Al lyou will need is an aluminium plate and an aluminium screw.  This will make a blank cover which can then be used to make many additional covers.\n§6\nTo complete this quest make:\n1 Aluminium plate\n1 Aluminium screw\n1 Blank cover\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 1,
+              "Damage:2": 130,
+              "OreDict:8": "plateAluminum"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.screw",
+              "Count:3": 1,
+              "Damage:2": 130,
+              "OreDict:8": "screwAluminium"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [
+        231
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1023,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Item Filter",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An Item cover will help filter out items of specific type. To craft an item filter cover, you will need 1 blank cover and 4 zinc foils.\n§6\nTo complete the quest:\n1 Blank cover\n4 Zinc Foils\n1 Item cover"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1023,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [
+        231
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 1024,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Fluid Filter",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We can also make a Fluid Filter from the Blank Cover.  You only need 4 zinc foils and a blank cover.  The fluid filter will only allow specific fluids to pass between 2 fluid pipes.  This works very well with Quad or nano pipes to direct a specific fluid like water in another direction.\n§6\nTo complete this quest craft:\n1 Blank Cover\n4 Zinc Foils\n1 Fluid Filter"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.foil",
+              "Count:3": 4,
+              "Damage:2": 300,
+              "OreDict:8": "foilZinc"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [
+        95
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.dust",
+            "Count:3": 1,
+            "Damage:2": 8268,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Sodium Hydroxide",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "We will need some Sodium Hydroxide.  The best way to get it is to electrolyze some salt.\n§a\nThe Recipe:\n1 salt dust + 3000L water \u003d\u003e [Electrolyzer 16EU/t] \u003d\u003e 6 Small Sodium Hydroxide Dusts + 500L Clorine Gas + 1500L Hydrogen Gas + 500L Oxygen Dust\n§f§6\nTo complete the quest craft and get:\n1 LV Electrolyzer\n1 Sodium Hydroxide Dust"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20091,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 8268,
+              "OreDict:8": "dustSodiumHydroxide"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "235:10": {
+      "questID:3": 235,
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 10112,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "MV Dynamo",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Since we have aluminium, we can now make MV machines including a MV Electric Dynamo.  The MV Electric Dynamo will allow us to run a MV Electrolyzer to process higher tier ores.\n\nTo complete this quest craft:\n1 Electric Dynamo (MV)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 10112,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "236:10": {
+      "questID:3": 236,
+      "preRequisites:11": [
+        235
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20092,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "MV Electrolyzer",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Finally we can make the MV Electrolyzer so we can finally get the Tantalite that we need to upgrade our crucibles.\n§6\nTo complete the quest craft:\n1 Electrolyzer (MV)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20092,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -20055,7 +20848,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "This quest book it to assist users in discovering Gregtech 6 by giving quests that help with prgression through Gregtech machines and processing."
         }
       },
       "order:3": 0
@@ -20541,148 +21334,92 @@
         "3:10": {
           "sizeX:3": 24,
           "x:3": -120,
-          "y:3": 24,
+          "y:3": 36,
           "id:3": 39,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 24,
+          "x:3": 24,
+          "y:3": 36,
           "id:3": 40,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 72,
-          "id:3": 41,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
           "x:3": -168,
-          "y:3": 72,
-          "id:3": 42,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 72,
-          "id:3": 43,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 72,
-          "id:3": 44,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": 120,
-          "id:3": 46,
-          "sizeY:3": 24
-        },
-        "10:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": 120,
-          "id:3": 47,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 72,
-          "id:3": 48,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": 24,
+          "y:3": 36,
           "id:3": 49,
           "sizeY:3": 24
         },
-        "13:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -84,
           "id:3": 50,
           "sizeY:3": 24
         },
-        "14:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": -84,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "15:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -120,
           "id:3": 101,
           "sizeY:3": 24
         },
-        "16:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": -120,
           "id:3": 102,
           "sizeY:3": 24
         },
-        "17:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -84,
           "id:3": 103,
           "sizeY:3": 24
         },
-        "18:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -48,
           "id:3": 212,
           "sizeY:3": 24
         },
-        "19:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -48,
           "id:3": 216,
           "sizeY:3": 24
         },
-        "20:10": {
+        "13:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": 24,
+          "x:3": -48,
+          "y:3": 36,
           "id:3": 217,
           "sizeY:3": 24
         },
-        "21:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 218,
           "sizeY:3": 24
         },
-        "22:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -12,
           "id:3": 219,
-          "sizeY:3": 24
-        },
-        "23:10": {
-          "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 24,
-          "id:3": 221,
           "sizeY:3": 24
         }
       },
@@ -20690,16 +21427,16 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Progression I",
+          "name:8": "Stainless Steel and Acids",
           "icon:10": {
-            "id:8": "gregtech:gt.meta.chemtube",
+            "id:8": "gregtech:gt.meta.ingot",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8636,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "The first part of progression is upgrading your crucible and getting stainless steel so you can move toward tungston and other acidic ore processing "
+          "desc:8": " Stainless steel in needed to set up paths, electrylizers, distaltion towers and may other useful machines.  It also allows for you to get rubber.  So lets take a looks at what you can do with stainless steel."
         }
       },
       "order:3": 4
@@ -20886,7 +21623,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Electric Age",
+          "name:8": "Circuits",
           "icon:10": {
             "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
@@ -20895,10 +21632,10 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer.  We will then expand to the point where you can store some of your electricity."
+          "desc:8": "In Development"
         }
       },
-      "order:3": 5
+      "order:3": 8
     },
     "6:10": {
       "quests:9": {
@@ -21666,29 +22403,36 @@
           "desc:8": "This is the Periodic Table of Elements.  You can gather all of these elements.  For gasses and liq uids you will need to put some in a bottle.  Solids are available in ingots, plates, or dusts.  Just gather the element and get a cookie.  Collect them all."
         }
       },
-      "order:3": 8
+      "order:3": 10
     },
     "7:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -960,
-          "y:3": -492,
+          "x:3": -1248,
+          "y:3": -552,
           "id:3": 210,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -960,
-          "y:3": -456,
+          "x:3": -1248,
+          "y:3": -504,
           "id:3": 211,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -960,
-          "y:3": -420,
+          "x:3": -1248,
+          "y:3": -456,
           "id:3": 223,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -1200,
+          "y:3": -552,
+          "id:3": 224,
           "sizeY:3": 24
         }
       },
@@ -21708,7 +22452,7 @@
           "desc:8": "These quests show you some utility blocks from Greg Tech 6."
         }
       },
-      "order:3": 7
+      "order:3": 9
     },
     "8:10": {
       "quests:9": {
@@ -21776,6 +22520,237 @@
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "This is where we start processing of oils and work toward plastic."
+        }
+      },
+      "order:3": 7
+    },
+    "9:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -1068,
+          "y:3": -504,
+          "id:3": 93,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -1008,
+          "y:3": -504,
+          "id:3": 94,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -1008,
+          "y:3": -444,
+          "id:3": 95,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -936,
+          "y:3": -504,
+          "id:3": 96,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -864,
+          "y:3": -540,
+          "id:3": 97,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -864,
+          "y:3": -492,
+          "id:3": 98,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -996,
+          "y:3": -564,
+          "id:3": 99,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 36,
+          "x:3": -1068,
+          "y:3": -564,
+          "id:3": 225,
+          "sizeY:3": 36
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -948,
+          "y:3": -408,
+          "id:3": 226,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -876,
+          "y:3": -384,
+          "id:3": 227,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -804,
+          "y:3": -384,
+          "id:3": 228,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -840,
+          "y:3": -444,
+          "id:3": 229,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -720,
+          "y:3": -408,
+          "id:3": 230,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -684,
+          "y:3": -444,
+          "id:3": 231,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -672,
+          "y:3": -492,
+          "id:3": 232,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -636,
+          "y:3": -468,
+          "id:3": 233,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -912,
+          "y:3": -444,
+          "id:3": 234,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -684,
+          "y:3": -372,
+          "id:3": 235,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -624,
+          "y:3": -372,
+          "id:3": 236,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Aluminum and Early Electric Age",
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 130,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Now it time to get electrical.  We will start out with getting you to the point where you can add a LV magnetic separator and a LV electrolyzer. Once you get the electrolyzer you can start the process to get your first aluminium.\n\nAs of GT6 version 6.14.24, Aluminum processing no longer requires a smelter.  In addition aluminum is a requirement in the processing of Niobium and aluminum is required to get a MV Electrolyzer to process Tantalite.  So aluminum is now a requirement before tungsten.  Aluminum is also needed to make useful itemes including filters and Aluminum is also required to progress further into the electrical age."
+        }
+      },
+      "order:3": 5
+    },
+    "10:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 120,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": 120,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 120,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 120,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": 168,
+          "id:3": 46,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 168,
+          "id:3": 47,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 120,
+          "id:3": 48,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 36,
+          "id:3": 221,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Crucibles, Niobium and Tungsten",
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1024,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "The next step in progression is upgrading your crucible and working toward tungston and using your acids to process Niobium, Tantalite, and Tungsten bearing ores."
         }
       },
       "order:3": 6

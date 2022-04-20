@@ -14070,6 +14070,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.gem",
+              "Count:3": 1,
+              "Damage:2": 730,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -21015,7 +21032,7 @@
           "icon:10": {
             "id:8": "gregtech:gt.meta.dust",
             "Count:3": 1,
-            "Damage:2": 8462,
+            "Damage:2": 8038,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -21042,14 +21059,14 @@
             "0:10": {
               "id:8": "gregtech:gt.meta.dust",
               "Count:3": 8,
-              "Damage:2": 9140,
+              "Damage:2": 8036,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:gt.meta.dust",
               "Count:3": 20,
-              "Damage:2": 730,
-              "OreDict:8": ""
+              "Damage:2": 8038,
+              "OreDict:8": "dustPotassiumHeptafluorotantalate"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -21089,7 +21106,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.meta.ingot",
+            "id:8": "gregtech:gt.meta.gem",
             "Count:3": 1,
             "Damage:2": 730,
             "OreDict:8": ""
@@ -21116,10 +21133,189 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:gt.meta.ingot",
+              "id:8": "gregtech:gt.meta.gem",
               "Count:3": 1,
               "Damage:2": 730,
+              "OreDict:8": "gemTantalum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "242:10": {
+      "questID:3": 242,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26165,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Quadripple Acid Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Some machines put out multiple fluids in which one may be an acid.  So how do you get all of these fluids of of that machine.  You can use Quadruple or Nonuple pipes but since there is an acid present, you need for them to be stainless steel.\n§b\nTip:  You can make nonuple Stainless Steel pipes to get multiple fluids from multiple machiens and then use fluid filters to put the fluids in tanks or into other machines.  Filts become available once you get Aluminium.\n§a\nTo complete this quest Craft:\n1 QWuadripple Stainless Steel Pipe"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 26165,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "243:10": {
+      "questID:3": 243,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.randomtools",
+            "Count:3": 1,
+            "Damage:2": 5000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Light My Fire (Matches)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Flint and Tender and Flint and Steel can only go so far as you don\u0027t always get a light from them.  Once you find a Apatite vein, you will have the ability to make matches.  Within the vein you will have ore to give you Phosphor or Phosphorus dust. You can combine one dust with 4 short sticks (saw and 1 stick in crafting grid will give 2 short sticks).  Matches give you 90% chance to have a light.  1 Dust and 4 short sticks in a diamond will give you 4 matches.\n\nFlint and Tender is single use but only 50% of lighting\nFlint and Steel has more than a single use depending on the materials used but only 30% cvhance of lighting\na Match is single use but 90% chance of lighting.\n\nOnce you have the dusts from processing ores, you can make a bunch of matches.  Eventually when you get a machine, you can make a box of matches that will have 64 uses at 90% chance of lighting.\n§a\nTo complete the quest gather and craft:\n4 Short Sticks\n1 Phosphor or Phosphorus Dust\n4 Matches"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 4,
+              "Damage:2": 5000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 150,
+              "OreDict:8": "dustPhosphor"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.bolt",
+              "Count:3": 4,
+              "Damage:2": 8221,
+              "OreDict:8": "boltAnyWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 4,
+              "Damage:2": 5000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 1,
+              "Damage:2": 8208,
+              "OreDict:8": "dustAnyPhosphorus"
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.bolt",
+              "Count:3": 1,
+              "Damage:2": 9403,
+              "OreDict:8": "boltAnyWood"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -21654,15 +21850,15 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 36,
-          "x:3": -168,
+          "x:3": -204,
           "y:3": -108,
           "id:3": 36,
           "sizeY:3": 36
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -12,
+          "x:3": -156,
+          "y:3": 12,
           "id:3": 37,
           "sizeY:3": 24
         },
@@ -21675,22 +21871,22 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": 36,
+          "x:3": -132,
+          "y:3": 84,
           "id:3": 39,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 36,
+          "x:3": 12,
+          "y:3": 84,
           "id:3": 40,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": 36,
+          "x:3": -204,
+          "y:3": 84,
           "id:3": 49,
           "sizeY:3": 24
         },
@@ -21738,30 +21934,37 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -48,
+          "x:3": -60,
+          "y:3": 0,
           "id:3": 216,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 36,
+          "x:3": -60,
+          "y:3": 84,
           "id:3": 217,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -48,
+          "y:3": 0,
           "id:3": 218,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -12,
+          "x:3": -108,
+          "y:3": 12,
           "id:3": 219,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -48,
+          "id:3": 242,
           "sizeY:3": 24
         }
       },
@@ -22725,6 +22928,13 @@
           "x:3": -1200,
           "y:3": -552,
           "id:3": 224,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -1200,
+          "y:3": -504,
+          "id:3": 243,
           "sizeY:3": 24
         }
       },

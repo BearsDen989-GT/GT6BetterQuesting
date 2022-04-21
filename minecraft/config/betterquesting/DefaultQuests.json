@@ -21371,7 +21371,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Ever wondered if you could do something about the damage to your health when you stumble across a natural gas pocket or the disorientatiing effects you get with oil.  Greg has an answer for you:  The Biochemical Gas Hazard Suit.  This suit is made from rubber and glass and will allow you to work around natural gas and oil without the issues that come with those.  Just make youself some rubber sheets (Lo Heat Extruder will come in handy here) and a pane of glass for the helmet.  \n§b\nTip:  You can use a locker to quickly switch between suit sets.  You can look at the quest in the Utility section for lockers.\n§a\nTo complete this quest craft:\n1 Biochemical Gas Hazard Helmet\n1 Biochemical Gas Hazard Shirt\n1 Biochemical Gas Hazard Pants\n1 Biochemical Gas Hazard Boots"
+          "desc:8": "Ever wondered if you could do something about the damage to your health when you stumble across a natural gas pocket or the disorientatiing effects you get with oil.  Greg has an answer for you:  The Biochemical Gas Hazard Suit.  This suit is made from rubber and glass and will allow you to work around natural gas and oil without the issues that come with those.  Just make youself some rubber sheets (Lo Heat Extruder will come in handy here) and a pane of glass for the helmet.  \n§b\nTip:  You can use a locker to quickly switch between suit sets.  You can look at the quest in the Utility section for lockers.\n§a\nTo complete this quest craft:\n1 Biochemical Gas Hazard Helmet\n1 Biochemical Gas Hazard Shirt\n1 Biochemical Gas Hazard Pants\n1 Biochemical Gas Hazard Boots\n§b\nNote:  The IC2 Hazmat Suit will also work as an alternate to the Biochem Gas Hazard Suit.  But why would you use that old thing when Greg made you a brand spanking new one (personal bias)."
         }
       },
       "tasks:9": {
@@ -21702,7 +21702,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Ever wondered how you can get fluids like oil and natural gas for a significant distace from your base without using a ton of pipes and chunk loaders?  Greg has a option for you: The Miniature Nether Portal.  This portal will transport fluids, items, redstone, and GT Electricity between the Overworld and the Nether.  This way you could put a portal next to where you are collecting the natural gas or oil and put a corresponding one in the nether *divide the coordiantes by 8).  Do the same for you base and now you will only need enough pipes in the Nether instead of a long pipeline in the overworld.  To make a nether portal you just need 8 obsidian long rods.  Place the portal and click it with a fire start just like the large portals and there you go.\n§b\nTip: The Miniature Portas work similar to the big brother ones you use,  You enter on one side and you exit on the otehr side in the other dimension.  You will need to do the same with you pipes.  If you connect you pipe at the top in ther Overworld, you will need to connect to the bottom in the Nether.\n§a\nTo complete this quest craft:\n4 Miniature Nether Portals\n\nNote:  There are also portals for the End and if other mods are installed Twillight Forest, Atum, etc"
+          "desc:8": "Ever wondered how you can get fluids like oil and natural gas for a significant distace from your base without using a ton of pipes and chunk loaders?  Greg has a option for you: The Miniature Nether Portal.  This portal will transport fluids, items, redstone, and GT Electricity between the Overworld and the Nether.  This way you could put a portal next to where you are collecting the natural gas or oil and put a corresponding one in the nether *divide the coordiantes by 8).  Do the same for you base and now you will only need enough pipes in the Nether instead of a long pipeline in the overworld.  To make a nether portal you just need 8 obsidian long rods.  Place the portal and click it with a fire start just like the large portals and there you go.\n§b\nTip: The Miniature Portas work similar to the big brother ones you use,  You enter on one side and you exit on the otehr side in the other dimension.  You will need to do the same with you pipes.  If you connect you pipe at the top in ther Overworld, you will need to connect to the bottom in the Nether.\n§a\nTo complete this quest craft:\n4 Miniature Nether Portals\n§b\nNote:  There are also portals for the End and if other mods are installed Twillight Forest, Atum, etc"
         }
       },
       "tasks:9": {
@@ -21716,7 +21716,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 32766,
               "OreDict:8": ""
             }

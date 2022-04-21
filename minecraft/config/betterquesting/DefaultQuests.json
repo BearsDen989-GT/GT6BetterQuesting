@@ -5561,7 +5561,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "By now you may have chest after chest full of all of the different cobblestones, dark ash, dirt, gravel, and sand.  You need to do something different with your stoarage so you can find what you need.  So lets use a Gregtech Item Barrel.  \n\nThese barrels are made from wood and a couple of long rods.  The best metal to use at this time is lead or bronze.  The long rods can be crafted using 2 regular rods on an anvail or using a long rod mold.\n\nEach item barrel can hold 5,000 of the same item.  This makes these barrels good for holding your cobble, clay, or other mass item.\n§a\nTo complete this quest craft:\n2 Lead or 2 Bronze item Barrels\n§b\nRemeber you can see the otehr option to complete the quest by clicking the right arrow in the lower right of the right pane.\n"
+          "desc:8": "By now you may have chest after chest full of all of the different cobblestones, dark ash, dirt, gravel, and sand.  You need to do something different with your stoarage so you can find what you need.  So lets use a Gregtech Item Barrel.  \n\nThese barrels are made from wood and a couple of long rods.  The best metal to use at this time is lead or bronze.  The long rods can be crafted using 2 regular rods on an anvail or using a long rod mold.\n\nEach item barrel can hold 5,000 of the same item.  This makes these barrels good for holding your cobble, clay, or other mass item.\n§a\nTo complete this quest craft:\n2 Lead or 2 Bronze item Barrels\n§b\nRemeber you can see the other option to complete the quest by clicking the right arrow in the lower right of the right pane.\n"
         }
       },
       "tasks:9": {
@@ -7011,7 +7011,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n§a\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Plate Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
+          "desc:8": "Now that you have your low heat extrucer, you need low heat extruder shapes.  You first need to make steel double plates.  Once you have your steel double plate, you will need your wire cutrters, file, and hammer to make the empty extruder shape. Then you use your wire cutters and the empty extrucer shape in a crafting grid to get the approciate shape.  Some shapes may require you to make a different shape first.  We will try a few useful shapes.\n§b\nPro Tip:  You can use the plate mold with rock dust such as marble, granite, andesite, and others to make rock plates.  The plates act as covers and can be used to cover up pipes, wires and any other ugly holes you have around your base.  You can select the pattern by using your Gregtech chisel.  This way you can make a nice tidy base and hide all the plumbing and wiring.\n§a\nTo complete this quest:\nMake 3 Low Heat Empty Extruder Shapes\nMake 1 Plate Extruder Shape\nMake 1 Wire Extruder Shape\nMake 1 Normal Pipe Extruder Shape"
         }
       },
       "tasks:9": {
@@ -18799,7 +18799,7 @@
     "211:10": {
       "questID:3": 211,
       "preRequisites:11": [
-        2
+        90
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21235,7 +21235,9 @@
     },
     "243:10": {
       "questID:3": 243,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        26
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -21316,6 +21318,407 @@
               "Count:3": 1,
               "Damage:2": 9403,
               "OreDict:8": "boltAnyWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "244:10": {
+      "questID:3": 244,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.armor.hazmat.biochemgas.chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Biochemical Gas Hazard Suit",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Ever wondered if you could do something about the damage to your health when you stumble across a natural gas pocket or the disorientatiing effects you get with oil.  Greg has an answer for you:  The Biochemical Gas Hazard Suit.  This suit is made from rubber and glass and will allow you to work around natural gas and oil without the issues that come with those.  Just make youself some rubber sheets (Lo Heat Extruder will come in handy here) and a pane of glass for the helmet.  \n§b\nTip:  You can use a locker to quickly switch between suit sets.  You can look at the quest in the Utility section for lockers.\n§a\nTo complete this quest craft:\n1 Biochemical Gas Hazard Helmet\n1 Biochemical Gas Hazard Shirt\n1 Biochemical Gas Hazard Pants\n1 Biochemical Gas Hazard Boots"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.armor.hazmat.biochemgas.head",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.armor.hazmat.biochemgas.chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.armor.hazmat.biochemgas.legs",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.armor.hazmat.biochemgas.boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "245:10": {
+      "questID:3": 245,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.armor.hazmat.insect.chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bee Careful Bumble Suit",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So you wanted to start you bee keeping job and you found some of Greg\u0027s bumbles but you kept loosing health because you were constantly being stung by the bumbles.  Well Greg has somethign for you.  He added a Bumble Suit.  Put this suit on and you will not get stung by the bumble bees any longer.  The Bumble Suit is made from rubber foil.  There is a foil mold for the Low Heat Extruder that works with rubber and plastic but not metals.\n§b\nTip:  You can use a locker to quickly switch between suit sets.  You can look at the quest in the Utility section for lockers.\n§a\nTo complete the quest craft:\n1 Bumblehelmet\n1 Bumbleshirt\n1 Bumblepants\n1 Bumbleboots"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.armor.hazmat.insect.head",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.armor.hazmat.insect.chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.armor.hazmat.insect.legs",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:gt.armor.hazmat.insect.boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "246:10": {
+      "questID:3": 246,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 7309,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Locker Room",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So you now have some nice suits, one for dealing with gases, one for very hot items, one for bumbles, and your suit of armor for mods.  How do you deal with all of these sets?  You use lockers.  Lockers which is made from almost any metal and can be used to quickly switch between you suils.  You cna stack lockers on top of each otehr so all of your suits are in one place.\n§a\nTo complete this quest craft:\n1 Bronze, Brass, Invar, Steel, Colbalt or Stainless Steel Locker\n§b\nNote:  There is a charging version of the locker but that is for end game electronic suits."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7309,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7308,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7306,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7310,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7321,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7311,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "247:10": {
+      "questID:3": 247,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32766,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Miniature Nether Portals",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Ever wondered how you can get fluids like oil and natural gas for a significant distace from your base without using a ton of pipes and chunk loaders?  Greg has a option for you: The Miniature Nether Portal.  This portal will transport fluids, items, redstone, and GT Electricity between the Overworld and the Nether.  This way you could put a portal next to where you are collecting the natural gas or oil and put a corresponding one in the nether *divide the coordiantes by 8).  Do the same for you base and now you will only need enough pipes in the Nether instead of a long pipeline in the overworld.  To make a nether portal you just need 8 obsidian long rods.  Place the portal and click it with a fire start just like the large portals and there you go.\n§b\nTip: The Miniature Portas work similar to the big brother ones you use,  You enter on one side and you exit on the otehr side in the other dimension.  You will need to do the same with you pipes.  If you connect you pipe at the top in ther Overworld, you will need to connect to the bottom in the Nether.\n§a\nTo complete this quest craft:\n4 Miniature Nether Portals\n\nNote:  There are also portals for the End and if other mods are installed Twillight Forest, Atum, etc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32766,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -21906,14 +22309,14 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": 12,
           "y:3": -120,
           "id:3": 101,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 60,
           "y:3": -120,
           "id:3": 102,
           "sizeY:3": 24
@@ -21965,6 +22368,20 @@
           "x:3": -36,
           "y:3": -48,
           "id:3": 242,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -156,
+          "id:3": 244,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -144,
+          "id:3": 245,
           "sizeY:3": 24
         }
       },
@@ -22935,6 +23352,20 @@
           "x:3": -1200,
           "y:3": -504,
           "id:3": 243,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -1200,
+          "y:3": -456,
+          "id:3": 246,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -1152,
+          "y:3": -552,
+          "id:3": 247,
           "sizeY:3": 24
         }
       },

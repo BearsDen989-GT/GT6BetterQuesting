@@ -5231,7 +5231,7 @@
     "64:10": {
       "questID:3": 64,
       "preRequisites:11": [
-        92
+        249
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5842,7 +5842,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -21798,6 +21798,827 @@
           }
         }
       }
+    },
+    "248:10": {
+      "questID:3": 248,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8507,
+                "d:8": "AnyWood",
+                "j:2": 6400
+              }
+            },
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Stop! Hammer Time",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You just got some rocks and made some stone and flint tools but you are running out of the nice tier 3 level read and black granite rocks tom replace the tool that broke. what do you do?\n\nA solution is to make a tier 3 hammer out of your red or black granite rocks.\n\nIf you make a hammer from 6 red or black granite and you will be able to mine a piece of red/black granite rock.  This will give you red/black cobblestone.  Place that red/black cobble on the ground and mine it with with your hammer again will result in you getting 3-4 red/black granite rocks.  This will give you more rocks to make additional level 3 tools like a poick, axe or another hammer.\n§b§a\nTo ocmplete this quest craft:\n1 Black or Red Granite hammer\n§f§a"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8507,
+                  "d:8": "AnyWood",
+                  "j:2": 6400
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8508,
+                  "d:8": "AnyWood",
+                  "j:2": 6400,
+                  "k:2": 800
+                }
+              },
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "249:10": {
+      "questID:3": 249,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "tag:10": {
+              "gt.durability:3": 1000000
+            },
+            "Damage:2": 32028,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "ACME Anvils",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So now you have your crucible set up and you have tools, you are going to need something to make double plates, curved plates and springs.  This early in path through technology, you will need an anvil.  Now that we have bronze, a bronze anvil will last significant longer t han those rock anvils.  If unfortunately you are really short on bronze, you could make a lead, red granite or black granite anvil until you find more copper and tin.\n§b\nNote:\nRegular stone has 1 durability/use\nRed or Black Granite has 10 durability\nLead has 80 durability\nBronze has 100 durability\nSteel has 1000 durability\nYou will want to upgrade your anvil when you can.  You should be able to recycle your old metal anvils in the crucible as long as they have not borken.\n§a\nTo complete this quest craft of pick up:\n1 Bronze, Lead, Red Granite, or Black Granite Anvil\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 1000000
+              },
+              "Damage:2": 32028,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 800000
+              },
+              "Damage:2": 32050,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 100000
+              },
+              "Damage:2": 32027,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.durability:3": 100000
+              },
+              "Damage:2": 32026,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "250:10": {
+      "questID:3": 250,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8600,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Electrum",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Electrum is made from gold and silver and is also the base for other alloys.  Electrum item pipes have better capacity than brass item pipes.\n§6\nRecipe:\n1 Gold ingot/dust + 1 Silver ingot/dust \u003d\u003e [Crucible 1285 K] \u003d\u003e 2 Electrum ingot/plates\n§a\nTo complete this quest make:\n2 Electrum ingots or plates."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 2,
+              "Damage:2": 8600,
+              "OreDict:8": "ingotElectrum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 2,
+              "Damage:2": 8600,
+              "OreDict:8": "plateElectrum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "251:10": {
+      "questID:3": 251,
+      "preRequisites:11": [
+        250
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8611,
+            "OreDict:8": "ingotBlackBronze"
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Black Bronze",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Black Bronze is a useful alloy that will be used in higher tier alloys.\n\nBlack bronze is made from combining annealed copper and electrum.\n§b\nNote:  Annealed Copper is copper heated to 2800 K.  You will need to heat the crucible to this temperature if you use copper even though the temperature for Black Bronze is at 1328 K\n§e\nWarning:  This means you will need to make the annealed copper in a higher tier crucible than ceramic.  If you already have annealed copper then you can make it in a ceramic crucible.\n§6\nRecipe:\n3 Copper/Annealed Copper ingot/dust + 2 Electrum ingot/dust \u003d\u003e [Crucible 1328 K] \u003d\u003e 5 Black Bronze ingots/plates\n§a\nTo complete this quest make:\n5 Black Bronze ingots or plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 5,
+              "Damage:2": 8611,
+              "OreDict:8": "ingotBlackBronze"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 5,
+              "Damage:2": 8611,
+              "OreDict:8": "plateBlackBronze"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "252:10": {
+      "questID:3": 252,
+      "preRequisites:11": [
+        251,
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8690,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Black Steel",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Black Steel is a much stronger allow that regular steel and your tools and anvils will last longer.  Black Steel is made from Nickel, Black Bronze and Steel.\n§b\nNote:\nBlack Steel pickaxe has 76,8090 durability and is a Level 2 pick\nBlack steel Anvil has 3,000 durability\n§6\nRecipe:\n1 Nickel ingot/dust + 1 Black Bronze Ingot/dust + 3 Steel/Meteoric Steel \u003d\u003e [Crucible 1838 K] \u003d\u003e 3 Black Steel ingots/plates\n§a\nTo complete this quest make:\n5 Black Steel ingot or plate"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 5,
+              "Damage:2": 8631,
+              "OreDict:8": "ingotAnyBlackSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 5,
+              "Damage:2": 8631,
+              "OreDict:8": "plateAnyBlackSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "253:10": {
+      "questID:3": 253,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8602,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Rose Gold",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Rose Gold alloy is made by combining Annealed Copper and Gold.  This alloy is used in high tier alloys like Red Steel.\n§b\nNote:  You will need to heat the crucible to 2800 K if you use copper as it needs to heat to annealed copper temperature before the Rose Gold is made.  \n§e\nWarning:  This means you will need to make the annealed copper in a higher tier crucible than ceramic.  If you already have annealed copper then you can make it in a ceramic crucible.\n§6\nRecipe:\n1 Annealed Copper ingot/dust + 4 Gold ingots/dusts \u003d\u003e [crucible 1341 K] \u003d\u003e 5 Rose Gold ingots/plates\n§a\nTo complete the quest make:\n5 Rose Gold ingot/plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 5,
+              "Damage:2": 8602,
+              "OreDict:8": "ingotRoseGold"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 5,
+              "Damage:2": 8602,
+              "OreDict:8": "plateRoseGold"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "254:10": {
+      "questID:3": 254,
+      "preRequisites:11": [
+        253,
+        252
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8633,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Red Steel",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Red Steel is a much stronger alloy that Black Steel but takes a bit of work to make.  Red Steel is made from Rose Gold, Brass, Steel and Black Steel.\n§b\nNote:\nRed Steel pickaxe has 102,400 durability and is a Level 2 pick\nRed Steel anvil has 5,000 durability\n§6\nRecipe:\n1 Rose Gold ingot/dust + 1 Brass ingot/dust + 2 Steel ingots/dusts + 4 Black Steel ingots/dusts \u003d\u003e [crucible 1838 K] \u003d\u003e 8 Red Steel ingots/plates\n§a\nTo complete this quest make:\n8 Red Steel ingots or plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 8,
+              "Damage:2": 8633,
+              "OreDict:8": "ingotAnyRedSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 8,
+              "Damage:2": 8633,
+              "OreDict:8": "plateAnyRedSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "255:10": {
+      "questID:3": 255,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {},
+              "GT.ToolStats:10": {
+                "a:2": 8630,
+                "c:2": 8221,
+                "j:3": 51200
+              }
+            },
+            "Damage:2": 60,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Construction Pick",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A construction pick is made with file and hammer from a raw pickaxe heqad.  You can also make one from ingots and plates if you want.  The construction picks use very little durability compared to regular picks when picking up bricks, smooth stone, cobble stone and onther construction blocks.  Construction picks are extremely bad if you use them to mine regular stone or ores.  If you are remodeling your base and moving walls and floors, then a construction pick is for you.  If you are digging out a basement use a regular pick.\n§a\nTo complete this quest craft:\n1 Bronze, Steel, or Cobalt Construction pick"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8630,
+                  "c:2": 8221,
+                  "j:3": 51200
+                }
+              },
+              "Damage:2": 60,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8221,
+                  "j:3": 44800
+                }
+              },
+              "Damage:2": 60,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 270,
+                  "c:2": 8221,
+                  "j:2": 25600
+                }
+              },
+              "Damage:2": 60,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -21916,21 +22737,21 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -72,
+          "y:3": -60,
           "id:3": 30,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -36,
+          "y:3": -12,
           "id:3": 31,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -36,
+          "y:3": 12,
           "id:3": 35,
           "sizeY:3": 24
         },
@@ -21951,7 +22772,7 @@
         "14:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -72,
+          "y:3": -36,
           "id:3": 64,
           "sizeY:3": 24
         },
@@ -21972,7 +22793,7 @@
         "17:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": -72,
+          "y:3": -36,
           "id:3": 67,
           "sizeY:3": 24
         },
@@ -22000,7 +22821,7 @@
         "21:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -120,
+          "y:3": -132,
           "id:3": 92,
           "sizeY:3": 24
         },
@@ -22009,6 +22830,20 @@
           "x:3": 108,
           "y:3": -204,
           "id:3": 220,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -264,
+          "y:3": -180,
+          "id:3": 248,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -84,
+          "id:3": 249,
           "sizeY:3": 24
         }
       },
@@ -23369,7 +24204,7 @@
           "desc:8": "This is the Periodic Table of Elements.  You can gather all of these elements.  For gasses and liq uids you will need to put some in a bottle.  Solids are available in ingots, plates, or dusts.  Just gather the element and get a cookie.  Collect them all."
         }
       },
-      "order:3": 10
+      "order:3": 11
     },
     "7:10": {
       "quests:9": {
@@ -23421,6 +24256,13 @@
           "y:3": -552,
           "id:3": 247,
           "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -1152,
+          "y:3": -504,
+          "id:3": 255,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 7,
@@ -23439,7 +24281,7 @@
           "desc:8": "These quests show you some utility blocks from Greg Tech 6."
         }
       },
-      "order:3": 9
+      "order:3": 10
     },
     "8:10": {
       "quests:9": {
@@ -23776,6 +24618,62 @@
         }
       },
       "order:3": 6
+    },
+    "11:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -504,
+          "y:3": -252,
+          "id:3": 250,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -444,
+          "y:3": -252,
+          "id:3": 251,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -384,
+          "y:3": -252,
+          "id:3": 252,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -444,
+          "y:3": -192,
+          "id:3": 253,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -384,
+          "y:3": -192,
+          "id:3": 254,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Useful Alloys",
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8600,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Alloys are extremely useful in make stronger and more useful metals for use in making tools, machines, pipes, and more.  This section covers some alloys that are not directly related to progression."
+        }
+      },
+      "order:3": 9
     }
   },
   "questSettings:10": {

@@ -749,7 +749,8 @@
     "7:10": {
       "questID:3": 7,
       "preRequisites:11": [
-        1
+        0,
+        92
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -767,7 +768,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "repeat_relative:1": 1,
           "name:8": "The Bucket Challenge",
           "lockedProgress:1": 0,
@@ -3000,7 +3001,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Black Sand/Limonite/Hematit"
+          "desc:8": "In the Progression Age you want to look for:\n\n- Chrome/Chromite\n\n- Manganese/Pyrolusite\n\n- Redstone\n\n- Nickel/Pentlandite\n\n- Black Sand/Limonite/Hematite"
         }
       },
       "tasks:9": {
@@ -5760,7 +5761,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6174,7 +6175,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -21920,7 +21921,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "OR",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -22701,7 +22702,7 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -216,
+          "x:3": -108,
           "y:3": -60,
           "id:3": 7,
           "sizeY:3": 24
@@ -22736,21 +22737,21 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -60,
+          "x:3": 24,
+          "y:3": -72,
           "id:3": 30,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -12,
+          "x:3": 24,
+          "y:3": -24,
           "id:3": 31,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": -72,
           "y:3": 12,
           "id:3": 35,
           "sizeY:3": 24
@@ -22771,8 +22772,8 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -36,
+          "x:3": -36,
+          "y:3": -24,
           "id:3": 64,
           "sizeY:3": 24
         },
@@ -22785,15 +22786,15 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -108,
+          "x:3": 24,
+          "y:3": -120,
           "id:3": 66,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -36,
+          "x:3": -12,
+          "y:3": 12,
           "id:3": 67,
           "sizeY:3": 24
         },
@@ -22820,8 +22821,8 @@
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -132,
+          "x:3": -36,
+          "y:3": -108,
           "id:3": 92,
           "sizeY:3": 24
         },
@@ -22841,8 +22842,8 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -84,
+          "x:3": -36,
+          "y:3": -60,
           "id:3": 249,
           "sizeY:3": 24
         }

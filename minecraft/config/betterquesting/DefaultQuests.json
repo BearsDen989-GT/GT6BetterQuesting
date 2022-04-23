@@ -22183,7 +22183,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Black Bronze is a useful alloy that will be used in higher tier alloys.\n\nBlack bronze is made from combining annealed copper and electrum.\n§b\nNote:  Annealed Copper is copper heated to 2800 K.  You will need to heat the crucible to this temperature if you use copper even though the temperature for Black Bronze is at 1328 K\n§e\nWarning:  This means you will need to make the annealed copper in a higher tier crucible than ceramic.  If you already have annealed copper then you can make it in a ceramic crucible.\n§6\nRecipe:\n3 Copper/Annealed Copper ingot/dust + 2 Electrum ingot/dust \u003d\u003e [Crucible 1328 K] \u003d\u003e 5 Black Bronze ingots/plates\n§a\nTo complete this quest make:\n5 Black Bronze ingots or plates"
+          "desc:8": "Black Bronze is a useful alloy that will be used in higher tier alloys.\n\nBlack bronze is made from combining copper and electrum.\n§\n§6\nRecipe:\n3 Copper ingot/dust + 2 Electrum ingot/dust \u003d\u003e [Crucible 1328 K] \u003d\u003e 5 Black Bronze ingots/plates\n§a\nTo complete this quest make:\n5 Black Bronze ingots or plates"
         }
       },
       "tasks:9": {
@@ -22358,7 +22358,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The Rose Gold alloy is made by combining Annealed Copper and Gold.  This alloy is used in high tier alloys like Red Steel.\n§b\nNote:  You will need to heat the crucible to 2800 K if you use copper as it needs to heat to annealed copper temperature before the Rose Gold is made.  \n§e\nWarning:  This means you will need to make the annealed copper in a higher tier crucible than ceramic.  If you already have annealed copper then you can make it in a ceramic crucible.\n§6\nRecipe:\n1 Annealed Copper ingot/dust + 4 Gold ingots/dusts \u003d\u003e [crucible 1341 K] \u003d\u003e 5 Rose Gold ingots/plates\n§a\nTo complete the quest make:\n5 Rose Gold ingot/plates"
+          "desc:8": "The Rose Gold alloy is made by combining Copper and Gold.  This alloy is used in higher tier alloys like Red Steel.\n§\n§6\nRecipe:\n1 Copper ingot/dust + 4 Gold ingots/dusts \u003d\u003e [crucible 1341 K] \u003d\u003e 5 Rose Gold ingots/plates\n§a\nTo complete the quest make:\n5 Rose Gold ingot/plates"
         }
       },
       "tasks:9": {

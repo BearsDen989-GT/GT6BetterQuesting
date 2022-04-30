@@ -1474,7 +1474,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -1493,7 +1493,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Stone Ages you have few options for automation but a hopper is a great idea to help with some of the cumbersome tasks.\nWhen you check NEI, you will notice that there isn\u0027t only the vanilla iron hopper but many different hoppers out of different materials. Those hoppers are more tick friendly, so don\u0027t feel bad about using them.\nThe difference between the materials is how many slots each hopper contains.\nThe default version doesn\u0027t care about the order items are put into it, while the Queque version does care and only outputs them in the same order.\n§5§b\n§6§5§6§bTip: If you use a screwdriver you can set the hopper to only pull/push a certain amount of items. They also react to redstone to enable/disable their pull/push.\n\nPro Tip:  Make a Vanilla Minecraft Chest (these don\u0027t burn) and place the hopper below your bruning box with the hopper going into the chest.  This will allow for your dark ash to empty out of the burning box and end up in the chest.  This will prevent the burning box from going out due to being full of ash.  Just make sure to empty your chest once a while to prevent it from filling up and backing ash back to your burning box.\n§f§a\nCraft the following item:\n1 Bronze Hopper"
+          "desc:8": "When you check NEI, you will notice that there isn\u0027t only the vanilla iron hopper but many different hoppers out of different materials. Those hoppers are more tick friendly, so don\u0027t feel bad about using them.\nThe difference between the materials is how many slots each hopper contains.\nThe default version doesn\u0027t care about the order items are put into it, while the Queque version does care and only outputs them in the same order.\n§5§b\n§6§5§6§bTip: If you use a screwdriver you can set the hopper to only pull/push a certain amount of items. They also react to redstone to enable/disable their pull/push.  This is useful when setting up automatic crucible and need things like 3 copper or 6 Black Sand for example.\n\nPro Tip:  Make a Vanilla Minecraft Chest (these don\u0027t burn) and place the hopper below your bruning box with the hopper going into the chest.  This will allow for your dark ash to empty out of the burning box and end up in the chest.  This will prevent the burning box from going out due to being full of ash.  Just make sure to empty your chest once a while to prevent it from filling up and backing ash back to your burning box.\n§f§a\nCraft the following item:\n1 Hopper [Choose from Bronze, Brass, Lead, Steel, Cobalt, Germanium, Invar or Nickel]"
         }
       },
       "tasks:9": {
@@ -1513,13 +1513,132 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8022,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8023,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8008,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8010,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "6:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 6,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8021,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "7:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 7,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 8006,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 1,
+          "choices:9": {
             "0:10": {
               "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
@@ -2682,7 +2801,9 @@
       "questID:3": 31,
       "preRequisites:11": [
         30,
-        64
+        64,
+        258,
+        259
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22852,6 +22973,146 @@
           }
         }
       }
+    },
+    "258:10": {
+      "questID:3": 258,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Railcraft:part.plate",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tin Alloy",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Tin Alloy is made from tin and wroght iron.  This alloy is used in making some sensors like a thermometer sensor.\n§b\nNote:  You need to heat iron to 2011 K to make wroght iron.  Once you heated your iron to 2011, then you can add your tin to make tin alloy.\n§6\nReecipe:\n1 wroght iron ingot/dust + 1 Tin ingot/dust \u003d\u003e [Crucible 1258 K] \u003d\u003e 2 Tin Alloy ingots/plates\n§a\nTo complete the quest make:\n2 Tin Alloy Plates"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Railcraft:part.plate",
+              "Count:3": 2,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "259:10": {
+      "questID:3": 259,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.plate",
+            "Count:3": 1,
+            "Damage:2": 8660,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Red Alloy",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Red alloy is very important in automating things around the factory.  Red Alloy wires can be used in place of redstone dust to make compact restone circuits.  Red Alloy Fine Wires are used in sensors.  To make 4 Redstone aaaloy plates you will need 4 copper ingots and 16 Redstone dusts.  You can substitute 1 Redstone gem for a dust.  You can also use lesser gems (2 Flawed Redstone is the same as 1 Dust).  You do not need to grind down the gems into dusts to use them in the crucible.\n§6\nRecipe:\n1 Copper ingot/dust + 4 Redstone gems/dusts \u003d\u003e [Crucible 1400K] \u003d\u003e 1 Redstone Alloy ingot/plate\n§a\nTo Complete the quest make:\n4 Redstone Alloy Plates "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.plate",
+              "Count:3": 4,
+              "Damage:2": 8660,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -22962,121 +23223,128 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -156,
-          "id:3": 15,
+          "x:3": 24,
+          "y:3": -60,
+          "id:3": 30,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": -72,
-          "id:3": 30,
+          "y:3": -12,
+          "id:3": 31,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -24,
-          "id:3": 31,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
           "x:3": -72,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 35,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -192,
           "id:3": 59,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -96,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -24,
+          "y:3": -12,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -312,
           "y:3": -84,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": -120,
+          "y:3": -108,
           "id:3": 66,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 12,
+          "x:3": 0,
+          "y:3": 24,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -156,
           "y:3": -168,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -108,
           "id:3": 70,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -168,
           "id:3": 91,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -108,
           "id:3": 92,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": -204,
           "id:3": 220,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -180,
           "id:3": 248,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -60,
           "id:3": 249,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -120,
+          "id:3": 258,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -144,
+          "id:3": 259,
           "sizeY:3": 24
         }
       },
@@ -24450,54 +24718,61 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
+          "x:3": -1152,
+          "y:3": -456,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
           "x:3": -1248,
           "y:3": -552,
           "id:3": 210,
           "sizeY:3": 24
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": -1248,
           "y:3": -504,
           "id:3": 211,
           "sizeY:3": 24
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -1248,
           "y:3": -456,
           "id:3": 223,
           "sizeY:3": 24
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -1200,
           "y:3": -552,
           "id:3": 224,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -1200,
           "y:3": -504,
           "id:3": 243,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -1200,
           "y:3": -456,
           "id:3": 246,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -1152,
           "y:3": -552,
           "id:3": 247,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -1152,
           "y:3": -504,

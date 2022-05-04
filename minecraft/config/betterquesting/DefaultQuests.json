@@ -604,7 +604,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -627,7 +627,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.14.24.  This includes the updated processing for Aluminium, Niobium, and Tantalite.  Currently the oil and plastic lines have not been fully updated to GT6 6.14 changes and thus some quest do not have rewards for those quests.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valueable metals for later\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s comsetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
+          "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.14.24.  This includes the updated processing for Aluminium, Niobium, and Tantalite.  Currently the oil and plastic lines have not been fully updated to GT6 6.14 changes and thus some quest do not have rewards for those quests.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valueable metals for later.  There are also Gregtech Forts which contain some incredible loot including cabinates, drums, crates of metal plates (Bronze, Steel, Stainless Steel, and more) to Nether and End Portals.  Never pass up a firt if you find one.  You will be making multiple trips to bring back all that loot to your base.\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- Gregtech has a similar system to Inventory Tweaks where if you place similar blocks or tools above your active tools in your inventory, those items will drop down when they are depleated/break.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s comsetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
         }
       },
       "tasks:9": {
@@ -645,7 +645,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5132,7 +5132,7 @@
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5304,7 +5304,8 @@
     "63:10": {
       "questID:3": 63,
       "preRequisites:11": [
-        1
+        1,
+        65
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5322,7 +5323,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "repeat_relative:1": 1,
           "name:8": "Fast Food",
           "lockedProgress:1": 0,
@@ -5550,7 +5551,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You will need to defend yourself from mobs while you are out exploring.  You also may need to get meat from some animals.  With gregtech you have a couple options.\n\nThe first is to use a piece of flint and a stick to make a knife.  The knife has fire aspect which give burning damage to mobs.  It also will cook the meat from animals giving you something you can eat.\n\nThe other option is a club.  You can make a club from the stones that you collect.  This will last abit longer than the knife, it does not give ticking burning damage like the knife.\n§b\nTip:  You can now make a bone club using 2 bones and a stick or 3 bones.  Now you can use those useless bones dropped by skeletons.\n§a\nMake the following:\n1 Flint Knife\n1 Stone Club"
+          "desc:8": "You will need to defend yourself from mobs while you are out exploring.  You also may need to get meat from some animals.  With gregtech you have a couple options.\n\nThe first is to use a piece of flint and a stick to make a knife.  The knife has fire aspect which give burning damage to mobs.  It also will cook the meat from animals giving you something you can eat.\n\nThe other option is a club.  You can make a club from the stones that you collect.  This will last abit longer than the knife, it does not give ticking burning damage like the knife.\n§b\nTip:  You can now make a bone club using 2 bones and a stick or 3 bones.  Now you can use those useless bones dropped by skeletons.\n§a\nMake the following:\n1 Flint Knife\n1 Stone or Bone Club"
         }
       },
       "tasks:9": {
@@ -23142,6 +23143,217 @@
           }
         }
       }
+    },
+    "260:10": {
+      "questID:3": 260,
+      "preRequisites:11": [
+        69,
+        91
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 1102,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "A Better Burning Box Please",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "As you probably have found out that the Brick Burning Box is very very ineffecient.  Now that we have some Bronze, lets make a better burning box so you can save some of your fuel and also some time watching metal melt.  You will be making quite a few of these so let get started with the first one.\n§a\nTo complete this quest craft:\n1 Bronze Burning Box (Solid)\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1102,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "261:10": {
+      "questID:3": 261,
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32704,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Dust Buster",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you have a crusher up and running, you will notice that you get 2 items, crushed ore and for block ores, stone dust.  If you were thinking of automating sending the output of the crusher to the sluice, you will need to filter out the dusts.  You could put barrels along the item pipes but you would have to set it up where the item barrels were no where near your buurning boxes or else they would burn up.  Filters will become available once you have aluminium processing but that will be a while before you have the tech to deal with that.  In the early game Greg gives you a Dust Funnel.  You place the Dust Funnel below your item pipes running between the Crusher and the Sluice with additional pipes below the Dust Funel and youj can now direct the dusts away from your sluice.\n\nThe Dust Funnel is made from iron plates, iron rods, and a Vanilla Hopper.  The Vanilla Hopper is made from 5 iron plates.\n§a\nTo complete this quest craft:\n1 Dust Funnel"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32704,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "262:10": {
+      "questID:3": 262,
+      "preRequisites:11": [
+        251
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 25127,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "A Better Item Pipe",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "When you are setting up your ore processing line, you will notice that it gets overwhelmed very quickly because Bronze pipes are very limiting with 1 stack/s.  You cna double this by making your item pipes out of Black Bronze.  Black Bronze normal item pipes allow 2 stacks/sec which doubles the throuput of your pipe network.  Black Bronze is similar to Electrum item pipes except making into Black Bronze by adding copper to the electrum, you make your silver  and gold go further.\n§a\nTo complete this quest craft:\n4 Black Bronze Item Pipes (Normal)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 25127,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -23273,15 +23485,15 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -192,
+          "x:3": 24,
+          "y:3": -168,
           "id:3": 59,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -96,
+          "x:3": -252,
+          "y:3": -84,
           "id:3": 63,
           "sizeY:3": 24
         },
@@ -23329,8 +23541,8 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -168,
+          "x:3": -12,
+          "y:3": -192,
           "id:3": 91,
           "sizeY:3": 24
         },
@@ -23374,6 +23586,13 @@
           "x:3": 96,
           "y:3": -144,
           "id:3": 259,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -192,
+          "id:3": 260,
           "sizeY:3": 24
         }
       },
@@ -23647,6 +23866,13 @@
           "x:3": -60,
           "y:3": 48,
           "id:3": 222,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -132,
+          "id:3": 261,
           "sizeY:3": 24
         }
       },
@@ -25205,6 +25431,13 @@
           "x:3": -384,
           "y:3": -192,
           "id:3": 254,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -444,
+          "y:3": -312,
+          "id:3": 262,
           "sizeY:3": 24
         }
       },

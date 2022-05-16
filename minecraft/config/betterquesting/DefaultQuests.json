@@ -4624,7 +4624,7 @@
           "globalShare:1": 0,
           "questLogic:8": "OR",
           "repeat_relative:1": 1,
-          "name:8": "Oil Change",
+          "name:8": "Need an Oil Change?",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -4691,13 +4691,13 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 1,
+          "choices:9": {
             "0:10": {
-              "id:8": "minecraft:cookie",
+              "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 2005,
               "OreDict:8": ""
             },
             "1:10": {
@@ -5691,7 +5691,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar is found in the same vein as redstone.  So if you found a redstone vein, there is most likely cinnabar there too.  You will need a level 2 pick to mine the cinnabar ore.  So mine down to the Redstone Cinnabar vein.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  You are looking to gather 3 crushed cinnabar ores.  Each crushed Cinnabar ore makes 3 nuggets of mercury.  White you are there gather some small restone ores as they will be needed soon.\n§b\n§b§b§bNote:  If you cannot find Cinnabar Ore, you can wash Crushed Redstone in a cauldon and get purified cinnabar ore for the recipe.\n§f\nOnce you have gathered the 3 crushed cinnabar ores (maybe gather a few more incase something goes wrong), you will need to get the mercury from the crushed ore.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you 2 options to get the mercury:\n\nFirst you can put 3 cinnabar crushed ores in a crucible.  Use a shovel to remove the scrap stone.  Once you start to get scrap mercury, put the mercury back in the crucible.  Next use 1 stick and light the burning box.  This should give you the mercury.  \n\nSecond you can put the 3 crushed cinnabar ores in a vanilla furnace.  Once you smelt the ore, you should get 9 nuggets of mercury.  Now take the 9 nuggets of mercury and drop them into the crucible.  The nuggests will turn to liquid immediately and you do not need to light the burning box.\n\n\nThe final step is to use a glass bottle and right-click the crucible to capture the mercury.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§a\nGet the following items:\n1 Glass Bottle\n3 Crushed Cinnabar Ores\n1 Mercury Bottle"
+          "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar can be found in a redstone vein but there are more redstone veins that do not have any cinnabar.  You will need a level 2 pick to mine the actual cinnabar ore komatite rocks.  If you do not have any luck locating cinnabar ore veins in the overworld, you can find small cinnabar ores in the nether near the top of the world.  Another option is washing redstone crushed ores, but may require more than a stack of crushed redstone as you only get a chance of a small purified cinnabar ore.  If you found vanilla vein that has redstone, gold, and/or diamonds, you can use a club, to get a cinnabar crushed ore.  This actually may be the best way to get cinnabar early.  You can also wash crushed stibnite ore for a chance of small purified cinnabar ore.  So mine down to the Redstone Cinnabar vein.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  You are looking to gather 3 crushed cinnabar ores.  Each crushed Cinnabar ore makes 3 nuggets of mercury.  White you are there gather some small restone ores as they will be needed soon.\n§b\n§b§b§bNote:  If you cannot find Cinnabar Ore, you can wash Crushed Redstone in a cauldon and get purified cinnabar ore for the recipe.\n§f\nOnce you have gathered the 3 crushed cinnabar ores (maybe gather a few more incase something goes wrong), you will need to get the mercury from the crushed ore.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you 2 options to get the mercury:\n\nFirst you can put 3 cinnabar crushed ores in a crucible.  Use a shovel to remove the scrap stone.  Once you start to get scrap mercury, put the mercury back in the crucible.  Next use 1 stick and light the burning box.  This should give you the mercury.  \n\nSecond you can put the 3 crushed cinnabar ores in a vanilla furnace.  Once you smelt the ore, you should get 9 nuggets of mercury.  Now take the 9 nuggets of mercury and drop them into the crucible.  The nuggests will turn to liquid immediately and you do not need to light the burning box.\n\n\nThe final step is to use a glass bottle and right-click the crucible to capture the mercury.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§a\nGet the following items:\n1 Glass Bottle\n3 Crushed Cinnabar Ores\n1 Mercury Bottle"
         }
       },
       "tasks:9": {

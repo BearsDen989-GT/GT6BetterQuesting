@@ -5178,7 +5178,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Gregtech has many items and many of them you need again and again. To make it easier to find the recipes here are some tips on NEI usage in Gregtech:\n\n- You can press \u0027a\u0027 while hovering over an item in NEI to add it to your favorite list on the left side, press it again while hovering on the same item, to remove it again.\n\n- A nice way to not loose track of what you are currently progression towards is to favorite the items you work on.\n\n- Type meta.tools in the NEI searchbar to get all main tools listed [Does this even work?]\n\nClick the box to the right to continue."
+          "desc:8": "Gregtech has many items and many of them you need again and again. To make it easier to find the recipes here are some tips on NEI usage in Gregtech:\n\n- You can press \u0027R\u0027 to see the recipes for how you get that item or \u0027U\u0027 to find an usage for that item.  Juist make sure you don\u0027t have the active curcor active in the search bar or else those letters will appear as you searching for something.\n\n- Greg has many machines that possibly can use a specific item so check to tee if there may be additional pages of more machiens that can use that item.\n\n- You can press \u0027a\u0027 while hovering over an item in NEI to add it to your favorite list on the left side, press it again while hovering on the same item, to remove it again.\n\n- A nice way to not loose track of what you are currently progression towards is to favorite the items you work on.\n\n- Greg also has a \"Did You Know\" tab within NEI that gives interesting useage for specific items.  For example look for \"Hand Drill\" or \"Cinnabar\" for information on using these items that you may not have known. \n\n- Type meta.tools in the NEI searchbar to get all main tools listed [Does this even work?]\n\nClick the box to the right to continue."
         }
       },
       "tasks:9": {
@@ -5691,7 +5691,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar can be found in a redstone vein but there are more redstone veins that do not have any cinnabar.  You will need a level 2 pick to mine the actual cinnabar ore komatite rocks.  If you do not have any luck locating cinnabar ore veins in the overworld, you can find small cinnabar ores in the nether near the top of the world.  Another option is washing redstone crushed ores, but may require more than a stack of crushed redstone as you only get a chance of a small purified cinnabar ore.  If you found vanilla vein that has redstone, gold, and/or diamonds, you can use a club, to get a cinnabar crushed ore.  This actually may be the best way to get cinnabar early.  You can also wash crushed stibnite ore for a chance of small purified cinnabar ore.  So mine down to the Redstone Cinnabar vein.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  You are looking to gather 3 crushed cinnabar ores.  Each crushed Cinnabar ore makes 3 nuggets of mercury.  White you are there gather some small restone ores as they will be needed soon.\n§b\n§b§b§bNote:  If you cannot find Cinnabar Ore, you can wash Crushed Redstone in a cauldon and get purified cinnabar ore for the recipe.\n§f\nOnce you have gathered the 3 crushed cinnabar ores (maybe gather a few more incase something goes wrong), you will need to get the mercury from the crushed ore.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you 2 options to get the mercury:\n\nFirst you can put 3 cinnabar crushed ores in a crucible.  Use a shovel to remove the scrap stone.  Once you start to get scrap mercury, put the mercury back in the crucible.  Next use 1 stick and light the burning box.  This should give you the mercury.  \n\nSecond you can put the 3 crushed cinnabar ores in a vanilla furnace.  Once you smelt the ore, you should get 9 nuggets of mercury.  Now take the 9 nuggets of mercury and drop them into the crucible.  The nuggests will turn to liquid immediately and you do not need to light the burning box.\n\n\nThe final step is to use a glass bottle and right-click the crucible to capture the mercury.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§a\nGet the following items:\n1 Glass Bottle\n3 Crushed Cinnabar Ores\n1 Mercury Bottle"
+          "desc:8": "We need a thermometer in order to know exactly the temperature of the crucible.  In order to make a thermometer, you will need Mercury.  So how do we get mercury?\n\nWe get mercury from Cinnabar ore.  Cinnabar can be found in a redstone vein but there are more redstone veins that do not have any cinnabar than the ones with cinnabar.  You will need a level 2 pick to mine the actual cinnabar ore that spawn in komatite rocks.  Near the top of the vein there should be small cinnabar ores.  These are the ones that you want.  If you do not have any luck locating a cinnabar ore vein in the overworld, you can find small cinnabar ores in the nether near the top of the world.  Another option is washing redstone crushed ores, but may require more than a stack of crushed redstone as you only get a chance of a small purified cinnabar ore.  You will also need a cauldron to wash ores.  You can find a cauldron in the world or craft one with iron plates.  You can also wash crushed stibnite ore for a chance of a small purified cinnabar ore.  \n\nIf you find a vanilla vein that has redstone, gold, and/or diamonds, you can use a club, to get a cinnabar dust from the redstone ore blocks.  This actually may be the best way to get enough cinnabar early for a thermometer. \n\nYou need to gather enough for 3 crushed/purified cinnabar ores or 3 cinnabar dusts.  Each Cinnabar makes 3 nuggets of mercury and you will need 9 nuggets worth to fill a glass bottle.  While you are there gather the cinnabar, you should gather some small restone ores as they will be needed soon.\n§\n§f\nOnce you have gathered the 3 crushed cinnabar ores (maybe gather a few more incase something goes wrong), you will need to get the mercury from the crushed ore.  Mercury is an interesting metal.  It is liquid at room temperature.  So Gregtech 6 gives you the option usin the handy crucible.  Throw the 3 cinnabar crushed/purified ores or 3 dusts in a crucible.  If you are using crushed cinnabar, use a shovel to remove the scrap stone.  Once you start to get scrap mercury, put the mercury back in the crucible.  Next use 1 to 2 sticks and light the burning box.  This should give you the mercury.  \n\nThe final step is to use a glass bottle and right-click the crucible to capture the mercury.  Be careful to not continue to right-click because you could drink the mercury (As Greg himself found out one day).  If you drink the mercury, you are likely to die from mercury poisoning.\n§a\nTo complete the quest gather the following items:\n1 Glass Bottle\n3 Crushed/Purified Cinnabar Ores or 3 Cinnabar Dusts\n1 Mercury Bottle"
         }
       },
       "tasks:9": {
@@ -5743,6 +5743,35 @@
               "Count:3": 3,
               "Damage:2": 9114,
               "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.bottles",
+              "Count:3": 1,
+              "Damage:2": 32765,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glass_bottle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 3,
+              "Damage:2": 9114,
+              "OreDict:8": "dustCinnabar"
             },
             "2:10": {
               "id:8": "gregtech:gt.multiitem.bottles",

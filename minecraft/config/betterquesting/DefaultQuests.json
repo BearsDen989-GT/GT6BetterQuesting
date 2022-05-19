@@ -627,7 +627,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.14.24.  This includes the updated processing for Aluminium, Niobium, and Tantalite.  Currently the oil and plastic lines have not been fully updated to GT6 6.14 changes and thus some quest do not have rewards for those quests.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valuable metals for later.  There are also Gregtech Forts which contain some incredible loot including bookcases, drums, crates of metal plates (Bronze, Steel, Stainless Steel, and more) to Nether and End Portals.  Never pass up a fort if you find one.  You will be making multiple trips to bring back all that loot to your base.\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- Gregtech has a similar system to Inventory Tweaks where if you place similar blocks or tools above your active tools in your inventory, those items will drop down when they are depleted/break.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s cosmetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
+          "desc:8": "§eNote:  This version of the Bears\u0027 Den Gregtech 6 Questing Book is compatible with version 6.15.00.  This includes the updated processing for Aluminium, Niobium, and Tantalite.  Currently the oil and plastic lines have not been fully updated to GT6 6.14 changes and thus some quest do not have rewards for those quests.  The quests in this book are still a work in progress.  The Circuits tab is currently under development and no quests are available for that tab at this time.\n§f\nThe quests have color text indicating different things.\nMost Quest text will be white\n§bNotes and tips will be in aqua/cyan\n§eWarnings will be in yellow\n§cExtreme Danger will be in red\n§aQuest objectives will be in green\n§6Complex machine recipes for ore processing will be in orange/gold\n§f\nHere are some general tips:\n\n\n- Grab (right click) those small rocks on the ground, not only can you make early game tools out of them but they also sometimes contain traces of ore. If you found such a rock, make sure to mark that position, it means there is a large vein of that type of ore below\n\n- Dungeon Loot and Villages can give you a nice early game boost and even can contain some valuable metals for later.  There are also Gregtech Forts which contain some incredible loot including bookcases, drums, crates of metal plates (Bronze, Steel, Stainless Steel, and more) to Nether and End Portals.  Never pass up a fort if you find one.  You will be making multiple trips to bring back all that loot to your base.\n\n- Make sure that your base will be close to the ocean or a river or at least a large lake. You will need tons of water and only in those places water is infinite.\n\n- Read the tooltips, they contain valuable information, if you want even more info press F3+H to enable/disable advanced tooltips (it\u0027s really worth it)\n\n- Be careful with your food, if you eat too much of the same type (e.g. sugar, protein etc) in too short of a time, you get some effects. E.g. sugar makes you faster but if you eat too much you might get diabetes.\n\n- Gregtech has a similar system to Inventory Tweaks where if you place similar blocks or tools above your active tools in your inventory, those items will drop down when they are depleted/break.\n\n- The area around spawn is mob spawn proof up to 128 blocks from spawn.  If you are looking for a safe place to start, start at spawn.  You can also make Greg\u0027s cosmetic blocks from his stone or his dirt and these blocks are also prevent mods from spawning.\n\nClick the button to the right to continue."
         }
       },
       "tasks:9": {
@@ -1455,7 +1455,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)\n\n- Tin/Casserite\n\n- some Cobalt (makes good durable cheap tools)\n\n- Nickel/Pentlandite (you find it together with Cobalt)\n\n- Black Sand (found in rivers), Yellow/Brown Lemonite, Hematite\n\n- Redstone so you can do automation and shufoffs.\n\n- some Manganese, some Pyrolusite\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it)\n"
+          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)  There are other copper ores but they are not as easy to extract a decent amount of copper from them using a crucible.\n\n- Tin/Casserite\n\n- Garnerite/Pentlandite/Cobalite (Nickel is needed for Invar and Cobalt can be used for good tier 3 tools}\n\n- Black Sand (There are 3 now:  Black Sand, Basaltic Black Sand, and Granitic Black Sand are found in river biomes).  The black sands are needed for you to make iron in the early game with a carbon sourse like coal.  The other iron bearing ores such as Yellow/Brown Limonite, Hematite, and Vanilla Iron Ores require advanced processing and/or calcite to get iron from them.\n\n- Redstone so you can do automation and shufoffs.\n\n- some Pyrolusite as we will need some Manganese soon.\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it).\n"
         }
       },
       "tasks:9": {
@@ -2985,7 +2985,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You might have noticed that NEI shows recipes in machines with GU/t as power usage and total GU used for a recipe.\nCatalyst has many different power types, which can be converted between each other (for example you can use EU (electrical units) to power a motor with will produce RU (rotational units). Here are all types that exist in Catalyst\n\nGU - Generic Units (just used in NEI to show recipes, the machine itself will convert any other power types 1:1 into GU to produce the recipe)\n\nEU - Electrical Units\n\nRF - Redstone Flux\n\nRU - Rotational Units (for everything that needs some spin)\n\nKU - Kinetic Units\n\nHU - Heat Units\n\nLU - Light Units (made by lasers to power welders etc)\n\nQU - Quantum Units (used by high tech machines)\n\nConverting between different energy types is not always looseless, it depends on the machines you use (always check the tooltips)\n\n\n"
+          "desc:8": "You might have noticed that NEI shows recipes in machines with GU/t as power usage and total GU used for a recipe.\nGregtech 6 has many different power types, which can be converted between each other (for example you can use EU (electrical units) to power a motor with will produce RU (rotational units).  Here is a list of all of the types of power that exist in Gregtech 6:\n\nGU - Generic Units (just used in NEI to show recipes, the machine itself will convert any other power types 1:1 into GU to produce the recipe)\n\nEU - Electrical Units\n\nRF - Redstone Flux\n\nRU - Rotational Units (for everything that needs some spin)\n\nKU - Kinetic Units\n\nHU - Heat Units\n\nLU - Light Units (made by lasers to power welders etc)\n\nQU - Quantum Units (used by high tech machines)\n\nConverting between different energy types is not always looseless, it depends on the machines you use (always check the tooltips)\n\n\n"
         }
       },
       "tasks:9": {
@@ -7556,7 +7556,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To make some liquid barrels we need some glue.  To make glue you will need some sticky resin, glass bottles, and a mixing bowl.  You will need to mix the sticky resin with water.  You then right click the side of the ceramic bowl with an empty bottle to get you glue bottle.\n§a\nTo complete the quest gather the following items and use the ceramic bowl to make some glue\n1 Bucket of water\n1 Ceramic Bowl (mixing bowl)\n4 Glass Bottles\n4 Sticky Resin\n4 Glue"
+          "desc:8": "To make some liquid barrels we need some glue.  To make glue you will need some sticky resin, glass bottles, and a mixing bowl.  You will need to mix the sticky resin with water.  You then right click the side of the ceramic bowl with an empty bottle to get you glue bottle.  The recipe will only use 1/4 of the bucket of water so you can make an additional 3 glue bottles if you have the empty bottles and resin.  \n§b\nNote:  If you need to remove the rmaining water in the Ceramic Bowl, you can use a jug to store the water or break the Ceramic Bowl with a pick to void the water.\n§a\nTo complete the quest gather the following items and use the ceramic bowl to make some glue\n1 Bucket of water\n1 Ceramic Bowl (mixing bowl)\n1 Glass Bottles\n1 Sticky Resin\n1 Glue"
         }
       },
       "tasks:9": {
@@ -7582,19 +7582,19 @@
             },
             "2:10": {
               "id:8": "minecraft:glass_bottle",
-              "Count:3": 4,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "IC2:itemHarz",
-              "Count:3": 4,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "gregtech:gt.multiitem.bottles",
-              "Count:3": 4,
+              "Count:3": 1,
               "Damage:2": 32766,
               "OreDict:8": ""
             }

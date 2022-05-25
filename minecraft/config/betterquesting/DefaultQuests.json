@@ -1455,7 +1455,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "In the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)  There are other copper ores but they are not as easy to extract a decent amount of copper from them using a crucible.\n\n- Tin/Casserite\n\n- Garnerite/Pentlandite/Cobalite (Nickel is needed for Invar and Cobalt can be used for good tier 3 tools}\n\n- Black Sand (There are 3 now:  Black Sand, Basaltic Black Sand, and Granitic Black Sand are found in river biomes).  The black sands are needed for you to make iron in the early game with a carbon sourse like coal.  The other iron bearing ores such as Yellow/Brown Limonite, Hematite, and Vanilla Iron Ores require advanced processing and/or calcite to get iron from them.\n\n- Redstone so you can do automation and shufoffs.\n\n- some Pyrolusite as we will need some Manganese soon.\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it).\n"
+          "desc:8": "You will want ot find a good base for your growing factory.  Make sure to build close to a renewable fresh water source, otherwise you need many pipes just to transport that water to your factory.  Only rivers give you a unlimitted supply of fresh water.  Other sources like lakes will run dry.  Later you can make cheap rubber pipes, where this wont be much of a problem anymore.  The oceans are also unlimited but they contain salt water.\n\nIn the Steam Age you want to look for:\n\n- Copper, Tetrahedrite, Chalcopyrite (you will need a ton of it)  There are other copper ores but they are not as easy to extract a decent amount of copper from them using a crucible.\n\n- Tin/Casserite\n\n- Garnerite/Pentlandite/Cobalite (Nickel is needed for Invar and Cobalt can be used for good tier 3 tools}\n\n- Black Sand (There are 3 now:  Black Sand, Basaltic Black Sand, and Granitic Black Sand are found in river biomes).  The black sands are needed for you to make iron in the early game with a carbon sourse like coal.  The other iron bearing ores such as Yellow/Brown Limonite, Hematite, and Vanilla Iron Ores require advanced processing and/or calcite to get iron from them.\n\n- Redstone so you can do automation and shufoffs.\n\n- some Pyrolusite as we will need some Manganese soon.\n\n- some Chromite\n\n\nOptional:\n\n- Rubber Trees (their sap is great to make torches and you can make glue out of it).\n"
         }
       },
       "tasks:9": {
@@ -1682,7 +1682,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time to get machinery, but before we can do that we need some stuff before.\nDon\u0027t get intimidated, the roadmap looks long but after we got the basics we can just plug in most steam age machinery!\n\nMake sure to build close to a renewable water source, otherwise you need many pipes just to transport that water to you. Later you get cheap rubber pipes, where this wont be much of a problem anymore!\n\nTo get started we need some iron. Greg has changed how black sand works from earlier version of GT6.  Greg added Basaltic, and Granitic Black Sand as blocks.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand.  This is very easy.  Just put it into your black sand blocks in your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic or granitic mineral sand with a carbon source (coal and coal coke work great for that.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n§b\nPro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n§c\nCareful: Don\u0027t use lignite coal in the crucible, it will ignite and blow up. Use normal coal or coal coke.  You can use Lignite coal as fuel for the burning box.  Hint: 1 Coal Coke Bar (ingot) is the same as 1 carbon dust.\n§e\nWarning:  Sifting Basaltic or Granitic Mineral Sand no longer give the resulting dusts.  They will give you some nuggets though.\n§f§a\nTo complete this quest you will need:\n14 Granitic or Basaltic Sand Dusts\n3 Carbon - You get the 3 carbon from 6 Crushed, Purified or gem Coal or 3 coal coke ingots.\nthen make 6 iron ingots using the crucible."
+          "desc:8": "We need some iron to start making some steam age machines.  Greg has changed how black sand works from earlier versions of GT6.  Greg added Basaltic, and Granitic Black Sand in addition to the origional Black Sand.  First you will need to convert the sand blocks into the resulting dusts which are labeled as Mineral Sand or Magnesite.  This is very easy.  Just put it into your black sand blocks in your crafting grid and pull out the 9 mineral sand dusts.  Mix some basaltic/granitic mineral sand or magnesite with a carbon source such as coal or coal coke.  You can use other ores for iron but in the case of limonite or hematite you need to add some calcite (limestone works good for that).\n§b\nPro Tip:  You can use a GT barrel and put in 1 mineral sand dust.  Now when you put in additional blocks, they will be converted to the dusts automatically.\n§6\nRecipe:\n14 Granitic/Basaltic Mineral Sand or 14 Magnesite Dust + 3 Carbon (6 Coal Dusts or 3 Coal Coke Ingots) \u003d\u003e [Crucible 1811K] \u003d\u003e 6 Iron Ingots\n-- or --\n7 Granitic/Basaltic Mineral Sand or 7 Magnesite Dusts + 1.5 Carbon  (3 Coal Dusts or 6 Small Chunks Coal Coke) \u003d\u003e [Crucible 1811K] \u003d\u003e 3 Iron Ingots\n§b\nNote:  14 Sand dusts plus 3 carbon is more than 16 items so if you use the full recipe the curcible will heat up to 1811 to crate iron and then the final items will drop dropping the temperature.  You can do a half recipe even though it is not listed in NEI.  If the crucible goes over 2011K then you will get wrought iron.  In most cases, you can use iron or wroght iron interchangeability in GT6 recipes.  Other mod recipes may or may not depending on compatibility.\n§c\nCareful: Don\u0027t use lignite coal as the carbon in the crucible, it will ignite and blow up. Use normal coal or coal coke for your carbon.  You can use Lignite coal as fuel for the burning box to keep the crucible from overheating.  Hint: 1 Coal Coke Bar (ingot) is the same as 1 carbon dust.\n§e\nWarning:  Sifting Basaltic or Granitic Mineral Sand Blocks no longer give the resulting dusts.  They will give you some nuggets though.\n§f§a\nTo complete this quest you will need:\n7 Granitic/Basaltic Sand Dusts or 3 Magnesite Dusts §b(You will need to add 3 Coal Dusts or 6 Small Coal Coke Chunks)\n§amake 3 iron/wrought iron plates using the crucible.\n§b"
         }
       },
       "tasks:9": {
@@ -1696,15 +1696,15 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.meta.dust",
-              "Count:3": 14,
+              "Count:3": 7,
               "Damage:2": 9003,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 6,
-              "Damage:2": 0,
-              "OreDict:8": ""
+              "id:8": "IC2:itemPlates",
+              "Count:3": 3,
+              "Damage:2": 4,
+              "OreDict:8": "gt:complateIron"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1719,15 +1719,38 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.meta.dust",
-              "Count:3": 14,
+              "Count:3": 7,
               "Damage:2": 9004,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 6,
-              "Damage:2": 0,
-              "OreDict:8": ""
+              "id:8": "IC2:itemPlates",
+              "Count:3": 3,
+              "Damage:2": 4,
+              "OreDict:8": "gt:complateIron"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 7,
+              "Damage:2": 9122,
+              "OreDict:8": "dustMagnetite"
+            },
+            "1:10": {
+              "id:8": "IC2:itemPlates",
+              "Count:3": 3,
+              "Damage:2": 4,
+              "OreDict:8": "gt:complateIron"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2754,7 +2777,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that you ahve a bottle of mercury, it is time to make a thermometer.\n\nYou will need 4 pieces of glass, 1 copper plate, and some red dye to make the thermometer.\n\nLet\u0027s make a thermometer, right-click the crucible with it to measure it\u0027s current temperature.  The temperature will apepar in the chat box.\n§b\nMake the following:\n1 Thermometer"
+          "desc:8": "Now that you have a bottle of mercury, it is time to make a thermometer.\n\nYou will need 4 pieces of glass, 1 copper plate, and some red dye to make the thermometer.\n\nLet\u0027s make a thermometer, right-click the crucible with it to measure it\u0027s current temperature.  The temperature will apepar in the chat box.\n§b\nMake the following:\n1 Thermometer"
         }
       },
       "tasks:9": {
@@ -2778,9 +2801,9 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
+          "rewardID:8": "bq_standard:choice",
           "index:3": 0,
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
               "id:8": "gregtech:gt.multiitem.food",
               "Count:3": 1,
@@ -23693,6 +23716,127 @@
           }
         }
       }
+    },
+    "266:10": {
+      "questID:3": 266,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32735,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Mortar",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "There are several ways to  convert crushed ore or scap into dusts.  The first was using your anvil and hammer but this method uses up durability on both the anvil and hammer.  Once you get iron, you can make a mortar.  The mortar does not take any durability but it can only convert low temperature metals (think ceramic crucible).  This means you cannot use it for tungsten and other such metals.\n§b\nNote:  You can use other materials to make a mortar.  Besides iron, you can use sapphire, diamond, or amethyst if you are able to aquire any of those gems.\n§a\nTo complete this quest carft:\n1 iron, sapphire, diamond, or amethyst mortar."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32735,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32075,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32076,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32089,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -24212,6 +24356,13 @@
           "x:3": -84,
           "y:3": -132,
           "id:3": 261,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": -72,
+          "id:3": 266,
           "sizeY:3": 24
         }
       },

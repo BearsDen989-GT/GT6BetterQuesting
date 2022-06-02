@@ -1872,7 +1872,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We need a way to transport water and steam.\nCheap wooden pipes are great for water and you can put a drain on the huge wooden pipes but wooden pipes cannot handle hot steam.  Wooden pipes can also burn around burning boxes if they are in contact with an air block.\n\nFor pipes that are exposed to air near burning boxes and that can handle steam something more heat resistant is required.  For now bronze pipes will do.\n§d§b\nTip:  Use a wrench to connect pipes to another pipe.  You will see an \u0027X\u0027 at the edge of the pip if they are connecting while you are holding a wrench.  The wrench will connect or disconnect the pipes.  To remove wooden pipes you will need a saw.  To remove metal pipes, you will need a wrench.\n§f§a\nTo compelte this quest you will need to craft:\n8 Huge Wooden Pipes\n4 Small Bronze Pipes"
+          "desc:8": "We need a way to transport water.\nCheap wooden pipes are great for water and you can put a drain on the huge wooden pipes but wooden pipes cannot handle hot steam.  Wooden pipes can also burn around burning boxes if they are in contact with an air block.\n\nFor pipes that are exposed to air near burning boxes and that can handle steam something more heat resistant is required.  Such as bronze or copper pipes.\n§d§b\nTip:  Use a wrench to connect pipes to another pipe.  You will see an \u0027X\u0027 at the edge of the pip if they are connecting while you are holding a wrench.  The wrench will connect or disconnect the pipes.  To remove wooden pipes you will need a saw.  To remove metal pipes, you will need a wrench.\n§f§a\nTo compelte this quest you will need to craft:\n8 Huge Wooden Pipes"
         }
       },
       "tasks:9": {
@@ -1888,12 +1888,6 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 8,
               "Damage:2": 26004,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
-              "Damage:2": 26121,
               "OreDict:8": ""
             }
           },
@@ -1929,7 +1923,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -1948,7 +1942,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold\n§f§a\nTo complete this quest craft:\n1 Bronze Burning Box\n1 Bronze Boiler\n\n§b\nChoose a cookie below.  You will also receive the GT6 Steam Manual free of charge."
+          "desc:8": "A boiler converts water into steam if supplied with a heat source\n§c\nCareful: If your boiler runs out of water but is still supplied with heat, it can melt\nCareful: If your boiler accumulates to much pressure (e.g. the steam isn\u0027t removed or a too strong heat source is used) it can blow up\n§l§l§r§cCareful: If your boiler is empty AND hot and is supplied with water, it will blow up. Make sure to only supply water to cold boilers or boilers that are not empty\n§f\nYou will need some pipes to transport the steam.  You will need to make some small copper or bronze pipes to transport the steam.\n§f\nIf you supply a boiler with normal water, it will calcify over time, thus reducing it\u0027s effiency. You can decalcify your boiler by either removing it and placing it again or using a chisel on it.\nEven better, supply your boiler with destilled water and it will never calcify.\n§c\nCareful: If you use a chisel on a hot boiler to decalcify it, it will blow up. Make sure it\u0027s cold\n§f§a\nTo complete this quest craft:\n1 Bronze Burning Box\n1 Bronze Boiler\n4 Small coppper or Bonze pipes\n\n§b\nChoose a cookie below.  You will also receive the GT6 Steam Manual free of charge."
         }
       },
       "tasks:9": {
@@ -1970,6 +1964,41 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 1102,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26101,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1102,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1202,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26121,
               "OreDict:8": ""
             }
           },
@@ -23837,6 +23866,210 @@
           }
         }
       }
+    },
+    "267:10": {
+      "questID:3": 267,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "lvl:2": 2,
+                  "id:2": 35
+                }
+              },
+              "GT.ToolStats:10": {
+                "a:2": 8747,
+                "c:2": 8221,
+                "j:3": 50000
+              }
+            },
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Fortune and Loot (Efrine)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Gregtech 6 has enchanted properties depending on which material you use.  This includes Fortune and Looting enchants.  There are various materials but the easiest to get early to mid game will be Efrine.  Efrine is a tier 3 material which contains Fortuen II and Looting II enchants.  Efrine makes it a great material to use to mine ores and killing mobs.  Efrine is not found as an ore but you can get a a byproduct of washing Nether Quartz.  Nether Quarts is a white rock layer ore deposit in the nether.  If you do not have a cruysher, use a happer to get the crushed ores.\n§c\nWarning:  Efrine metls at 2246K close to the temperature of the ceramic crucible at 2500K so you will want to use a fuel that does not burn very long such a Lignight nuggets (tiny dusts), or liquid or gas fuel.\n§a\nTo complete this quest gather and craft:\n4 Purified Efrine Ore\n1 Efrine Pickaxe\n1 Efrine Sword\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.crushedPurified",
+              "Count:3": 4,
+              "Damage:2": 8747,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 2,
+                    "id:2": 35
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8747,
+                  "c:2": 8221,
+                  "j:3": 50000
+                }
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 2,
+                    "id:2": 35
+                  },
+                  "1:10": {
+                    "lvl:2": 2,
+                    "id:2": 21
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8747,
+                  "c:2": 8221,
+                  "j:3": 50000
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "268:10": {
+      "questID:3": 268,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.toolHeadArrow",
+            "Count:3": 1,
+            "Damage:2": 8002,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Arrow to the Knee",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You will need a metal arrowhead very soon to make a specific tool.  The issue is you will need to make a mold to make a arrow head.  The quickest way is you can make flint arrowheads by using a rock and flint in a crafting grid (makes 4 flint arrowsheads) or a file and flint (6 flint arrowheads).  You can then make a clay mold and combine one of the arrowheads with the mold to make a clay raw arrowhead and then ooking it in a furnace.\n\nSo what do you do with the flint arrowheads?  You can make arrows by combining a headless wood arrow with the flint arrowheads to make flint arrows.  You will get headless wood arrows as dsrops from skeletons or by putting sticks and fethers in a crafting grid.\n§c\nWarning:  Do not use flint arrows on Creepers.  As soon as a creeper ignites, the fuse also ignites and the creeper will explode.  This also occurs if you use a flint and tender on a creeper.  So unless you are planning to use explosive mining, I would not recommend using flint arrows on creepers.  \n§b\nNote:  Flint knife, pickaxe, and axe will not ignite the creeper fus and will just start the creeper on fire.\n§a\nTo complete this quest craft:\n1 Flint Arrowhead\n1 Ceramic Arrowhead Mold\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.toolHeadArrow",
+              "Count:3": 1,
+              "Damage:2": 8002,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "tag:10": {
+                "gt.mold:3": 135616
+              },
+              "Damage:2": 1055,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -23947,14 +24180,14 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 48,
           "y:3": -60,
           "id:3": 30,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 48,
           "y:3": -12,
           "id:3": 31,
           "sizeY:3": 24
@@ -23996,7 +24229,7 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 48,
           "y:3": -108,
           "id:3": 66,
           "sizeY:3": 24
@@ -24059,14 +24292,14 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 84,
           "y:3": -120,
           "id:3": 258,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 120,
           "y:3": -144,
           "id:3": 259,
           "sizeY:3": 24
@@ -24076,6 +24309,13 @@
           "x:3": -72,
           "y:3": -192,
           "id:3": 260,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -60,
+          "id:3": 268,
           "sizeY:3": 24
         }
       },
@@ -25522,6 +25762,13 @@
           "x:3": -1152,
           "y:3": -504,
           "id:3": 255,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -1104,
+          "y:3": -504,
+          "id:3": 267,
           "sizeY:3": 24
         }
       },

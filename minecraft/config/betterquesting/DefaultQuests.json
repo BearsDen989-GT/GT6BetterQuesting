@@ -5455,7 +5455,8 @@
     "64:10": {
       "questID:3": 64,
       "preRequisites:11": [
-        249
+        249,
+        268
       ],
       "properties:10": {
         "betterquesting:10": {

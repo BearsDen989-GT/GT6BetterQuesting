@@ -697,7 +697,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "My New Brass Ingot",
+          "name:8": "My Shiny Brass Ingot",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -2298,7 +2298,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.  Just pour the steel out into your molds.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n§a\nTo complete this quest:\nPour 8 steel ingots or 8 steel plates from your crucible."
+          "desc:8": "Time for steel!\nTo make steel all we have to do is put some iron in a crucible (dont fill it all up, it needs some space for air), heat it to at least 2044K and pump some air in it.\nAfter a while (depending on the speed of which you pump air in) the color of your liquid will become red and your steel is done.  Just pour the steel out into your molds.\n\nHow do you pump air into the crucible you ask?  Oh yeah, you just place the output of the engine to the back of the crucible (dont forget to supply it with steam so it actually runs).\n§a\nTo complete this quest:\nPour 3 steel ingots or 8 steel plates from your crucible."
         }
       },
       "tasks:9": {
@@ -2312,7 +2312,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.meta.ingot",
-              "Count:3": 8,
+              "Count:3": 3,
               "Damage:2": 8630,
               "OreDict:8": ""
             }
@@ -2329,7 +2329,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "Railcraft:part.plate",
-              "Count:3": 8,
+              "Count:3": 3,
               "Damage:2": 1,
               "OreDict:8": "plateSteel"
             }
@@ -2385,7 +2385,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
+          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n\nThe crusher will need 16 KU/t to crush ores into crushed ores.  A Bronze engine will provide the KU but you will need 2 Bronze Boilers to get enough steam to get the engine past 16KU/t.  This will put the bronze engine at the very top of its range so the engine will turn red.  Just do not supply more than 96 steam/t to the engine, thus only 2 bronze boilers.\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
         }
       },
       "tasks:9": {
@@ -2525,7 +2525,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The sluice gives you plenty of byproducts from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more byproducts!\n§d§b\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f§a\nTo complete this quest craft:\n1 Bronze Sluice"
+          "desc:8": "The sluice gives you plenty of byproducts from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more byproducts!\n\nTo get the sluice going, you will need 16 RU/t so a bronze turbine and a single boiler wil lwork.  It can run faster with 2 boilers but you will be at the maximum of the bronze turbine.\n§d§b\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f§a\nTo complete this quest craft:\n1 Bronze Sluice"
         }
       },
       "tasks:9": {
@@ -2666,7 +2666,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that we have Brass we can make some item pipes.  Item pipes can move your items from one machine to another or to chests and barrels so you don\u0027t have to manually move them by hand.\n§a\nTo complete this quest craft:\n4 Brass Item Pipes"
+          "desc:8": "Now that we have Brass we can make some item pipes.  Item pipes can move your items from one machine to another or to chests and barrels so you don\u0027t have to manually move them by hand.  There are no small item pipes.  The smallest that you can make is the normal pipe which requires 3 curved brass plates.  So don\u0027t forget to use your anvil to make the curved plates. 3 batches of brass (9 copper and 3 zinc) will make you 4 item pipes.\n§a\nTo complete this quest craft:\n4 Brass Item Pipes"
         }
       },
       "tasks:9": {
@@ -2875,11 +2875,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Making some Gadget",
+          "name:8": "Readouts to Go",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s do some engineering.\nWe need some redalloy wire, a temperature sensor, a piston, and a lever.\n\nThe temperature sensor is good for giving you a readout of the crucible temperature.  It can also be configured to trigger a redstone signal if it reaches a specific temperature.  This expample would be to add a automatic cutoff with manual shutoff lever.\n\nNow place the sensor against your crucible, right-click it with a screwdriver (not on the buttons or the display, that will change other things) to change it to \u003e mode.\n\nThe sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.\n\nNow place the piston next to your burning box, so that when it extends it\u0027s covering the front of the burning box. Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier).  you can put a lever on the piston to manually trigger the piston to shutoff the burning box.\n\nDone, you now have an auto shutoff for your crucible :)\n\nThere are multiple ways to build these systems.  One would be to bury the piston 2 blocks below and 1 block in front of the burning box and to use glass on top of the piston.  That way when the piston is actrivated, you can look through the glass to see when the burning box stops burning.\n\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have a buffer for your allowed temperature to accomidate for those extra delays!\n§f§a\nTo complete this quest you need to craft:\n1 Thermometer Sensor\n1 Sticky Piston\n4 Restone Alloy Wire\n1 Lever\n\n"
+          "desc:8": "Let\u0027s make a temperature sensor which will give us a creadout of the temperature that way we don\u0027t have to right click wiith a thermometer and read chat to know how hot our crucible is.  The sensor can also be put into other modes to trigger redstone signal when certain criteria is reached.  You will see more in the Early Automation Quest.\n\nYou will need to make some red alloy plates and use your anvil and hammer to make red alloy foil.  Next you can use your wire cutters to make red alloy fine wires needed for the temperature sensor.  You will also need some redstone.  Use can use the regular redstone gems or the redstone dust.\n\nJust make a double tin alloy plate and include your thermometer and you can craft a temperature sensor.\n\nTo use your sensor, just place on the side of the crucible and there you go.  You can now see the temperature of your crucible.\n§f§a\nTo complete this quest you need to craft:\n1 Double Tin Alloy Plate\n1 Thermometer Sensor\n"
         }
       },
       "tasks:9": {
@@ -2892,27 +2892,15 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:gt.multitileentity",
+              "id:8": "gregtech:gt.meta.plateDouble",
               "Count:3": 1,
-              "Damage:2": 31000,
+              "Damage:2": 8667,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:sticky_piston",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
               "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
-              "Damage:2": 27000,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "minecraft:lever",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 31000,
               "OreDict:8": ""
             }
           },
@@ -20104,7 +20092,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The centrifuge is a very useful machine.  It can be used to separate some complex dusts into individual element dusts.  It can also centrifuge all of that sluice juice that the sluice has been making washing your ores.  The centrifuge will give you a chance of a tiny copper, chrome, antimony, zinc, and tin for a small amount of sluice juice.  You will end up with quite a bit of tiny stone dust.  In the newer versions of GT6 9 stone dusts actually creates gravel in stead of stone dust blocks.  The gravel can be sifted to get some useful items like flint, clay, sand, and mmilky quartz.\n§b\nNote:  You can use a bronze centrifuge to process the sluice juice but you will need an invar turbine and 3 steel burning boxes and boilers to do so.  Since the recipe to process sluice juice is on the edge of both the bronze and steel centrifuges, you can use a steel centrifuge and increase the speed of the steel turbine without an energy penality.\n§f§a\nTo complete this quest craft:\n1 Bronze or Steel Centrifuge"
+          "desc:8": "The centrifuge is a very useful machine.  It can be used to separate some complex dusts into individual element dusts.  It can also centrifuge all of that sluice juice that the sluice has been making washing your ores.  The centrifuge will give you a chance of a tiny copper, chrome, antimony, zinc, and tin for a small amount of sluice juice.  You will end up with quite a bit of tiny stone dust.  In the newer versions of GT6 9 stone dusts actually creates gravel in stead of stone dust blocks.  The gravel can be sifted to get some useful items like flint, clay, sand, and mmilky quartz.\n\nSome early game centrifuge recipes only need 1 bronze boiler and turbine as they only require 16RU/t.  For sluice juice though, you will need 64 RU/t.  64RU/t will require 192 steam/t which means you will need a steel or invar turbine.  64RU/t is at the very top of the invar turbine so if you want to get a little more speed out of it, you will need a steel turbine and hten you can provide some additional steam.  So the minimum of 192 steam/t you will need either 4 bronze boilers, 3 steel boilers, or 1 dense bronze boiler.  For the early game, your choices are either the 4 bronze or 3 steel boilers until you make a compressor to make dense boilers.  All of this information are in the NEI tool tips.  You just need to do the math.\n§e\nWarning: Also make sure you have a large enough pipe bandwith to carry the steam since the small copper and small bronze pipes are insufficent for this amount of steam.  If you can\u0027t pass the stream, you run a chance of over pressurizing the boilers to the point that they can explocde and take your machines and part of you factory with it.\n§b\nNote:  You can use a bronze centrifuge to process the sluice juice but you will need an invar turbine and 3 steel burning boxes and boilers to do so.  Since the recipe to process sluice juice is on the edge of both the bronze and steel centrifuges, you can use a steel centrifuge and increase the speed of the steel turbine without an energy penality.\n§f§a\nTo complete this quest craft:\n1 Bronze or Steel Centrifuge"
         }
       },
       "tasks:9": {
@@ -24041,6 +24029,159 @@
           }
         }
       }
+    },
+    "269:10": {
+      "questID:3": 269,
+      "preRequisites:11": [
+        259,
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 27000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Early Automation - Shut Off",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now we can automate a shutoff since we have the temperature sensor.  You will need some red alloy wires which is crafted from red alloy plates and wire cutters.\n\nYou can use a screwdriver to changes modes.  If you change to the Greater Than mode, the the temperature sensor will now output a redstone signal whenever it is above the set temperature.\nSet the desired temperature by right-clicking the buttons with an empty hand.  The crucible will turn yellow at 2400 K and will melt at 2500 K.\n\nNow place the piston in front and 2 blocks below your burning box, so that when it extends, the block above will be covering the front of the burning box. You can use a block of glass for the block on top of the piston so you can see the burning box is still burning or not.  Since burning boxes need air in front of them to work, when the piston extends it will stop burning.\n\nNow connect the sensor with the piston, using the red alloy wire (you might want to use a wire cutter to make it easier).  It works similar to the pipes where the x in the grid shows which direction the wire is connecting.  \n\nYou can connect a lever on the piston to manually trigger the piston to shutoff the burning box.  You can use a piece of paper as a cover to place a lever on the side or top of the wire.  Paper covers do not burn.\n\nDone, you now have an auto shutoff for your crucible with a possible manual shutoff.\n\nThere are multiple ways to build these systems.  One would be to have the piston on the side of the burning box and when the piston extends, it will block the burning box front.  You will be usin g these sensors and red alloy wires to do most of your automation including automatic crucibles.\n§a\n§c§4§c\nCareful: a burning box will always finish burning it\u0027s current fuel item, that means it\u0027s best to use short burning time fuels like nuggets or tiny/small dusts. Make sure to have a buffer for your allowed temperature to accomidate for those extra delays!\n§a\nTo complete this quest craft:\n1 Sticky Piston\n4 Red Alloy Wires\n1 Lever\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:sticky_piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 27000,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:lever",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "270:10": {
+      "questID:3": 270,
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 31010,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Weight-O-Meter",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now that you made a thermometer sensor, there are some really useful sensors that you will need for future automation.  The Next one is a Weight-O-Meter.  This sensor measures the weight of the intems in some inventory such as the crucible or tank.  It can be used to set a redstone signal when the weight is exactly zero (i.e. it is empty).  The redstone can be connected to a hopper to drop items back in the crucible.  This is how you set up automated smelting using the crucible.  A combination of thermometer sensor to shut off hte burning box and to start pouring into the molds and a weight-o-meter to drop new items into the crucible.\n§6§e§b\nPro Tip:  View one of Bear\u0027s many automating videos to see how you can set up auto iron, bronze, brass, steel, and stainless steel using these items.\n§f\nFor now lets make a light version of the weight-o-meter as we only needc it to read zero.  You only need 2 double tin alloy plates, 4 red alloy fine wire, a wooden pressure plate, and 2 tin alloy bolts.  Don\u0027t worry that the sensor uses a wood plate, it won\u0027t burn up even if on the side of a crucible.\n§a\nTo complete this quest craft:\n1 Light Weight-O-Meter"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 31010,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -24158,7 +24299,7 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 84,
           "y:3": -12,
           "id:3": 31,
           "sizeY:3": 24
@@ -24263,14 +24404,14 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 96,
           "y:3": -120,
           "id:3": 258,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 120,
+          "x:3": 144,
           "y:3": -144,
           "id:3": 259,
           "sizeY:3": 24
@@ -24287,6 +24428,20 @@
           "x:3": 0,
           "y:3": -60,
           "id:3": 268,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": -12,
+          "id:3": 269,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 24,
+          "id:3": 270,
           "sizeY:3": 24
         }
       },
@@ -26200,7 +26355,7 @@
       "home_image:8": "gt6bde:textures/gui/default_title.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
-      "editMode:1": 0,
+      "editMode:1": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

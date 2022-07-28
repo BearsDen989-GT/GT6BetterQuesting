@@ -2385,7 +2385,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n\nThe crusher will need 16 KU/t to crush ores into crushed ores.  A Bronze engine will provide the KU but you will need 2 Bronze Boilers to get enough steam to get the engine past 16KU/t.  This will put the bronze engine at the very top of its range so the engine will turn red.  Just do not supply more than 96 steam/t to the engine, thus only 2 bronze boilers.\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
+          "desc:8": "The crusher doubles your ore output, over are the days where you had to crush your ores by hand with a hammer, now you can let a machine do the work and even get double the output!\n\nThe crusher will need 16 KU/t to crush ores into crushed ores.  A Bronze engine will provide the KU but you will need 2 Bronze Boilers to get enough steam to get the engine past 16KU/t.  This will put the bronze engine at the very top of its range so the engine will turn red.  Just do not supply more than 96 steam/t to the engine, thus no more than 2 bronze boilers.  You can use a single steel boiler as it only puts out 64 steam/tick.\n§a\nTo complete the quest craft:\n1 Bronze Crusher"
         }
       },
       "tasks:9": {
@@ -2525,7 +2525,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The sluice gives you plenty of byproducts from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more byproducts!\n\nTo get the sluice going, you will need 16 RU/t so a bronze turbine and a single boiler wil lwork.  It can run faster with 2 boilers but you will be at the maximum of the bronze turbine.\n§d§b\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f§a\nTo complete this quest craft:\n1 Bronze Sluice"
+          "desc:8": "The sluice gives you plenty of byproducts from your ores (similar to the cauldron) but it also gives you valuable sluice juice. You can dry it and put it into a magnetic seperator or just centrifuge it for even more byproducts!\n\nTo get the sluice going, you will need 16 RU/t so a bronze turbine and a single boiler will work.  It can run faster with 2 boilers but you will be at the maximum of the bronze turbine.\n§d§b\nTip:  Build a tank to store your sluice juice until you can either dry it or centrifuge it.\n§f§a\nTo complete this quest craft:\n1 Bronze Sluice"
         }
       },
       "tasks:9": {
@@ -2595,7 +2595,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it turn items you throw in it into dusts.  The shredder will take full machines, to get their crafting materials back as dusts.  In order to make a shredder you will need a Flawless Diamond.  You can craft the flawless Diamond into a crystaline diamond plate.\n§a\nIn order to complete this quest craft:\n1 Bronze Shredder"
+          "desc:8": "The shredder doesnt double your ores (thats what the crusher is for), but it turn items you throw in it into dusts.  The shredder will take full machines, to get their crafting materials back as dusts.  In order to make a shredder you will need a crystaline diamond plate which would require a Flawless Diamond or better.  You can craft the crystaline diamond plate by placing the flawless Diamond and saw into a crafting grid.  If you use better diamonds, you will get additional crystaline diamond plates.  Once you make a cutter, you can also craft these plates there with a regular diamond but that machine is hard to come by at this stage.\n§a\nIn order to complete this quest craft:\n1 Bronze Shredder"
         }
       },
       "tasks:9": {
@@ -6989,7 +6989,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The compressor is used to create dense plates from 9 regular plates.\n§a\nTo complete this quest:\nCraft 1 Bronze Compressor"
+          "desc:8": "The compressor is used to create dense plates from 9 regular plates.  There are other recipes but dense plates will be the primary use of this machine.\n§a\nTo complete this quest:\nCraft 1 Bronze Compressor"
         }
       },
       "tasks:9": {
@@ -19391,7 +19391,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "As you develop your base, you will discover that you will have some extra fluids that you don\u0027t know what to do.  Well some of these fluids can be burned in burning boxes.  The first will be Creosol.  So to use the fluids all you need are fluid burning boxes.\n§9§b\nNote:  There are dense versions of the burning boxes that will output higher amounts of heat but will use the fuel much quicker.\n§f§a\nTo complete this quest craft:\n1 Bronze, Steel or Invar Fluid Burning Box"
+          "desc:8": "As you develop your base, you will discover that you will have some extra fluids that you don\u0027t know what to do.  Well some of these fluids can be burned in burning boxes.  The first will be Creosote.  So to use the fluids all you need are fluid burning boxes.\n§9§b\nNote:  There are dense versions of the burning boxes that will output higher amounts of heat but will use the fuel much quicker.\n§f§a\nTo complete this quest craft:\n1 Bronze, Steel or Invar Fluid Burning Box"
         }
       },
       "tasks:9": {
@@ -23062,7 +23062,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A Strong Boiler can put out significant more heat than a regular boiler.  It will also use more water and require more heat to do so.  The  main item you need is 5 Dense Bronze Plates.  The Bronze Strong Boiler is unique in early game as you can craft the Bronze Dense Plates two ways.  You can put 9 plates in a Compressor or you can Use an Extruder to make a Block of Bronze then use a Rolling Mill to make the Bronze Dense Plate.  For Steel Dense Boiler, you can only use the Compressor as you cannot make a Block of Steel in a Low Heat Extruder.  The matching Burning Box is not quite as hard to make as it only needs Quintuple (5x) plates.\n§b\nInformation:\nBronze Boiler takes 24 HU/t in and produces 48 Steam/t out\nStrong Bronze Boiler takes 96 HU/t in and produces 192 Steam/t out\nOne Dense boiler is the same as 4 regular boilers.\n§a\nTo complete this quest craft:\n1 Strong Boiler Bronze\n1 Dense Boiler Bronze (Solid, Liquid, or Gas)"
+          "desc:8": "A Strong Boiler can put out significant more heat than a regular boiler.  It will also use more water and require more heat to do so.  The  main item you need is 5 Dense Bronze Plates.  The Bronze Strong Boiler is unique in early game as you can craft the Bronze Dense Plates two ways.  You can put 9 plates in a Compressor or you can Use an Extruder to make a Block of Bronze then use a Rolling Mill to make the Bronze Dense Plate.  For Steel Dense Boiler, you can only use the Compressor as you cannot make a Block of Steel in a Low Heat Extruder.  The matching Burning Box is not quite as hard to make as it only needs Quintuple (5x) plates.\n§b\nInformation:\nBronze Boiler takes 24 HU/t in and produces 48 Steam/t out\nStrong Bronze Boiler takes 96 HU/t in and produces 192 Steam/t out\nOne Dense boiler is the same as 4 regular boilers.\n§a\nTo complete this quest craft:\n1 Strong Boiler Bronze or Steel\n1 Dense Boiler Bronze or Steel (Solid, Liquid, or Gas)"
         }
       },
       "tasks:9": {
@@ -23130,6 +23130,75 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 1652,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1254,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1154,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1254,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1454,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1254,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 1654,
               "OreDict:8": ""
             }
           },
@@ -24210,7 +24279,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "There are some items that really do not have a good use such as the schist cobble.  Also there are times when you just vanilla cobble.  That is why Greg has the Generifer so you can generofy cobble, wood and even the colored fluorites.\n§a\nTo complete this quest craft:\n1 Generifier"
+          "desc:8": "There are some items that really do not have a good use for such items such as the schist or komatite cobble but you really need vanilla cobble.  That is why Greg has the Generifier so you can get vanilla cobble, a base wood and even the consolidate the colored fluorites.\n§b\nNote:  For a while vanilla cobble was rare in Gregtech 6.  In the more recent versions Greg added vanilla rock layers with vanilla ores to have better mod compatibility.  So you should be able to find vanilla rocks now but the generifier still has some significant uses.  You will need vanilla stone for stairs and other specific default minecraft shapes as Greg has not added those by default.  The only other option for stairs and other special blocks is to use Carpenter\u0027s Blocks.\n§a\nTo complete this quest craft:\n1 Generifier"
         }
       },
       "tasks:9": {

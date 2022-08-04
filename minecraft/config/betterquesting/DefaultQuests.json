@@ -8839,7 +8839,7 @@
     "103:10": {
       "questID:3": 103,
       "preRequisites:11": [
-        100
+        272
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8863,7 +8863,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "So what do you do if you got more that 4 fluids or gasses that you need to move at once?  Use Nonuple pipes.  That is 9 small pipes in one.\n§a\nTo complete this quest:\n1 Low Heat Extruder (Small Pipe)\n9 Small Rubber Pipes\n1 Nonuple Rubber Pipe"
+          "desc:8": "So what do you do if you got more than 4 fluids or gasses that you need to move at once?  Use Nonuple pipes.  That is 9 small pipes in one.\n§a\nTo complete this quest:\n9 Small Rubber Pipes\n1 Nonuple Rubber Pipe"
         }
       },
       "tasks:9": {
@@ -8876,18 +8876,12 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:gt.multiitem.technological",
-              "Count:3": 1,
-              "Damage:2": 10210,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 9,
               "Damage:2": 26521,
               "OreDict:8": ""
             },
-            "2:10": {
+            "1:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 26526,
@@ -23965,7 +23959,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Gregtech 6 has enchanted properties depending on which material you use.  This includes Fortune and Looting enchants.  There are various materials but the easiest to get early to mid game will be Efrine.  Efrine is a tier 3 material which contains Fortuen II and Looting II enchants.  Efrine makes it a great material to use to mine ores and killing mobs.  Efrine is not found as an ore but you can get a a byproduct of washing Nether Quartz.  Nether Quarts is a white rock layer ore deposit in the nether.  If you do not have a cruysher, use a happer to get the crushed ores.\n§c\nWarning:  Efrine metls at 2246K close to the temperature of the ceramic crucible at 2500K so you will want to use a fuel that does not burn very long such a Lignight nuggets (tiny dusts), or liquid or gas fuel.\n§a\nTo complete this quest gather and craft:\n4 Purified Efrine Ore\n1 Efrine Pickaxe\n1 Efrine Sword\n"
+          "desc:8": "Gregtech 6 has enchanted properties depending on which material you use.  This includes Fortune and Looting enchants.  There are various materials but the easiest to get early to mid game will be Efrine.  Efrine is a tier 3 material which contains Fortuen II and Looting II enchants.  Efrine makes it a great material to use to mine ores and killing mobs.  Efrine is not found as an ore but you can get a a byproduct of washing Nether Quartz.  Nether Quarts is a white rock layer ore deposit in the nether.  If you do not have a crusher, use a hammer to get the crushed ores.\n\nTo get the best from looting mobs, make a Butchery Knife.  A Butchery Knife gives you Looting I.  Since Efrine gives Looting II, you will get a Butchery Knife with Looting III.  Now you can collect Leather and Ender pearls with ease.  You will need 4 Efrine plates, 1 efrine rod and a hammer and a file to make the Butchery Knife\n§c\nWarning:  Efrine metls at 2246K close to the temperature of the ceramic crucible at 2500K so you will want to use a fuel that does not burn very long such a Lignight nuggets (tiny dusts), or liquid or gas fuel.\n§a\nTo complete this quest gather and craft:\n4 Purified Efrine Ore\n1 Efrine Pickaxe\n1 Efrine Butchery Knife\n"
         }
       },
       "tasks:9": {
@@ -23990,9 +23984,22 @@
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "gregtech:gt.meta.toolHeadSword",
+              "id:8": "gregtech:gt.metatool.01",
               "Count:3": 1,
-              "Damage:2": 8747,
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "lvl:2": 3,
+                    "id:2": 21
+                  }
+                },
+                "GT.ToolStats:10": {
+                  "a:2": 8747,
+                  "c:2": 8747,
+                  "j:3": 50000
+                }
+              },
+              "Damage:2": 36,
               "OreDict:8": ""
             }
           },
@@ -24295,6 +24302,82 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 22001,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "272:10": {
+      "questID:3": 272,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26521,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Small Rubber Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Sometimes you don\u0027t need all of the bandwidth of a normal pipe like with the distilled water return pipes from turbines and engines.  You can make 1 small pipe from a single rubber ingot making your coagulated rubber ingots go further.  All you ened is the low heat extruder small pipe shape and a low heat extruder.\n\nYou will see addditional uses for small rubber pipes in the next quest.\n§a\nTo complete this quest craft:\n1 Low Hear Extruder Small Pipe Shape\n4 Small Rubber Pipes\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 10210,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 4,
+              "Damage:2": 26521,
               "OreDict:8": ""
             }
           },
@@ -24963,7 +25046,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 60,
           "y:3": -84,
           "id:3": 103,
           "sizeY:3": 24
@@ -25022,6 +25105,13 @@
           "x:3": -60,
           "y:3": -144,
           "id:3": 245,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -84,
+          "id:3": 272,
           "sizeY:3": 24
         }
       },

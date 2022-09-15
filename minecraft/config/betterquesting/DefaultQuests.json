@@ -24559,6 +24559,436 @@
           }
         }
       }
+    },
+    "274:10": {
+      "questID:3": 274,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 40,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Stop Making Sense",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you wanted the functality to righ click your cros so you don\u0027t have to replant seeds again, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you cna make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay modl.  This way you can just pour you a Sense head instead of crafting one.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhal is installed.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 820,
+                  "c:2": 8221,
+                  "j:2": 25600
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8610,
+                  "c:2": 8221,
+                  "j:3": 179200
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 320,
+                  "c:2": 8221,
+                  "j:3": 102400
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 260,
+                  "c:2": 8221,
+                  "j:3": 102400
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 270,
+                  "c:2": 8221,
+                  "j:3": 102400
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metatool.01",
+              "Count:3": 1,
+              "tag:10": {
+                "ench:9": {},
+                "GT.ToolStats:10": {
+                  "a:2": 8630,
+                  "c:2": 8221,
+                  "j:3": 204800
+                }
+              },
+              "Damage:2": 40,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "275:10": {
+      "questID:3": 275,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 22003,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Lets Let it Ferment",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You can use some of your left over plants, samplings, crops, etc and make soe early fuel to generate some slectricity before oyu build a full distalation tower setup.  Early on you can make ethanol with your plant matter, crops and samplings.  The first step you will need to do is to create some biomass.  To create biomass you will need a Fermenter.  Is some crops don\u0027t work, put them in your shredder to generate plant remains.  Just make a burning box to supply the required HU units to start the fermenting process.\n§a\nTo complete this quest craft:\n1 Steel Fermentor"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 22003,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "276:10": {
+      "questID:3": 276,
+      "preRequisites:11": [
+        275
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20191,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Just Distill It",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now it is time to turn the biomass into some useful fuel like ethanol.  This will require a distillery.  The distillery will turn the biomass into ethanol and distilled water.  There are better and more effecient way to make ethanol down the road but if you need some fuel early on, you can make it this way. v Just supply a burnign box to give the distillery the HU that it requires.\n§a\nTo complete this quest craft:\n1 Steel Distillery"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20191,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "277:10": {
+      "questID:3": 277,
+      "preRequisites:11": [
+        276
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 9148,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Diesel Generator",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now we can use that ethanol and generate some power.  So you can make a Diesel Generator.  The D\u003diesel Generator will burn you ethanol and generate some RU.  For a mixer, one Diesel Generator can be used instead of busing a burning box, boiler and turnine to generate RU needed for that mixer.\n\nThe main new item that is required for making a diesel generator is the Lubricant.  There are ways to make lubricant besides the distallation tower and oil.  One way is to use a juicer and juice those industrial hemp seeds from Industrial Craft if that mod is installed.  The Bronze Diesel Generator generates 16 RU/t and the Steel Diesel Generator generates 32 RU/t.\n§b\nTip:  You will not have a way to turn on and off the diesel generator until you get Aluminum to make covers.  In the mean time you can use your wrench to connect and disconnect the ethanol pipe as a way to turn on and off the Diesel Generator.\n§a\nTo complete this quest craft:\n1 Diesel Generator (Bronze or Steel)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 9147,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 9148,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -25152,22 +25582,22 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 84,
+          "x:3": -144,
+          "y:3": 48,
           "id:3": 39,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 84,
+          "x:3": -24,
+          "y:3": 48,
           "id:3": 40,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": -204,
-          "y:3": 84,
+          "y:3": 48,
           "id:3": 49,
           "sizeY:3": 24
         },
@@ -25222,14 +25652,14 @@
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 84,
+          "x:3": -84,
+          "y:3": 48,
           "id:3": 217,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 0,
           "y:3": 0,
           "id:3": 218,
           "sizeY:3": 24
@@ -25267,6 +25697,27 @@
           "x:3": 12,
           "y:3": -84,
           "id:3": 272,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 96,
+          "id:3": 275,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 96,
+          "id:3": 276,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 96,
+          "id:3": 277,
           "sizeY:3": 24
         }
       },
@@ -26294,6 +26745,13 @@
           "y:3": -552,
           "id:3": 273,
           "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -1056,
+          "y:3": -552,
+          "id:3": 274,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 7,
@@ -26431,14 +26889,14 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": -996,
-          "y:3": -564,
+          "y:3": -576,
           "id:3": 99,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 36,
           "x:3": -1068,
-          "y:3": -564,
+          "y:3": -576,
           "id:3": 225,
           "sizeY:3": 36
         },

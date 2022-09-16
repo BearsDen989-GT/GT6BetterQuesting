@@ -3281,7 +3281,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -3300,7 +3300,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burnign box, boiler, and turnbine for each mixer so you can make some compact builds.  You will bne using the items built here in the next couple of quests.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers"
+          "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burning box, boiler, and turnbine for each mixer so you can make some compact builds.  You will be using the items built here in the next couple of quests.\n\nAlternately you can use a Diesel Generator in place for a burning box, boiler, and turbine.  The only issue is you will need to make some ethanol and manually shut off the Diesel Generator by disconnecting pipes until you get Aluminium to make machine controllers.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers\n\n-OR -\n3 Bronze Mixers\n3 Bronze Diesel Generators"
         }
       },
       "tasks:9": {
@@ -3314,7 +3314,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.multitileentity",
-              "Count:3": 4,
+              "Count:3": 3,
               "Damage:2": 20181,
               "OreDict:8": ""
             },
@@ -3328,6 +3328,29 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 3,
               "Damage:2": 1202,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 3,
+              "Damage:2": 20181,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 3,
+              "Damage:2": 9147,
               "OreDict:8": ""
             }
           },
@@ -24587,7 +24610,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you wanted the functality to righ click your cros so you don\u0027t have to replant seeds again, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you cna make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay modl.  This way you can just pour you a Sense head instead of crafting one.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhal is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also appearently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
+          "desc:8": "If you wanted to quickly harvest crops in a 3x3 area, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you can make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay mold.  This way you can just pour you a Sense head instead of crafting one.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhal is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also appearently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
         }
       },
       "tasks:9": {

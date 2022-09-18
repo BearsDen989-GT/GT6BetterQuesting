@@ -3761,7 +3761,26 @@
           "taskID:8": "bq_standard:fluid"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "40:10": {
       "questID:3": 40,
@@ -4598,7 +4617,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e§b\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  The next quest will allow for you to add the item barrel and make rubber bars.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n§f§a\nTo complete the quest:\nCraft 1 Coagulator"
+          "desc:8": "Now it is time to use the sticky resin to make something more useful than glue and torches.  Lets use some of that stainless steel and make a coagulator.  This will turn the sticky resin into rubber which can be used to replace your wooden pipes with some that will not burn (i.e. rubber pipes).\n§e§b\nPro Tip:  A good setup would to have a juicer on top of the coafulator and an item barrel below.  You right click the juicer with sticky resin in your hand and it will fill the coagulator below.  The barrrel will store your rubber nuggets that the coagulator makes.  Once the first run is done, take 9 rubber nuggets and manually craft a rubber bar (ingot).  Break the item barrel (with an axe) and replace it back and put the rubber bar in the barrel.  Now the barrel will make your rubber bars as it collect the nuggets from the coagulator.  The next quest will allow for you to add the item barrel and make rubber bars.  Now you have rubber bars that you can use in your low heat extruder to make your rubber sheets, pipes or what ever rubber part you need.\n\nEventurally tou can use a squeezer to get more latex out of your sticky resin or you can use a centrifuge to get both latex and glue instead of using the juicer.\n§f§a\nTo complete the quest:\nCraft 1 Coagulator"
         }
       },
       "tasks:9": {
@@ -20484,7 +20503,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauzite in a sluice.  You can also get alumina from centrifuging saphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Saphire ores.  An alternate way to get alumina dusts.\n\n-  Milky Quartz or Nether Quartz.  You will need some quartz.\n\n\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminium Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ Electrolyzer ] -\u003e Aluminium"
+          "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauxite in a sluice.  You can also get alumina from centrifuging sapphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Saphire ores.  An alternate way to get alumina dusts.\n\n-  Milky Quartz or Nether Quartz.  You will need some quartz.\n\n\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminium Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ Electrolyzer ] -\u003e Aluminium"
         }
       },
       "tasks:9": {
@@ -24610,7 +24629,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you wanted to quickly harvest crops in a 3x3 area, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you can make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay mold.  This way you can just pour you a Sense head instead of crafting one.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhal is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also appearently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
+          "desc:8": "If you wanted to quickly harvest crops in a 3x3 area, Greg has a deal for you.  Greg has a Scythe or does he call it a Sense?   A Sense is a tool to assist you in your farming.  Like Greg\u0027s other tools, you can make a Sense out of almost any metal or gem.  As with all of Greg\u0027s tools, the material determines the durability and thus the number of uses the Sense will have.\n§b\nTip:  You can make a Sense Mold by first making a wooden Sense and the using it with a clay mold.  This way you can just pour you a Sense head instead of crafting one.\n\nTip:  You can use magnetic material for the Sense to autocollect.\n§e\nWarning:  For version 6.15.03, The Sense does not work on all crops if Hunger Overhal is installed.  It will only work with Pam\u0027s and IC2 Crops.  For version 6.15.04, The Sense now works with Hunger Overhaul if you modify the Hunger Overhaul config file \"enableRighClickHarvesting\u003dfalse\"  Also appearently Greg is making it into a weapon.  No idea what the rubber version would actually do?\n§a\nTo complete this quest craft:\n1 Sense (Lead, Iron, Germanium, Cobalt, Bronze, or Steel)"
         }
       },
       "tasks:9": {
@@ -24986,6 +25005,490 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 9148,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "278:10": {
+      "questID:3": 278,
+      "preRequisites:11": [
+        87
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 7110,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Shelf Storage",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you are looking for a place to store you extruder shapes, you can use a bookshelf.  The only issue is wooden bookshelfs will burn so you need to make a metal version.  Just place the bookshelf on top of the extruder and you will have a convient place to store your shapes.  The bookshelfs are 2-sided so you can have your extruder shapes on either side so you can place your less used shapes on the back side.\n\nTo complete this quest craft\n1 Bookshelf (Bronmze, Brass, Steel, Germanium, Lead, Cobalt, or Antimomy)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7109,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7110,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7100,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7123,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7108,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7147,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "6:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 6,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 7121,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "279:10": {
+      "questID:3": 279,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26160,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tiny Acid Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "As you make advancements in ore processing, you will run into times where you will will need to send just a little acid or you will run into recipes that deal with more than 4 fuids with one or more being acidic.  Greg has the right pipes for you, the tiny stainless steel pipes.  For this quest we will make 9 tiny stainless steel pipes.  \n§a\nTo complete thsi quest craft \n9 tiny stainless steel pipes"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 9,
+              "Damage:2": 26160,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "280:10": {
+      "questID:3": 280,
+      "preRequisites:11": [
+        279
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 26166,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Stainless Nonuple Pipes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Nonuple Stainless Steel pipes can handle any fluid that is below the melting point of stainless steel including acids.  These pipes are very handy is ore processing where you can have multiple fluids, acids and gasses as input and output to various recipes.  You cna use the 9 tiny stainless steel pipes for this quest.\n§a\nTo complete this quest craft:\n1 Nonuple Statinless Steel pipe."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 26166,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "281:10": {
+      "questID:3": 281,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 6010,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Mass Storage",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "What do you do when you have more stuff like cobble that has filled your barrels?  You make a mass storage.  The Mass Storage is basically a barrel that stores the same item but stores up to 1,000,000 of the same item.  That is significant more than the 10,000 you can store in a Wooden IItem Barrel.  Mass storages are made from two chests of the same material, 1 casing of the same material and a few screws of the same material  For example a bronze mass storage will bee 2 bronze chests, a bronze casing and some bronze screws.\n§a\nTo complete this quest craft:\n1 Mass Storage (Steel, Broinze, Brass, Lead, Germanium, Cobalt, or Antimony)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6010,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6009,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6008,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6023,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "5:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6047,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "6:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 6,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 6021,
               "OreDict:8": ""
             }
           },
@@ -25560,6 +26063,13 @@
           "y:3": -72,
           "id:3": 266,
           "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 36,
+          "id:3": 278,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -25627,14 +26137,14 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": -84,
+          "y:3": -108,
           "id:3": 50,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": -84,
+          "y:3": -108,
           "id:3": 100,
           "sizeY:3": 24
         },
@@ -25662,7 +26172,7 @@
         "11:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": -48,
+          "y:3": -36,
           "id:3": 212,
           "sizeY:3": 24
         },
@@ -25697,7 +26207,7 @@
         "16:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -48,
+          "y:3": -36,
           "id:3": 242,
           "sizeY:3": 24
         },
@@ -25711,7 +26221,7 @@
         "18:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": -144,
+          "y:3": -156,
           "id:3": 245,
           "sizeY:3": 24
         },
@@ -25741,6 +26251,20 @@
           "x:3": -84,
           "y:3": 96,
           "id:3": 277,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -72,
+          "id:3": 279,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -72,
+          "id:3": 280,
           "sizeY:3": 24
         }
       },
@@ -26774,6 +27298,13 @@
           "x:3": -1056,
           "y:3": -552,
           "id:3": 274,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -1056,
+          "y:3": -504,
+          "id:3": 281,
           "sizeY:3": 24
         }
       },

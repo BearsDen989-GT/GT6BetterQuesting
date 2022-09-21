@@ -3300,7 +3300,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burning box, boiler, and turnbine for each mixer so you can make some compact builds.  You will be using the items built here in the next couple of quests.\n\nAlternately you can use a Diesel Generator in place for a burning box, boiler, and turbine.  The only issue is you will need to make some ethanol and manually shut off the Diesel Generator by disconnecting pipes until you get Aluminium to make machine controllers.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers\n\n-OR -\n3 Bronze Mixers\n3 Bronze Diesel Generators (Engines)"
+          "desc:8": "We have to start mixing acids and not only fluid acids but also gaseous acids, which means our old stone age hand mixing bowl isn\u0027t doing us any good.  We will need some mixers to make our acids so for now lets make 3 of them.\n\nTo get everything to work you will also need 3 Bronze Turbines. 3 Bronze Boilers, and 3 Bronze Burning Boxes.  The bronze burning boxes will be up to you if you want solid, liquid, or gas burning boxes.  The nice thing is you will only need 1 burning box, boiler, and turnbine for each mixer so you can make some compact builds.  You will be using the items built here in the next couple of quests.\n\nAlternately you can use a Diesel Engines in place for a burning box, boiler, and turbine.  The only issue is you will need to make some ethanol and manually shut off the Diesel Engine by disconnecting pipes until you get Aluminium to make machine controllers.\n§a\nTo complete this quest craft:\n3 Bronze Boilers\n3 Bronze Turbines\n3 Bronze Mixers\n\n-OR -\n3 Bronze Mixers\n3 Bronze Diesel Engines"
         }
       },
       "tasks:9": {
@@ -10317,7 +10317,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Cobalt can be gathered from Cobolite ore.  You can put directly in the crucible in the early game.  Cobalt is good for making tier 3 tools like picks to get through higher tier rocks."
+          "desc:8": "Cobalt can be gathered from Cobaltite ore.  You can put directly in the crucible in the early game.  You will also get Cobalt as a byproduct from washing Cobaltite ore in a sluice.  You can also get Cobalt from using a magnetic separator on dried sluice juice.  Cobalt is good for making tier 3 tools like picks to get through higher tier rocks.  Cobalt is also used to make Ultimet which can be used for high capacity pipes and hoppers.\n\nOnce you get a Roster you roast your Cobaltite to get Cobalt but use oxygen to make sure it is a 100% chance."
         }
       },
       "tasks:9": {
@@ -11031,7 +11031,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Germanium"
+          "desc:8": "Germanium is good for making things like chests, and hoppers.\n\nYou get Germanius from washing Lighnite Coal in a sluice."
         }
       },
       "tasks:9": {
@@ -11923,7 +11923,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Chlorine is a halogen gas that is a byproduct from electrolyzing salt [NaCl].  It isd also a byproduct from some ore processing.\n\nYou can complete by either getting a tube of Chlorine or picking up a drum with at least 1000mB of Chlorine Gas."
+          "desc:8": "Chlorine is a halogen gas that is a byproduct from electrolyzing salt [NaCl].  It isd also a byproduct from some ore processing.\n\nYou can complete by either getting a tube of Chlorine or picking up a drum with at least 1000mB of Chlorine Gas.\n§b\nTip:  You can remove colors from GT items like pipes by hooking up your Chlorine tank to a Bath and then bathe your color items in that bath."
         }
       },
       "tasks:9": {
@@ -12925,7 +12925,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Molybdenum"
+          "desc:8": "Molybdenum is used to making Ultimet which is a really useful for making high capacity item pipes and hoppers.\n\nYou can put Molybdenite dusts in a roster with oxygen to get Molybdenum dust.\n\nYou can get Molybdenum early on by centrifuging (Steel Centrifuge [84EU/t]) Wulfewnite dust or Powellite dust.  You can use a couple of steel burnign boxes and boilers to get enough steam for the turbine."
         }
       },
       "tasks:9": {
@@ -20503,7 +20503,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauxite in a sluice.  You can also get alumina from centrifuging sapphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Saphire ores.  An alternate way to get alumina dusts.\n\n-  Milky Quartz or Nether Quartz.  You will need some quartz.\n\n\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminium Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ Electrolyzer ] -\u003e Aluminium"
+          "desc:8": "To get Aluminum, you will need alumina.  You can get alumina from washing Bauxite in a sluice.  You can also get alumina from centrifuging sapphire purified ores.\n\nLook for the following:\n\n- Bauxite ore.  This would be a layered rock type similar to coal, lignite, and milky quartz.\n\n- Saphire ores.  An alternate way to get alumina dusts.\n\n-  Milky Quartz or Nether Quartz.  You will need some quartz.\n\n§e\nWarning:  Alumina melts at 2345K so you are likely to melt your ceramic crucible if you throw alumina in there.\n\n§b\nProcessing Path:\n\nAlumina dusts + Hexafluorosilicic Acid -\u003e [ Mixer ] -\u003e Molten Aluminium Fluoride + water + Silicon Dioxide\n\nAlumina dusts + Molten Aluminum Fluoride -\u003e [ Electrolyzer ] -\u003e Aluminium"
         }
       },
       "tasks:9": {
@@ -24968,11 +24968,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Diesel Generator",
+          "name:8": "Diesel Engine",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now we can use that ethanol and generate some power.  So you can make a Diesel Generator.  The D\u003diesel Generator will burn you ethanol and generate some RU.  For a mixer, one Diesel Generator can be used instead of busing a burning box, boiler and turnine to generate RU needed for that mixer.\n\nThe main new item that is required for making a diesel generator is the Lubricant.  There are ways to make lubricant besides the distallation tower and oil.  One way is to use a juicer and juice those industrial hemp seeds from Industrial Craft if that mod is installed.  The Bronze Diesel Generator generates 16 RU/t and the Steel Diesel Generator generates 32 RU/t.\n§b\nTip:  You will not have a way to turn on and off the diesel generator until you get Aluminum to make covers.  In the mean time you can use your wrench to connect and disconnect the ethanol pipe as a way to turn on and off the Diesel Generator.\n§a\nTo complete this quest craft:\n1 Diesel Generator (Bronze or Steel)"
+          "desc:8": "Now we can use that ethanol and generate some power.  So you can make a Diesel Engine.  The D\u003diesel Engine will burn you ethanol and generate some RU.  For a mixer, one Diesel Engine can be used instead of busing a burning box, boiler and turnine to generate RU needed for that mixer.\n\nThe main new item that is required for making a diesel generator is the Lubricant.  There are ways to make lubricant besides the distallation tower and oil.  One way is to use a juicer and juice those industrial hemp seeds from Industrial Craft if that mod is installed.  The Bronze Diesel Engine generates 16 RU/t and the Steel Diesel Engine generates 32 RU/t.\n§b\nTip:  You will not have a way to turn on and off the diesel engine until you get Aluminum to make covers.  In the mean time you can use your wrench to connect and disconnect the ethanol pipe as a way to turn on and off the Diesel Generator.\n§a\nTo complete this quest craft:\n1 Diesel Engine (Bronze or Steel)"
         }
       },
       "tasks:9": {
@@ -25219,7 +25219,7 @@
           "icon:10": {
             "id:8": "gregtech:gt.multitileentity",
             "Count:3": 1,
-            "Damage:2": 26160,
+            "Damage:2": 26161,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -25227,11 +25227,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Tiny Acid Pipes",
+          "name:8": "Small Acid Pipes",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "As you make advancements in ore processing, you will run into times where you will will need to send just a little acid or you will run into recipes that deal with more than 4 fuids with one or more being acidic.  Greg has the right pipes for you, the tiny stainless steel pipes.  For this quest we will make 9 tiny stainless steel pipes.  \n§a\nTo complete thsi quest craft \n9 tiny stainless steel pipes"
+          "desc:8": "As you make advancements in ore processing, you will run into times where you will will need to send just a little acid or you will run into recipes that deal with more than 4 fuids with one or more being acidic.  Greg has the right pipes for you, the small stainless steel pipes.  For this quest we will make 9 small stainless steel pipes.  \n§a\nTo complete thsi quest craft \n9 small stainless steel pipes"
         }
       },
       "tasks:9": {
@@ -25246,7 +25246,7 @@
             "0:10": {
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 9,
-              "Damage:2": 26160,
+              "Damage:2": 26161,
               "OreDict:8": ""
             }
           },
@@ -25371,7 +25371,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "What do you do when you have more stuff like cobble that has filled your barrels?  You make a mass storage.  The Mass Storage is basically a barrel that stores the same item but stores up to 1,000,000 of the same item.  That is significant more than the 10,000 you can store in a Wooden IItem Barrel.  Mass storages are made from two chests of the same material, 1 casing of the same material and a few screws of the same material  For example a bronze mass storage will bee 2 bronze chests, a bronze casing and some bronze screws.\n§a\nTo complete this quest craft:\n1 Mass Storage (Steel, Broinze, Brass, Lead, Germanium, Cobalt, or Antimony)"
+          "desc:8": "What do you do when you have more stuff like cobble that has filled your barrels?  You make a mass storage.  The Mass Storage is basically a barrel that stores the same item but stores up to 1,000,000 of the same item.  That is significant more than the 10,000 you can store in a Wooden Item Barrel.  Mass storages are made from two chests of the same material, 1 casing of the same material and a few screws of the same material  For example a bronze mass storage will be 2 bronze chests, a bronze casing and some bronze screws.\n§a\nTo complete this quest craft:\n1 Mass Storage (Steel, Broinze, Brass, Lead, Germanium, Cobalt, or Antimony)"
         }
       },
       "tasks:9": {
@@ -25489,6 +25489,222 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
               "Damage:2": 6021,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "282:10": {
+      "questID:3": 282,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32748,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Passing Gas",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "So you need to transfer a specific gas from one tank to another but you don\u0027t want have to pipe it.  Too bad that the tap and funnel don\u0027t work with gases.  Well those don\u0027t work because Greg has a nozzel and a cap nozzle.  Nozzles can be made from steel, plastic, stainless steel, along with some higher tier materials.  For this quest we will make a stainless steel nozzle and cap nozzle since they can handle acids along with other fluids.  The biggest advantage is nozzles can handle gasses while the funnel and tap can only do fluids.  The nozzle is like a tab (take fluids out) and the cap nozzle acts like a funnel (put fluids in).\n§b\nTip:  If you are running a recipe that outputs gasses and you have not yet put that gas in a storage tank, you can put a nozzle on the machine and use either an approiate drum or Barometer Gas Cylinder to extract out the gas.\n§a\nTo complete this quest craft:\n1 Stainless Steel Nozzle\n1 Stainless Steel Cap Nozzle"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32748,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32060,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "283:10": {
+      "questID:3": 283,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32056,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Barometric Gas Storage",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "There is another way to store gasses and acids beside tanks and drums.  Greg has added Barometer Gas Cylindar.  The stainless steel version can handle both gasses and acids.  You fill the Barometer Gas Cylinder by right-clicking on a nozzle and empty the Gas Cylinder by right-clicking on a cap nozzle.\n§a\nTo complete this quest craft:\n1 Stainless Steel Barometer Gas Cylander"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32056,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "284:10": {
+      "questID:3": 284,
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 30001,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tank (Pipe) Extender",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "The Tank Extender is basically a one way valve.  It has 2 outputs, the Primary and the Scondary.  You can change the site the primary output by right clicking on the Greg Interface.  For the secondary, use your monkey wrench.  Greg\u0027s pipes are know to slosh especially when the volume of the pipes are larger than the amount of fluid that is being produced.  This is problematic when needing specific amount of steam for engines and turbines.  A Tank eXtender just needs a steel casing and a couple of steel pipes.\n\nJust stick a Tank Extender between the pipes coming off the poilers and just before the engine/turbine.\n§a\nTo complete this quest craft:\n1 Tank Extender"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 30001,
               "OreDict:8": ""
             }
           },
@@ -25871,7 +26087,7 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": -84,
+          "y:3": -96,
           "id:3": 21,
           "sizeY:3": 24
         },
@@ -25975,8 +26191,8 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -48,
+          "x:3": -24,
+          "y:3": -84,
           "id:3": 61,
           "sizeY:3": 24
         },
@@ -26070,6 +26286,13 @@
           "y:3": 36,
           "id:3": 278,
           "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -48,
+          "id:3": 284,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -26108,7 +26331,7 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -168,
+          "x:3": -192,
           "y:3": -48,
           "id:3": 38,
           "sizeY:3": 24
@@ -26265,6 +26488,20 @@
           "x:3": -36,
           "y:3": -72,
           "id:3": 280,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": -12,
+          "id:3": 282,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": 36,
+          "id:3": 283,
           "sizeY:3": 24
         }
       },

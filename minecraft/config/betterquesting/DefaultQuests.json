@@ -8670,7 +8670,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The Laminator is a very useful machine to turn your wires into cables.  You only need a burning box to generate the heat that the laminator needs.  You will need rubber foil and you can get that from the low heat extruder.  So lets make a Steel laminator.\n§a\nTo Complete the quest make:\n1 Laminator (Steel)"
+          "desc:8": "The Laminator is a very useful machine to turn your wires into cables.  You only need a burning box to generate the heat that the laminator needs.  If you will need rubber foil or sheets, you can get that from the low heat extruder.  The Laminator is required for any wires 4X and up.  So lets make a Steel laminator.\n§a\nTo Complete the quest make:\n1 Laminator (Steel)"
         }
       },
       "tasks:9": {
@@ -22440,10 +22440,10 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 0,
+          "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {

@@ -4664,7 +4664,7 @@
       "questID:3": 51,
       "preRequisites:11": [
         56,
-        55
+        302
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4688,7 +4688,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now we can combine the efforts of oil refinement to get plastic !\n\nPut your titanium tetrachloride together with ethylene or propylene and use magnesium chloride dust as a catalyst in a mixer.\n\nIf you use the plastic pulp in an extruder you get 1 plastic per pulp, otherwise you get 6 plastic nuggets per pulp from the oven/furnace\n\nTo complete the quest collect:\n1 Plastic Bar or Plastic Sheet or Plastic Pulp"
+          "desc:8": "Now we can combine the efforts of oil refinement to get plastic !\n\nPut your titanium tetrachloride together with ethylene or propylene and use magnesium chloride dust as a catalyst in a mixer.\n\nIf you use the plastic pulp in an extruder you get 1 plastic per pulp, otherwise you get 6 plastic nuggets per pulp from the oven/furnace\n\n§aTo complete the quest collect:\n1 Bronze Mixer\n1 Plastic Bar or Plastic Sheet or Plastic Pulp"
         }
       },
       "tasks:9": {
@@ -4704,6 +4704,12 @@
               "id:8": "gregtech:gt.meta.ingot",
               "Count:3": 1,
               "Damage:2": 8218,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20181,
               "OreDict:8": ""
             }
           },
@@ -4722,6 +4728,12 @@
               "Count:3": 1,
               "Damage:2": 8218,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20181,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4738,6 +4750,12 @@
               "id:8": "gregtech:gt.meta.dust",
               "Count:3": 1,
               "Damage:2": 8218,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20181,
               "OreDict:8": ""
             }
           },
@@ -4792,7 +4810,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "I hope you made that stainless steel automation system, because otherwise this will feel very grindy.\nTo process oil into all types of different fuels and other sideproducts we need a distillation tower.\n\nWhy would we do such an insane expensive project? Glad you asked. Not only do we get much more Energy out of the process than we spent, we also get some important side products to make plastics out of, and plastic means computer chips. Still not interested? ;)"
+          "desc:8": "I hope you made that stainless steel automation system, because otherwise this will feel very grindy.\nTo process oil into all types of different fuels and other sideproducts we need a distillation tower.\n\nWhy would we do such an insane expensive project? Glad you asked. Not only do we get much more Energy out of the process than we spent, we also get some important side products that are required to make plastics, and plastic means circuits. Still not interested?\n\nThe 9 Heat Transmitters go on the bottom and will sit just above your burning boxes of choice.  Next Put the controller in the middle of one side above the Heat Transmitters and then fill in a bottom layer of Distallation parts to make the bottom of the distallation tower.  Next continue to add 9 distalation parts to build each layer of the tower until you have 8 layers above the Heat Transmitters.\n\nThe amount of burning boxes you need will depend of the oil that you are using.  Fox example Heavy Oil needs 64 HU/t.  Ypu will get different proportions of the byprodusts depending on the type of oil you process in the distallation tower.\n§a\nTo complete this quest you will need to craft:\n9 Heat Transmitters\n71 Distallation Parts\n1 Distallation Tower Controller"
         }
       },
       "tasks:9": {
@@ -4814,6 +4832,12 @@
               "id:8": "gregtech:gt.multitileentity",
               "Count:3": 71,
               "Damage:2": 18102,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 9,
+              "Damage:2": 18101,
               "OreDict:8": ""
             }
           },
@@ -4957,7 +4981,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -4972,11 +4996,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Butane",
+          "name:8": "Butane or Propane",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Make a drum to make it easier for you to transport fluids/gases.\nThe stainless steel drum can not only handle both, but also acids, so it\u0027s perfect for our needs."
+          "desc:8": "Make a drum to make it easier for you to transport fluids/gases.\nThe stainless steel drum can not only handle both, but also acids, so it\u0027s perfect for our needs.\n§a\nTo ocmplete the quest gather in a drum\n1000L of Butane\n- or -\n1000L od Propane"
         }
       },
       "tasks:9": {
@@ -4991,6 +5015,20 @@
           },
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "propane",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 1,
           "consume:1": 0,
           "taskID:8": "bq_standard:fluid"
         }
@@ -5043,7 +5081,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now that we have Butane and Propane lets further refine that to make ethylene.\nCraft a steam cracker, hook it up to a heat source and a boiler (you know the drill).\n§c\n\nCareful: The steam cracker can only hold 2000L of steam, so make sure your boiler doesnt blow up.\n\n§fA pressure valve might be a good idea, if you haven\u0027t made one yet. So get one too."
+          "desc:8": "Now that we have Butane and Propane lets further refine that to make ethylene and propolene.  The cracker has 2 recipes that use steam along with the Butane or Propane to create the Ethylene, Propylene, Methane, and Hydrogen.\n\nYou will need a burning box for the cracker.  You will also need a burning box and boiler for the steam.  Given the speed of the cracker, a invar burning box and lead steam boiler will make just a little more than the cracker with an invar burning box would use.  Upgrading to a better burning box will use the steam faster than it can be created at least if it have enough Butane or Propane.  Just pile the steam and the Butane/Propane into the left of top of the cracker.  The outputs will come out of the right by default.\n§c\n\nCareful: The steam cracker can only hold 2000L of steam, so make sure your boiler doesn\u0027t blow up.  You can use a gib-o-meter and piston to shut off the burning box or you can use a pressure valve to let out the over pressurized steam.  Once you get to circuits and electricity, you can replace the burning box with a heater that can shut off when needed.\n§a§a\n§f§aTo complete this quest craft:\n1 Steam Cracker\n1 Lead Steam Boiler\nInvar burning box for boiler\nInvar burning box or better for cracker"
         }
       },
       "tasks:9": {
@@ -5051,7 +5089,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -5062,9 +5100,9 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "gregtech:gt.multiitem.technological",
+              "id:8": "gregtech:gt.multitileentity",
               "Count:3": 1,
-              "Damage:2": 2000,
+              "Damage:2": 1200,
               "OreDict:8": ""
             }
           },
@@ -5119,16 +5157,45 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Melt some calcite (limestone works great for that), combine that with chloride (you can get that from bathing different ores or from the electrolizer), Rutile or Ilmenite dust and some coal coke dust. You get Titanium Tetrachloride from that which you can process to titanium ingots, but first we want to use it for plastic."
+          "desc:8": "There are several recipes that can be used to create the Titanium Tetrachloride.  One can be used as an effecient closed loop for the chlorine and can be used for your Titanium processing.\n\nYou can use Rutile with some carbon (coal coke or petrolium coke also work) along with molten calcuim and chlorine gas will get you some titanium Tetrachloride along with some carbon dioxide.\n§b\nNote: You can see other recipes to get Titanium Tetrachloride but using Rutile is easier and you do not loose the chlorine.  You loose the chlorine with processing the Ilmenite.\n\n§fYou can get the calcite from calcite dusts that you get as byproducts of some of your ore processing.  You can also get calcite from limestone and marble dusts.  You can use a smelter to make the molten calcite.  If you have not yet have tungsten, you can use your crucible to make the motlen calcite.\n§c§6§e\nWarning:  Titanium Tetrachloride is acidic!  You need ot use pipes that can handle acids such as stainless steel or gold pipes.\n\n§6Processing Recipes:\n1 Rutile + 1 Carbon (2 small coke) + 144L Molten Calcite + 4000L Chlorine \u003d\u003e [Burner Mixer 16 RU/t] \u003d\u003e 5000L Titanium Tetrachloride + 3000L CO2\n2 Rutile + 1 coke (Petrolium or coal} + 288L Molten Calcite + 8000L Chlorine \u003d\u003e [Burner Mixer 16 RU/t] \u003d\u003e 10,000L Titanium Tetrachloride + 6000L CO2\n§a\nTo complete this quest gather in a drum:\n1000L of Titanium Tetrachloride"
         }
       },
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "titaniumtetrachloride",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 1,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "57:10": {
       "questID:3": 57,
@@ -5524,7 +5591,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Our next step towards plastic is Titanium Tetrachloride, but for that we need a burner mixer.\nThe burner mixer needs some RU but also needs to be lit by a firestarter/bic/flint\u0026steel similar to the coke oven."
+          "desc:8": "Our next step towards plastic is Titanium Tetrachloride, but for that we need a burner mixer.\n\nThe burner mixer needs some RU but also needs to be lit by a firestarter/bic/flint\u0026steel similar to the coke oven.\n§a\nTo complete this quest craft:\n1 Bronze Buring Mixer"
         }
       },
       "tasks:9": {
@@ -27247,6 +27314,158 @@
           }
         }
       }
+    },
+    "302:10": {
+      "questID:3": 302,
+      "preRequisites:11": [
+        55,
+        303
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.chemtube",
+            "Count:3": 1,
+            "Damage:2": 9868,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Ethylene or Propylene",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now you have the steam cracker catylittic cracker set uo you can run some Butane or Propane and collect some Ethylene or Propylene so you cna make some plastic.\n§a\nTo complete this quest collect in a drum:\n1000L of Ethylene\n-- OR --\n1000L of Propylene"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "ethylene",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "propylene",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "303:10": {
+      "questID:3": 303,
+      "preRequisites:11": [
+        297
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20481,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Catalyitic Cracking",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An altnative way to get to plastic if you do not have oil or if you want to go the organtic way is to use a Catalyitic Cracker.  The Catalyitic Cracker will use Ethanol and Hydrogen to make Ethylene and Propylene.\n\nYou will need some Platinum dusts as a catylst.  It will not be used in the recipe is in needed to get the reaction going.  You will also need a burning box and an Invar one will work perfectly.\n§b\nNote:  You can also use the Cataylitic Cracker with Fuel or Petrol but the amout of Propylene and Ethylene you get is less with these fuels.  You would get more by using these fluids for the Generator Engines.\n§a\nTo complete this quest craft:\n1 Steel Catalytic Cracker\nInvar Burning Box of youj choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20481,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2005,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.food",
+              "Count:3": 1,
+              "Damage:2": 2003,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -29161,8 +29380,8 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": 0,
+          "x:3": -96,
+          "y:3": -36,
           "id:3": 51,
           "sizeY:3": 24
         },
@@ -29196,7 +29415,7 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -192,
+          "x:3": -144,
           "y:3": -84,
           "id:3": 56,
           "sizeY:3": 24
@@ -29207,13 +29426,27 @@
           "y:3": -84,
           "id:3": 62,
           "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 0,
+          "id:3": 302,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": 48,
+          "id:3": 303,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 8,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Oil and Plastic Processing",
+          "name:8": "Oil, Plastic, and Titanium",
           "icon:10": {
             "id:8": "GalacticraftCore:item.bucketOil",
             "Count:3": 1,
@@ -29222,7 +29455,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "This is where we start processing of oils and work toward plastic."
+          "desc:8": "This is where we start processing of oils and work toward plastic.  Since the plastic processing includes steps toward Titanium, the Titanium processing is also included on this tab."
         }
       },
       "order:3": 7

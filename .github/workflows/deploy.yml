@@ -16,6 +16,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         ssl_verify_cert: no
+        protocol: sftp
         local_path: minecraft/config/betterquesting/
         remote_path: custom-minecraft/config/betterquesting/
         mirror_args: --no-perms

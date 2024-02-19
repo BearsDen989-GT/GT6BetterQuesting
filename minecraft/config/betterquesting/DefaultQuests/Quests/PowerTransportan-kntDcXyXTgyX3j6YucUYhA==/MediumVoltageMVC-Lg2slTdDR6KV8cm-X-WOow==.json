@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "You will need some medium voltage cables so lets make some.  There are several availalbe MV Cables.  The best are Copper and Annealed Copper.  Annealed Copper is just a higher temperature copper and both use 1 amp per 1x cable and 1 EU/block loss.  Constantan is also availalbe as it can carry 3 amps per 2x cable but has a 3EU/block loss.  For this quest it just makes sense to use regular copper cables.\n§a\nTo ccomplete the quest craft:\n4 4x Copper Cables -OR-\n2 8x Copper Cables"
+      "desc:8": "You will need some medium voltage cables so lets make some.  There are several available MV Cables.  The best are Copper and Annealed Copper.  Annealed Copper is just a higher temperature copper and both use 1 amp per 1x cable and 1 EU/block loss.  Constantan is also available as it can carry 3 amps per 2x cable but has a 3EU/block loss.  For this quest it just makes sense to use regular copper cables.\n§a\nTo complete the quest craft:\n4 4x Copper Cables -OR-\n2 8x Copper Cables"
     }
   },
   "tasks:9": {

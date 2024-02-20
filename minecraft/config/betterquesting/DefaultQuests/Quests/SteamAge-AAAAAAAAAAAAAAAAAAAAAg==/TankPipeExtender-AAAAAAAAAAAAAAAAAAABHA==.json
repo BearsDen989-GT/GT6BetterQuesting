@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The Tank Extender is basically a one way valve.  It has 2 outputs, the Primary and the Scondary.  You can change the site the primary output by right clicking on the Greg Interface.  For the secondary, use your monkey wrench.  Greg\u0027s pipes are know to slosh especially when the volume of the pipes are larger than the amount of fluid that is being produced.  This is problematic when needing specific amount of steam for engines and turbines.  A Tank eXtender just needs a steel casing and a couple of steel pipes.\n\nJust stick a Tank Extender between the pipes coming off the poilers and just before the engine/turbine.\n§a\nTo complete this quest craft:\n1 Tank Extender"
+      "desc:8": "The Tank Extender is basically a one way valve.  It has 2 outputs, the Primary and the Scondary.  You can change the site the primary output by right clicking on the Greg Interface.  For the secondary, use your monkey wrench.  Greg\u0027s pipes are know to slosh especially when the volume of the pipes are larger than the amount of fluid that is being produced.  This is problematic when needing specific amount of steam for engines and turbines.  A Tank eXtender just needs a steel casing and a couple of steel pipes.\n\nJust stick a Tank Extender between the pipes coming off the boilers and just before the engine/turbine.\n§a\nTo complete this quest craft:\n1 Tank Extender"
     }
   },
   "tasks:9": {

@@ -2,6 +2,10 @@
   "questIDHigh:4": 8802227331954393549,
   "preRequisites:9": {
     "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 301
+    },
+    "1:10": {
       "questIDHigh:4": 3845780199855179198,
       "questIDLow:4": -8971802637727154983
     }

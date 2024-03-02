@@ -24,7 +24,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Galena is a Lead and Silver bearing ore. \n\nChemical: Pb8-Ag8-S2\n\nRock Type:  Limestone\nY Level: 5 to 25\nCan be found with:  Arsenopyrite, and Pyrite (Fake Gold)\n\nRock Type:  Limestone\nY Level:  30 to 120\nCan be found with: Stibnite and Native Lead\n\nRock Type:  Limestone\nY Level: 80 to 120\nCan be found with:  Tetrahedrite, and Copper\n§\n§a\nTo complete the quest mine:\n1 Raw Galena Ore"
+      "desc:8": "Galena is a Lead and Silver bearing ore. \n\nChemical: Pb3-Ag3-S2\n\nRock Type:  Limestone\nY Level: 80 to 120\nCan be found with:  Tetrahedrite, and Copper\n\nRock Type:  Limestone\nY Level:  30 to 120\nCan be found with: Stibnite and Native Lead\n\nRock Type:  Limestone\nY Level: 5 to 25\nCan be found with:  Arsenopyrite, and Pyrite (Fool\u0027s Gold)\n§\n§a\nTo complete the quest mine:\n1 Raw Galena Ore"
     }
   },
   "tasks:9": {

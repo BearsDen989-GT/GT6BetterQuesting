@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Now that you have a Tier 1 Circuit, you can now control you machines.  One will turn on a machine when given a redstone signal.  This is useful when wanting to turn on and off your Diesel Engines.\n§b\nTip:  You can start out using a switch to start and stop the Diesel Generator but once you get Tier 2 Circuits, you can fully automate the start and stof of the Diesel Geenrator to when the machine has enough to run.\n§b§a\nTo ocmplete this quest craft:\n1 Redstone Machine Switch"
+      "desc:8": "So you want to control more complex machine setus where the Diesel Genrator is not next to the machine such with electrolyzers which have a dynamo betwen the generator and the electrolyzer.  You can use a Restone Machine Switch to start and stop the generator with a redstone signal. This cover will at least cover the generator.\n§b\nTip:  You can start out using a switch to start and stop the Diesel Generator but once you get Tier 2 Circuits, you can fully automate the start and stop of the Diesel Generator when the machine has enough to run by adding a Activity Sensor (Possible).  You will also need a set of restone receive/transmit covers also to transmit the redstoen signal through the dynamo or other intmediate machines.\n§b§a\nTo ocmplete this quest craft:\n1 Redstone Machine Switch"
     }
   },
   "tasks:9": {

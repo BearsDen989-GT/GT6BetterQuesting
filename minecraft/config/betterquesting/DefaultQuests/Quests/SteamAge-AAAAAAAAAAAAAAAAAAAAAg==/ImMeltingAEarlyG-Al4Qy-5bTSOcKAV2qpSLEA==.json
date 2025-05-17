@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "In version 6.17.03 Greg added an early game smelter called a Melter.  This machine works similar to the smelter except it lis limited to furnace level materials such as Copper, Tin, Lead, and Calcite.  This machine requires an iron/steel casing, ceramic crucible, steel fluid pipes, double copper places, and some bricks.\n§b\nPro Tip:  Once you get stainless steel, you can make a Mixer and have the automatic output of the Melter gp into the input of the mixer.  Next place a ceramic mold next to the automatic output of the Mixer.  Next place a hopper under the mold and the output of the hopper into a chest.  This will make a alloy furnace to make low temperature alloys such as Broze and Brass.\n§a\nTo complete the quest craft:\n1 Melter"
+      "desc:8": "In version 6.17.03 Greg added an early game smelter called a Melter.  This machine works similar to the smelter except it lis limited to furnace level materials such as Copper, Tin, Lead, and Calcite.  This machine requires an iron/steel casing, ceramic crucible, steel fluid pipes, double copper places, and some bricks.  You only need a a burning box capable for 16 to 64 HU.\n§b\nPro Tip:  Once you get stainless steel, you can make a Mixer and have the automatic output of the Melter gp into the input of the mixer.  Next place a ceramic mold next to the automatic output of the Mixer.  Next place a hopper under the mold and the output of the hopper into a chest.  This will make a alloy furnace to make low temperature alloys such as Broze and Brass.\n§a\nTo complete the quest craft:\n1 Melter"
     }
   },
   "tasks:9": {
